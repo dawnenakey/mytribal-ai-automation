@@ -4,14 +4,17 @@ from notion_client import Client as NotionClient
 from wordpress_xmlrpc import Client as WPClient
 from wordpress_xmlrpc.methods.posts import NewPost
 import requests
+from dotenv import load_dotenv
+import os
 
-# Your credentials (replace with your actual keys)
-OPENAI_API_KEY = "your_openai_api_key"  # From openai.com
-NOTION_API_KEY = "your_notion_api_key"  # From notion.so
-NOTION_DATABASE_ID = "your_notion_database_id"  # From your Notion database URL
-WP_URL = "https://mytribal.ai/xmlrpc.php"
-WP_USERNAME = "your_wordpress_username"  # Your WordPress admin username
-WP_APP_PASSWORD = "your_wordpress_application_password"  # From WordPress profile
+load_dotenv()  # Load variables from .env
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+NOTION_API_KEY = os.getenv("NOTION_API_KEY")
+NOTION_DATABASE_ID = os.getenv("NOTION_DATABASE_ID")
+WP_URL = os.getenv("WP_URL")
+WP_USERNAME = os.getenv("WP_USERNAME")
+WP_APP_PASSWORD = os.getenv("WP_APP_PASSWORD")
 
 # RSS feed URL
 RSS_URL = "https://www.reddit.com/r/technology/hot.rss?limit=5"  # Limit to 5 for testing
