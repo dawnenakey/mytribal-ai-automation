@@ -1,0 +1,13 @@
+{
+  "run_timestamp": "2025-08-19T08:03:44.230732",
+  "total_entries": 5,
+  "new_entries": 5,
+  "entries_by_age": {
+    "8-30 days": 5
+  },
+  "processing_stats": {
+    "feeds_processed": 4,
+    "duplicates_removed": 0,
+    "successful_parses": 5
+  }
+}

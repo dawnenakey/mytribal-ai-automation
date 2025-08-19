@@ -1,0 +1,43 @@
+2025-08-19 08:03:39,358 - INFO - 🚀 Starting mytribal.ai RSS Production Automation...
+2025-08-19 08:03:39,358 - INFO - 🔍 Fetching RSS feeds from mytribal.ai...
+2025-08-19 08:03:39,359 - INFO - 📡 Fetching: https://mytribal.ai/feed/
+2025-08-19 08:03:39,471 - INFO - ✅ Found 10 entries from https://mytribal.ai/feed/
+2025-08-19 08:03:40,476 - INFO - 📡 Fetching: https://mytribal.ai/feed/rss/
+2025-08-19 08:03:40,698 - INFO - ✅ Found 10 entries from https://mytribal.ai/feed/rss/
+2025-08-19 08:03:41,701 - INFO - 📡 Fetching: https://mytribal.ai/feed/atom/
+2025-08-19 08:03:41,859 - INFO - ✅ Found 10 entries from https://mytribal.ai/feed/atom/
+2025-08-19 08:03:42,860 - INFO - 📡 Fetching: https://mytribal.ai/feed/rss2/
+2025-08-19 08:03:43,224 - INFO - ✅ Found 10 entries from https://mytribal.ai/feed/rss2/
+2025-08-19 08:03:44,229 - INFO - 📥 Total entries fetched: 40
+2025-08-19 08:03:44,229 - INFO - 🔄 After removing duplicates: 15 entries
+2025-08-19 08:03:44,229 - INFO - 🎯 Entries to process: 5
+2025-08-19 08:03:44,229 - INFO - 📊 Total entries in database: 5
+2025-08-19 08:03:44,229 - INFO - 🆕 New entries added: 5
+2025-08-19 08:03:44,230 - INFO - 💾 Saved 5 entries to rss_data/mytribal_rss_master.json
+2025-08-19 08:03:44,230 - INFO - 📊 Processing Summary:
+2025-08-19 08:03:44,231 - INFO -    Total entries: 5
+2025-08-19 08:03:44,231 - INFO -    New entries: 5
+2025-08-19 08:03:44,231 - INFO -    Feeds processed: 4
+2025-08-19 08:03:44,231 - INFO -    Successful parses: 5
+2025-08-19 08:03:44,231 - INFO - 
+🆕 New entries added:
+2025-08-19 08:03:44,231 - INFO -    1. Canada’s Ontario gov’t cancels $100m Starlink contract, seek...
+2025-08-19 08:03:44,231 - INFO -       Age: 16 days
+2025-08-19 08:03:44,231 - INFO -       Link: https://mytribal.ai/canadas-ontario-govt-cancels-100m-starlink-contract-seeks-domestic-alternative-2/
+2025-08-19 08:03:44,231 - INFO -    2. After Backlash, ChatGPT Removes Option to Have Private Chats...
+2025-08-19 08:03:44,231 - INFO -       Age: 16 days
+2025-08-19 08:03:44,231 - INFO -       Link: https://mytribal.ai/after-backlash-chatgpt-removes-option-to-have-private-chats-indexed-by-google/
+2025-08-19 08:03:44,231 - INFO -    3. Delta denies using AI to come up with inflated, personalized...
+2025-08-19 08:03:44,231 - INFO -       Age: 16 days
+2025-08-19 08:03:44,231 - INFO -       Link: https://mytribal.ai/delta-denies-using-ai-to-come-up-with-inflated-personalized-prices-delta-finally-explains-how-its-ai-pricing-works-amid-ongoing-backlash/
+2025-08-19 08:03:44,231 - INFO -    4. AI Is Coming for the Consultants. Inside McKinsey, ‘This Is ...
+2025-08-19 08:03:44,231 - INFO -       Age: 16 days
+2025-08-19 08:03:44,231 - INFO -       Link: https://mytribal.ai/ai-is-coming-for-the-consultants-inside-mckinsey-this-is-existential/
+2025-08-19 08:03:44,231 - INFO -    5. Canada’s Ontario gov’t cancels $100m Starlink contract, seek...
+2025-08-19 08:03:44,231 - INFO -       Age: 16 days
+2025-08-19 08:03:44,231 - INFO -       Link: https://mytribal.ai/canadas-ontario-govt-cancels-100m-starlink-contract-seeks-domestic-alternative/
+2025-08-19 08:03:44,231 - INFO - 
+🎉 RSS Automation completed successfully!
+2025-08-19 08:03:44,232 - INFO -    Data saved to: rss_data/
+2025-08-19 08:03:44,232 - INFO -    Summary saved to: rss_data/processing_summary.json
+2025-08-19 08:03:44,232 - INFO - ⏰ Total runtime: 0:00:04.873242

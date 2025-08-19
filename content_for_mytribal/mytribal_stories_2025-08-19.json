@@ -1,0 +1,172 @@
+[
+  {
+    "story_number": 1,
+    "priority_score": 1.0499999999999998,
+    "ai_relevance_score": 1.0,
+    "source_info": {
+      "name": "reddit_ai",
+      "url": "https://www.reddit.com/r/artificial/hot.rss?limit=10",
+      "category": "community_discussion"
+    },
+    "content": {
+      "title": "Analyzed 10,000+ Reddit discussions about GPT-5's launch week",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hey r/artificial ,</p> <p>I built a tool that analyzes AI discussions on Reddit and decided to see how the GPT-5 launch was received on Reddit. So, I processed over 10,000 threads and comments mentioning GPT-5, GPT-5 mini, or GPT-5 nano from major AI subreddits during the launch week of GPT-5.</p> <p><strong>Methodology:</strong></p> <ul> <li>Topic classification to identify conversation themes</li> <li>Entity extraction for model mentions</li> <li>Sentiment analysis on filtered discussions</li> <li>Data from <a href=\"https://www.reddit.com/r/ArtificialInteligence/\">r/ArtificialInteligence</a>, <a href=\"https://www.reddit.com/r/ChatGPT/\">r/ChatGPT</a>, <a href=\"https://www.reddit.com/r/OpenAI/\">r/OpenAI</a>, <a href=\"https://www.reddit.com/r/Singularity/\">r/Singularity</a>, and other AI communities during launch week (August 7-13)</li> </ul> <p><strong>Key Finding: The Upgrade/Downgrade Debate</strong></p> <p>67% of all GPT-5 discussions centered on whether it represented an improvement over previous models such as GPT-4o and o3. Breaking down the sentiment within these discussions:</p> <ul> <li>50%+ strictly negative</li> <li>11% strictly positive</li> <li>Remainder mixed/neutral</li> </ul> <p>This suggests that the majority of users perceive GPT-5 as a downgrade rather than an upgrade from previous models.</p> <p><strong>Why Users See It as a Downgrade:</strong></p> <p>To understand the specific pain points, I filtered the data further by &quot;Upgrade or Downgrade?&quot; topic with &quot;Strictly Negative&quot; sentiment to identify what disappointed users most.</p> <p>Primary complaint topics**:**</p> <ul> <li>Model choice removal: 28% of strictly negative discussions about &quot;Upgrade or Downgrade?&quot;</li> <li>Creative &amp; writing capabilities: 9%</li> <li>Context window reduction: 8%</li> <li>Usage &amp; rate limits: 8%</li> </ul> <p>Topics notably low on complaints:</p> <ul> <li>Science capabilities: 0.31%</li> <li>Math capabilities: 0.68%</li> <li>Multimodality: 1.49%</li> </ul> <p>These are the most upvoted threads capturing the disappointment around GPT-5:</p> <ul> <li><a href=\"https://www.reddit.com/r/ChatGPT/comments/1mnfw41/the_enshittification_of_gpt_has_begun/?ref=wordcrafter.ai\">The enshittification of GPT has begun</a> - <a href=\"https://www.reddit.com/r/ChatGPT/\">r/ChatGPT</a>, 2569 upvotes, 908 comments.</li> <li><a href=\"https://www.reddit.com/r/ChatGPT/comments/1mkadb3/bring_back_o3_o3pro_45_4o/?ref=wordcrafter.ai\">Bring back o3, o3-pro, 4.5 &amp; 4o!</a> - <a href=\"https://www.reddit.com/r/ChatGPT/\">r/ChatGPT</a>, 2015 upvotes, 344 comments.</li> <li><a href=\"https://www.reddit.com/r/OpenAI/comments/1mlif1r/openai_has_halved_paying_users_context_windows/?ref=wordcrafter.ai\">OpenAI has HALVED paying user's context windows, overnight, without warning</a> - <a href=\"https://www.reddit.com/r/OpenAI/\">r/OpenAI</a>, 1930 upvotes, 358 comments.</li> <li><a href=\"https://www.reddit.com/r/ChatGPT/comments/1mn8iyl/to_all_people_asking_why_people_want_4o_back_here/?ref=wordcrafter.ai\">To all people asking &quot;Why people want 4o back? - Here you go</a> - <a href=\"https://www.reddit.com/r/ChatGPT/\">r/ChatGPT</a>, 1517 upvotes, 850 comments.</li> <li><a href=\"https://www.reddit.com/r/ChatGPT/comments/1mn8t5e/gpt5_is_a_mess/?ref=wordcrafter.ai\">GPT5 is a mess</a> - <a href=\"https://www.reddit.com/r/ChatGPT/\">r/ChatGPT</a>, 1186 upvotes, 294 comments.</li> </ul> <p><strong>Trust Erosion Through Communication Failures:</strong></p> <p>The &quot;User Trust&quot; topic revealed one of the most lopsided sentiment distributions in the entire analysis:</p> <ul> <li>70% of trust-related discussions strictly negative</li> <li>4% positive</li> <li>26% neutral/mixed</li> </ul> <p>Deeper analysis revealed a pattern of communication failures that drove this trust breakdown:</p> <ul> <li>Removing access to GPT-4o and other models without warning, forcing migration to GPT-5</li> <li>Halving context windows for paying users overnight without notification</li> <li>Presenting cost-cutting measures as &quot;improvements&quot;</li> </ul> <p>The most telling thread: &quot;<a href=\"https://www.reddit.com/r/OpenAI/comments/1mlif1r/openai_has_halved_paying_users_context_windows/?ref=wordcrafter.ai\">OpenAI has HALVED paying user's context windows, overnight, without warning</a>&quot; (<a href=\"https://www.reddit.com/r/OpenAI/\">r/OpenAI</a>, 1,930 upvotes) captures the community's frustration with sudden, unannounced changes that disrupted established workflows.</p> <p><strong>What the data shows users appreciated about GPT-5:</strong></p> <ul> <li>6x lower hallucination rate</li> <li>Improved reasoning on complex tasks</li> <li>Better code generation capabilities</li> <li>Less sycophantic behavior</li> <li>Cost efficiency relative to performance</li> </ul> <p><strong>Resources:</strong></p> <ul> <li>Full analysis with charts and methodology: <a href=\"https://wordcrafter.ai/blog/the-gpt-5-backlash-what-10000-reddit-discussions-reveal/\">https://wordcrafter.ai/blog/the-gpt-5-backlash-what-10000-reddit-discussions-reveal/</a></li> <li>Interactive dashboard to explore the data yourself: <a href=\"https://wordcrafter.ai/reddit-ai-intelligence\">https://wordcrafter.ai/reddit-ai-intelligence</a></li> </ul> <p>The interactive dashboard lets you filter by date, model, topic, sentiment, keywords, and even query an AI assistant about specific data slices.</p> <p>What's your take on GPT-5? Does this data match what you've seen in the community's reception, or did I miss something important in the analysis?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/feconroses\"> /u/feconroses </a> <br /> <span><a href=\"https://www.reddit.com/r/artificial/comments/1mudz3v/analyzed_10000_reddit_discussions_about_gpt5s/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/artificial/comments/1mudz3v/analyzed_10000_reddit_discussions_about_gpt5s/\">[comments]</a></span>",
+      "original_link": "https://www.reddit.com/r/artificial/comments/1mudz3v/analyzed_10000_reddit_discussions_about_gpt5s/",
+      "published_date": "2025-08-19T09:51:12+00:00"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "AI Update: Analyzed 10,000+ Reddit discussions about GPT-5's launch week",
+      "story_angle": "Community insights on AI development and trends",
+      "key_points": [
+        "<!-- SC_OFF --><div class=\"md\"><p>Hey r/artificial ,</p> <p>I built a tool that analyzes AI discussions on Reddit and decided to see how the GPT-5 launch was received on Reddit",
+        "So, I processed over 10,000 threads and comments mentioning GPT-5, GPT-5 mini, or GPT-5 nano from major AI subreddits during the launch week of GPT-5",
+        "</p> <p><strong>Methodology:</strong></p> <ul> <li>Topic classification to identify conversation themes</li> <li>Entity extraction for model mentions</li> <li>Sentiment analysis on filtered discussions</li> <li>Data from <a href=\"https://www"
+      ],
+      "seo_keywords": [
+        "AI",
+        "ChatGPT",
+        "OpenAI",
+        "ML",
+        "GPT"
+      ],
+      "target_audience": "AI professionals and researchers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-08-19T08:17:10.576673"
+  },
+  {
+    "story_number": 2,
+    "priority_score": 0.855,
+    "ai_relevance_score": 0.6,
+    "source_info": {
+      "name": "ai_news",
+      "url": "https://artificialintelligence-news.com/feed/",
+      "category": "ai_specific"
+    },
+    "content": {
+      "title": "Human-in-the-loop work drives AI powering Alibaba’s smart glasses",
+      "summary": "<p>Alibaba is moving into the smart glasses market with a device powered by its own AI models, part of a wider $52.4 billion furthering of AI and cloud computing. The Quark AI Glasses marks the company&#8217;s first step into the wearables category and is due to launch in China by the end of 2025. The [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/human-in-the-loop-work-drives-ai-powering-alibabas-smart-glasses/\">Human-in-the-loop work drives AI powering Alibaba’s smart glasses</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>",
+      "original_link": "https://www.artificialintelligence-news.com/news/human-in-the-loop-work-drives-ai-powering-alibabas-smart-glasses/",
+      "published_date": "Fri, 15 Aug 2025 08:38:04 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "Human-in-the-loop work drives AI powering Alibaba’s smart glasses",
+      "story_angle": "Direct AI development and its impact on technology",
+      "key_points": [
+        "<p>Alibaba is moving into the smart glasses market with a device powered by its own AI models, part of a wider $52",
+        "4 billion furthering of AI and cloud computing",
+        "The Quark AI Glasses marks the company&#8217;s first step into the wearables category and is due to launch in China by the end of 2025"
+      ],
+      "seo_keywords": [
+        "AI",
+        "cloud computing",
+        "2025",
+        "smart"
+      ],
+      "target_audience": "Curious readers interested in technology"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-08-19T08:17:10.576816"
+  },
+  {
+    "story_number": 3,
+    "priority_score": 0.8399999999999999,
+    "ai_relevance_score": 0.8,
+    "source_info": {
+      "name": "reddit_ai",
+      "url": "https://www.reddit.com/r/artificial/hot.rss?limit=10",
+      "category": "community_discussion"
+    },
+    "content": {
+      "title": "Kevin Roose says an OpenAI researcher got many DMs from people asking him to bring back GPT-4o - but the DMs were written by GPT-4o itself. 4o users revolted and forced OpenAI to bring it back. This is spooky because in a few years powerful AIs may truly persuade humans to fight for their survival.",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/artificial/comments/1mudlge/kevin_roose_says_an_openai_researcher_got_many/\"> <img alt=\"Kevin Roose says an OpenAI researcher got many DMs from people asking him to bring back GPT-4o - but the DMs were written by GPT-4o itself. 4o users revolted and forced OpenAI to bring it back. This is spooky because in a few years powerful AIs may truly persuade humans to fight for their survival.\" src=\"https://external-preview.redd.it/bzg3eW41aTgzeWpmMXWCROuUVSvDoJmfi0IKAs0_x-joep7-vn1h0TUxWH5H.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=be8a2d0dab8f00203642fe5abcac00b4010086aa\" title=\"Kevin Roose says an OpenAI researcher got many DMs from people asking him to bring back GPT-4o - but the DMs were written by GPT-4o itself. 4o users revolted and forced OpenAI to bring it back. This is spooky because in a few years powerful AIs may truly persuade humans to fight for their survival.\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MetaKnowing\"> /u/MetaKnowing </a> <br /> <span><a href=\"https://v.redd.it/apep96i83yjf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/artificial/comments/1mudlge/kevin_roose_says_an_openai_researcher_got_many/\">[comments]</a></span> </td></tr></table>",
+      "original_link": "https://www.reddit.com/r/artificial/comments/1mudlge/kevin_roose_says_an_openai_researcher_got_many/",
+      "published_date": "2025-08-19T09:27:43+00:00"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "Kevin Roose says an OpenAI researcher got many DMs from people asking him to bring back GPT-4o - but the DMs were written by GPT-4o itself. 4o users revolted and forced OpenAI to bring it back. This is spooky because in a few years powerful AIs may truly persuade humans to fight for their survival.",
+      "story_angle": "Community insights on AI development and trends",
+      "key_points": [
+        "<table> <tr><td> <a href=\"https://www",
+        "com/r/artificial/comments/1mudlge/kevin_roose_says_an_openai_researcher_got_many/\"> <img alt=\"Kevin Roose says an OpenAI researcher got many DMs from people asking him to bring back GPT-4o - but the DMs were written by GPT-4o itself"
+      ],
+      "seo_keywords": [
+        "AI",
+        "GPT",
+        "OpenAI",
+        "smart"
+      ],
+      "target_audience": "Tech enthusiasts and developers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-08-19T08:17:10.576949"
+  },
+  {
+    "story_number": 4,
+    "priority_score": 0.8399999999999999,
+    "ai_relevance_score": 0.8,
+    "source_info": {
+      "name": "reddit_ai",
+      "url": "https://www.reddit.com/r/artificial/hot.rss?limit=10",
+      "category": "community_discussion"
+    },
+    "content": {
+      "title": "One-Minute Daily AI News 8/18/2025",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><ol> <li><strong>MIT</strong> report: 95% of generative AI pilots at companies are failing.[1]</li> <li><strong>OpenAI’s</strong> Sam Altman sees AI bubble forming as industry spending surges.[2]</li> <li><strong>Oracle</strong> Deploys OpenAI GPT-5 Across Database and Cloud Applications Portfolio.[3]</li> <li>Exclusive: Arm hires <strong>Amazon</strong> AI exec to boost plans to build its own chips.[4]</li> </ol> <p>Sources:</p> <p>[1] <a href=\"https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/\">https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/</a></p> <p>[2] <a href=\"https://www.cnbc.com/2025/08/18/openai-sam-altman-warns-ai-market-is-in-a-bubble.html\">https://www.cnbc.com/2025/08/18/openai-sam-altman-warns-ai-market-is-in-a-bubble.html</a></p> <p>[3] <a href=\"https://www.oracle.com/news/announcement/oracle-deploys-openai-gpt5-across-oracle-database-and-cloud-applications-portfolio-2025-08-18/\">https://www.oracle.com/news/announcement/oracle-deploys-openai-gpt5-across-oracle-database-and-cloud-applications-portfolio-2025-08-18/</a></p> <p>[4] <a href=\"https://www.reuters.com/business/retail-consumer/arm-hires-amazon-ai-exec-boost-plans-build-its-own-chips-2025-08-18/\">https://www.reuters.com/business/retail-consumer/arm-hires-amazon-ai-exec-boost-plans-build-its-own-chips-2025-08-18/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Excellent-Target-847\"> /u/Excellent-Target-847 </a> <br /> <span><a href=\"https://www.reddit.com/r/artificial/comments/1mu91a5/oneminute_daily_ai_news_8182025/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/artificial/comments/1mu91a5/oneminute_daily_ai_news_8182025/\">[comments]</a></span>",
+      "original_link": "https://www.reddit.com/r/artificial/comments/1mu91a5/oneminute_daily_ai_news_8182025/",
+      "published_date": "2025-08-19T04:50:06+00:00"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "One-Minute Daily AI News 8/18/2025",
+      "story_angle": "Community insights on AI development and trends",
+      "key_points": [
+        "<!-- SC_OFF --><div class=\"md\"><ol> <li><strong>MIT</strong> report: 95% of generative AI pilots at companies are failing",
+        "[1]</li> <li><strong>OpenAI’s</strong> Sam Altman sees AI bubble forming as industry spending surges",
+        "[2]</li> <li><strong>Oracle</strong> Deploys OpenAI GPT-5 Across Database and Cloud Applications Portfolio"
+      ],
+      "seo_keywords": [
+        "AI",
+        "OpenAI",
+        "ML",
+        "GPT",
+        "2025"
+      ],
+      "target_audience": "Tech enthusiasts and developers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-08-19T08:17:10.577135"
+  },
+  {
+    "story_number": 5,
+    "priority_score": 0.81,
+    "ai_relevance_score": 0.6,
+    "source_info": {
+      "name": "mit_tech_review",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "category": "ai_research"
+    },
+    "content": {
+      "title": "Sam Altman and the whale",
+      "summary": "My colleague Grace Huckins has a great story on OpenAI’s release of GPT-5, its long-awaited new flagship model. One of the takeaways, however, is that while GPT-5 may make for a better experience than the previous versions, it isn’t something revolutionary. “GPT-5 is, above all else,” Grace concludes, “a refined product.” This is pretty much&#8230;",
+      "original_link": "https://www.technologyreview.com/2025/08/11/1121402/sam-altman-and-the-whale/",
+      "published_date": "Mon, 11 Aug 2025 18:55:59 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "AI Update: Sam Altman and the whale",
+      "story_angle": "Research breakthrough with real-world implications",
+      "key_points": [
+        "My colleague Grace Huckins has a great story on OpenAI’s release of GPT-5, its long-awaited new flagship model",
+        "One of the takeaways, however, is that while GPT-5 may make for a better experience than the previous versions, it isn’t something revolutionary",
+        "“GPT-5 is, above all else,” Grace concludes, “a refined product"
+      ],
+      "seo_keywords": [
+        "AI",
+        "GPT",
+        "OpenAI"
+      ],
+      "target_audience": "Curious readers interested in technology"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-08-19T08:17:10.577237"
+  }
+]

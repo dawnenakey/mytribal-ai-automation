@@ -1,0 +1,104 @@
+2025-08-19 08:15:18,763 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
+2025-08-19 08:15:18,763 - INFO - 🔍 Fetching content FROM external RSS feeds...
+2025-08-19 08:15:18,763 - INFO - 📡 Fetching FROM: tech_crunch
+2025-08-19 08:15:19,675 - INFO - ✅ Found 20 entries FROM tech_crunch
+2025-08-19 08:15:19,676 - WARNING - Could not parse date for entry: OpenAI launches a sub-$5 ChatGPT plan in India... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 03:57:15 +0000'
+2025-08-19 08:15:19,676 - INFO -    📝 AI Content: OpenAI launches a sub-$5 ChatGPT plan in India... (Score: 0.80)
+2025-08-19 08:15:20,676 - INFO - 📡 Fetching FROM: venture_beat
+2025-08-19 08:15:21,701 - INFO - ✅ Found 22 entries FROM venture_beat
+2025-08-19 08:15:21,704 - INFO -    📝 AI Content: This researcher turned OpenAI’s open weights model gpt-oss-2... (Score: 0.60)
+2025-08-19 08:15:21,704 - WARNING - Could not parse date for entry: Gartner: GPT-5 is here, but the infrastructure to ... Error: Invalid isoformat string: 'Thu, 14 Aug 2025 21:35:28 +0000'
+2025-08-19 08:15:21,704 - INFO -    📝 AI Content: Gartner: GPT-5 is here, but the infrastructure to support tr... (Score: 0.60)
+2025-08-19 08:15:22,707 - INFO - 📡 Fetching FROM: ai_news
+2025-08-19 08:15:24,575 - INFO - ✅ Found 12 entries FROM ai_news
+2025-08-19 08:15:24,575 - WARNING - Could not parse date for entry: Hidden costs of AI implementation every CEO should... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 10:32:15 +0000'
+2025-08-19 08:15:24,575 - INFO -    📝 AI Content: Hidden costs of AI implementation every CEO should know... (Score: 0.60)
+2025-08-19 08:15:24,576 - INFO -    📝 AI Content: Human-in-the-loop work drives AI powering Alibaba’s smart gl... (Score: 0.60)
+2025-08-19 08:15:25,576 - INFO - 📡 Fetching FROM: mit_tech_review
+2025-08-19 08:15:25,763 - INFO - ✅ Found 10 entries FROM mit_tech_review
+2025-08-19 08:15:25,763 - WARNING - Could not parse date for entry: Should AI flatter us, fix us, or just inform us?... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 09:00:00 +0000'
+2025-08-19 08:15:25,763 - INFO -    📝 AI Content: Should AI flatter us, fix us, or just inform us?... (Score: 0.80)
+2025-08-19 08:15:25,764 - WARNING - Could not parse date for entry: What you may have missed about GPT-5... Error: Invalid isoformat string: 'Tue, 12 Aug 2025 07:52:23 +0000'
+2025-08-19 08:15:25,764 - INFO -    📝 AI Content: What you may have missed about GPT-5... (Score: 0.60)
+2025-08-19 08:15:25,764 - INFO -    📝 AI Content: Sam Altman and the whale... (Score: 0.60)
+2025-08-19 08:15:25,764 - WARNING - Could not parse date for entry: GPT-5 is here. Now what?... Error: Invalid isoformat string: 'Thu, 07 Aug 2025 17:00:00 +0000'
+2025-08-19 08:15:25,764 - INFO -    📝 AI Content: GPT-5 is here. Now what?... (Score: 0.80)
+2025-08-19 08:15:25,764 - WARNING - Could not parse date for entry: OpenAI has finally released open-weight language m... Error: Invalid isoformat string: 'Tue, 05 Aug 2025 17:00:00 +0000'
+2025-08-19 08:15:25,764 - INFO -    📝 AI Content: OpenAI has finally released open-weight language models... (Score: 0.60)
+2025-08-19 08:15:26,766 - INFO - 📡 Fetching FROM: reddit_ai
+2025-08-19 08:15:27,056 - INFO - ✅ Found 10 entries FROM reddit_ai
+2025-08-19 08:15:27,056 - INFO -    📝 AI Content: Kevin Roose says an OpenAI researcher got many DMs from peop... (Score: 0.80)
+2025-08-19 08:15:27,056 - INFO -    📝 AI Content: One-Minute Daily AI News 8/18/2025... (Score: 0.80)
+2025-08-19 08:15:27,056 - INFO -    📝 AI Content: Analyzed 10,000+ Reddit discussions about GPT-5's launch wee... (Score: 1.00)
+2025-08-19 08:15:28,059 - INFO - 📡 Fetching FROM: hacker_news
+2025-08-19 08:15:28,294 - INFO - ✅ Found 30 entries FROM hacker_news
+2025-08-19 08:15:29,298 - INFO - 📡 Fetching FROM: wired_ai
+2025-08-19 08:15:29,398 - INFO - ✅ Found 50 entries FROM wired_ai
+2025-08-19 08:15:30,400 - INFO - 📡 Fetching FROM: ars_technica
+2025-08-19 08:15:30,544 - INFO - ✅ Found 20 entries FROM ars_technica
+2025-08-19 08:15:31,546 - INFO - 📥 Total AI-relevant content fetched: 13
+2025-08-19 08:15:31,548 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
+2025-08-19 08:15:31,548 - ERROR - ❌ Fatal error in content generation: '<=' not supported between instances of 'NoneType' and 'int'
+2025-08-19 08:15:31,548 - INFO - ⏰ Total runtime: 0:00:12.784556
+2025-08-19 08:16:59,031 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
+2025-08-19 08:16:59,032 - INFO - 🔍 Fetching content FROM external RSS feeds...
+2025-08-19 08:16:59,032 - INFO - 📡 Fetching FROM: tech_crunch
+2025-08-19 08:16:59,130 - INFO - ✅ Found 20 entries FROM tech_crunch
+2025-08-19 08:16:59,131 - WARNING - Could not parse date for entry: OpenAI launches a sub-$5 ChatGPT plan in India... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 03:57:15 +0000'
+2025-08-19 08:16:59,131 - INFO -    📝 AI Content: OpenAI launches a sub-$5 ChatGPT plan in India... (Score: 0.80)
+2025-08-19 08:17:00,131 - INFO - 📡 Fetching FROM: venture_beat
+2025-08-19 08:17:01,068 - INFO - ✅ Found 22 entries FROM venture_beat
+2025-08-19 08:17:01,070 - INFO -    📝 AI Content: This researcher turned OpenAI’s open weights model gpt-oss-2... (Score: 0.60)
+2025-08-19 08:17:01,070 - WARNING - Could not parse date for entry: Gartner: GPT-5 is here, but the infrastructure to ... Error: Invalid isoformat string: 'Thu, 14 Aug 2025 21:35:28 +0000'
+2025-08-19 08:17:01,070 - INFO -    📝 AI Content: Gartner: GPT-5 is here, but the infrastructure to support tr... (Score: 0.60)
+2025-08-19 08:17:02,072 - INFO - 📡 Fetching FROM: ai_news
+2025-08-19 08:17:03,447 - INFO - ✅ Found 12 entries FROM ai_news
+2025-08-19 08:17:03,447 - WARNING - Could not parse date for entry: Hidden costs of AI implementation every CEO should... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 10:32:15 +0000'
+2025-08-19 08:17:03,447 - INFO -    📝 AI Content: Hidden costs of AI implementation every CEO should know... (Score: 0.60)
+2025-08-19 08:17:03,447 - INFO -    📝 AI Content: Human-in-the-loop work drives AI powering Alibaba’s smart gl... (Score: 0.60)
+2025-08-19 08:17:04,448 - INFO - 📡 Fetching FROM: mit_tech_review
+2025-08-19 08:17:04,546 - INFO - ✅ Found 10 entries FROM mit_tech_review
+2025-08-19 08:17:04,546 - WARNING - Could not parse date for entry: Should AI flatter us, fix us, or just inform us?... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 09:00:00 +0000'
+2025-08-19 08:17:04,546 - INFO -    📝 AI Content: Should AI flatter us, fix us, or just inform us?... (Score: 0.80)
+2025-08-19 08:17:04,546 - WARNING - Could not parse date for entry: What you may have missed about GPT-5... Error: Invalid isoformat string: 'Tue, 12 Aug 2025 07:52:23 +0000'
+2025-08-19 08:17:04,546 - INFO -    📝 AI Content: What you may have missed about GPT-5... (Score: 0.60)
+2025-08-19 08:17:04,546 - INFO -    📝 AI Content: Sam Altman and the whale... (Score: 0.60)
+2025-08-19 08:17:04,547 - WARNING - Could not parse date for entry: GPT-5 is here. Now what?... Error: Invalid isoformat string: 'Thu, 07 Aug 2025 17:00:00 +0000'
+2025-08-19 08:17:04,547 - INFO -    📝 AI Content: GPT-5 is here. Now what?... (Score: 0.80)
+2025-08-19 08:17:04,547 - WARNING - Could not parse date for entry: OpenAI has finally released open-weight language m... Error: Invalid isoformat string: 'Tue, 05 Aug 2025 17:00:00 +0000'
+2025-08-19 08:17:04,547 - INFO -    📝 AI Content: OpenAI has finally released open-weight language models... (Score: 0.60)
+2025-08-19 08:17:05,548 - INFO - 📡 Fetching FROM: reddit_ai
+2025-08-19 08:17:05,832 - INFO - ✅ Found 10 entries FROM reddit_ai
+2025-08-19 08:17:05,833 - INFO -    📝 AI Content: Kevin Roose says an OpenAI researcher got many DMs from peop... (Score: 0.80)
+2025-08-19 08:17:05,833 - INFO -    📝 AI Content: One-Minute Daily AI News 8/18/2025... (Score: 0.80)
+2025-08-19 08:17:05,833 - INFO -    📝 AI Content: Analyzed 10,000+ Reddit discussions about GPT-5's launch wee... (Score: 1.00)
+2025-08-19 08:17:06,836 - INFO - 📡 Fetching FROM: hacker_news
+2025-08-19 08:17:07,114 - INFO - ✅ Found 30 entries FROM hacker_news
+2025-08-19 08:17:08,116 - INFO - 📡 Fetching FROM: wired_ai
+2025-08-19 08:17:08,251 - INFO - ✅ Found 50 entries FROM wired_ai
+2025-08-19 08:17:09,251 - INFO - 📡 Fetching FROM: ars_technica
+2025-08-19 08:17:09,571 - INFO - ✅ Found 20 entries FROM ars_technica
+2025-08-19 08:17:10,574 - INFO - 📥 Total AI-relevant content fetched: 13
+2025-08-19 08:17:10,576 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
+2025-08-19 08:17:10,576 - INFO - ✅ Selected 5 top stories for mytribal.ai
+2025-08-19 08:17:10,576 - INFO - 📝 Creating story outlines for mytribal.ai...
+2025-08-19 08:17:10,576 - INFO -    📚 Story 1: AI Update: Analyzed 10,000+ Reddit discussions about GPT-5's...
+2025-08-19 08:17:10,576 - INFO -    📚 Story 2: Human-in-the-loop work drives AI powering Alibaba’s smart gl...
+2025-08-19 08:17:10,576 - INFO -    📚 Story 3: Kevin Roose says an OpenAI researcher got many DMs from peop...
+2025-08-19 08:17:10,577 - INFO -    📚 Story 4: One-Minute Daily AI News 8/18/2025...
+2025-08-19 08:17:10,577 - INFO -    📚 Story 5: AI Update: Sam Altman and the whale...
+2025-08-19 08:17:10,578 - INFO - 💾 Content saved for mytribal.ai publishing:
+2025-08-19 08:17:10,578 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-08-19.json
+2025-08-19 08:17:10,578 - INFO -    Raw content: content_for_mytribal/raw_content_2025-08-19.json
+2025-08-19 08:17:10,578 - INFO - 
+📊 Content Generation Summary:
+2025-08-19 08:17:10,579 - INFO -    Date: 2025-08-19
+2025-08-19 08:17:10,579 - INFO -    External sources checked: 8
+2025-08-19 08:17:10,579 - INFO -    Total content fetched: 13
+2025-08-19 08:17:10,579 - INFO -    Content selected for mytribal.ai: 5
+2025-08-19 08:17:10,579 - INFO -    Story outlines created: 5
+2025-08-19 08:17:10,579 - INFO - 
+🎯 Content ready for mytribal.ai publishing!
+2025-08-19 08:17:10,579 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-08-19.json
+2025-08-19 08:17:10,579 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
+2025-08-19 08:17:10,579 - INFO - ⏰ Total runtime: 0:00:11.547052

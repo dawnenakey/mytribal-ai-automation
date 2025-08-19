@@ -8,6 +8,8 @@ from dotenv import load_dotenv
 import os
 import ssl
 import urllib3
+import json
+from datetime import datetime
 
 # Disable SSL warnings for testing (remove in production)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -22,26 +24,31 @@ WP_USERNAME = os.getenv("WP_USERNAME")
 WP_APP_PASSWORD = os.getenv("WP_APP_PASSWORD")
 WP_SSL_VERIFY = os.getenv("WP_SSL_VERIFY", "true").lower() == "true"
 
-# Alternative RSS feeds (more reliable than Reddit)
+# Use today's fresh RSS content from our content generator
 RSS_URLS = [
     "https://techcrunch.com/feed/",
-    "https://www.theverge.com/rss/index.xml",
-    "https://feeds.arstechnica.com/arstechnica/index"
+    "https://venturebeat.com/feed/",
+    "https://artificialintelligence-news.com/feed/",
+    "https://www.technologyreview.com/topic/artificial-intelligence/feed"
 ]
 
 # Initialize clients
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 notion_client = NotionClient(auth=NOTION_API_KEY)
 
-# Initialize WordPress client with SSL verification option
-if WP_SSL_VERIFY:
+# Initialize WordPress client with SSL verification disabled to handle certificate issues
+try:
+    # Suppress SSL warnings
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    
+    # Try to initialize WordPress client
     wp_client = WPClient(WP_URL, WP_USERNAME, WP_APP_PASSWORD)
-else:
-    # Create a custom session with SSL verification disabled
-    import requests
-    session = requests.Session()
-    session.verify = False
-    wp_client = WPClient(WP_URL, WP_USERNAME, WP_APP_PASSWORD, session=session)
+    print("✅ WordPress client initialized successfully")
+except Exception as e:
+    print(f"❌ Error initializing WordPress client: {e}")
+    print("⚠️ WordPress publishing will be disabled, but content will still be generated")
+    wp_client = None
 
 def fetch_rss_content():
     """Fetch content from RSS feeds with fallback options"""
@@ -89,9 +96,13 @@ def generate_article(title, description):
 def generate_image(title, description):
     """Generate image using DALL-E"""
     try:
+        # Shorten the prompt to avoid length issues
+        short_description = description[:200] if len(description) > 200 else description
+        prompt = f"{title[:50]} - AI technology illustration, vibrant digital art"
+        
         image_response = openai_client.images.generate(
             model="dall-e-3",
-            prompt=f"{title} - Create a high-quality, eye-catching image for this blog post. Include elements from: {description}. Style: vibrant digital illustration.",
+            prompt=prompt,
             size="1024x1024",
             quality="standard",
             n=1
@@ -104,11 +115,19 @@ def generate_image(title, description):
 def save_to_notion(title, article, image_url):
     """Save content to Notion"""
     try:
+        # Format the database ID properly (add hyphens if missing)
+        db_id = NOTION_DATABASE_ID
+        if len(db_id) == 32 and '-' not in db_id:
+            db_id = f"{db_id[:8]}-{db_id[8:12]}-{db_id[12:16]}-{db_id[16:20]}-{db_id[20:32]}"
+        
+        # Truncate content to fit Notion's limits
+        truncated_article = article[:1900] + "..." if len(article) > 1900 else article
+        
         notion_client.pages.create(
-            parent={"database_id": NOTION_DATABASE_ID},
+            parent={"database_id": db_id},
             properties={
                 "Title": {"title": [{"text": {"content": title}}]},
-                "Content": {"rich_text": [{"text": {"content": article}}]},
+                "Content": {"rich_text": [{"text": {"content": truncated_article}}]},
                 "Image URL": {"url": image_url},
                 "Status": {"select": {"name": "Draft"}}
             }
@@ -121,6 +140,10 @@ def save_to_notion(title, article, image_url):
 
 def publish_to_wordpress(title, article, image_url):
     """Publish to WordPress"""
+    if wp_client is None:
+        print("⚠️ WordPress client not available, skipping WordPress publishing")
+        return False
+        
     try:
         post = {
             'title': title,
@@ -138,11 +161,40 @@ def main():
     """Main automation workflow"""
     print("🚀 Starting AI Content Automation...")
     
-    # Fetch RSS content
-    entries = fetch_rss_content()
-    if not entries:
-        print("❌ No content to process. Exiting.")
-        return
+    # Load today's fresh RSS content from our content generator
+    today = datetime.now().strftime("%Y-%m-%d")
+    content_file = f"content_for_mytribal/mytribal_stories_{today}.json"
+    
+    try:
+        with open(content_file, 'r', encoding='utf-8') as f:
+            today_stories = json.load(f)
+        print(f"✅ Loaded {len(today_stories)} fresh stories from today")
+        
+        # Convert to the format expected by the rest of the script
+        entries = []
+        for story in today_stories:
+            entry = type('Entry', (), {
+                'title': story['mytribal_adaptation']['suggested_title'],
+                'contentSnippet': story['content']['summary'],
+                'summary': story['content']['summary']
+            })()
+            entries.append(entry)
+            
+    except FileNotFoundError:
+        print(f"❌ No content file found for today: {content_file}")
+        print("Running RSS content generator first...")
+        # Fetch RSS content as fallback
+        entries = fetch_rss_content()
+        if not entries:
+            print("❌ No content to process. Exiting.")
+            return
+    except Exception as e:
+        print(f"❌ Error loading today's content: {e}")
+        print("Falling back to RSS feeds...")
+        entries = fetch_rss_content()
+        if not entries:
+            print("❌ No content to process. Exiting.")
+            return
     
     success_count = 0
     
@@ -151,7 +203,7 @@ def main():
         print(f"Title: {entry.title}")
         
         title = entry.title
-        description = entry.get("contentSnippet", entry.get("summary", "Tech news"))
+        description = getattr(entry, "contentSnippet", getattr(entry, "summary", "Tech news"))
         
         # Generate article
         print("🤖 Generating article...")
