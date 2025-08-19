@@ -1,0 +1,7 @@
+feedparser
+openai
+notion-client
+python-wordpress-xmlrpc
+requests
+python-dotenv
+schedule
