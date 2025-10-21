@@ -5,7 +5,7 @@ PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PYTHON_PATH=$(which python3)
 
 # Create the cron job command
-CRON_COMMAND="0 9 * * * cd $PROJECT_DIR && $PYTHON_PATH main.py >> $PROJECT_DIR/automation.log 2>&1"
+CRON_COMMAND="0 9 * * * cd $PROJECT_DIR && $PYTHON_PATH daily_automation.py >> $PROJECT_DIR/automation.log 2>&1"
 
 echo "Setting up daily automation at 9:00 AM..."
 echo "Project directory: $PROJECT_DIR"

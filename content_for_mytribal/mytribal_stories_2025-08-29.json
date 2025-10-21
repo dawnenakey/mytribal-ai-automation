@@ -1,0 +1,164 @@
+[
+  {
+    "story_number": 1,
+    "priority_score": 0.81,
+    "ai_relevance_score": 0.6,
+    "source_info": {
+      "name": "tech_crunch",
+      "url": "https://techcrunch.com/feed/",
+      "category": "tech_news"
+    },
+    "content": {
+      "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+      "summary": "A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year.",
+      "original_link": "https://techcrunch.com/2025/08/29/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "published_date": "Fri, 29 Aug 2025 15:46:27 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+      "story_angle": "AI technology making waves in the industry",
+      "key_points": [
+        "A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year"
+      ],
+      "seo_keywords": [
+        "GPT",
+        "latest",
+        "AI",
+        "ChatGPT"
+      ],
+      "target_audience": "Curious readers interested in technology"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-08-29T11:30:04.434115"
+  },
+  {
+    "story_number": 2,
+    "priority_score": 0.76,
+    "ai_relevance_score": 0.8,
+    "source_info": {
+      "name": "ai_news",
+      "url": "https://artificialintelligence-news.com/feed/",
+      "category": "ai_specific"
+    },
+    "content": {
+      "title": "X and xAI sue Apple and OpenAI over AI monopoly claims",
+      "summary": "<p>Elon Musk&#8217;s X and xAI are taking on Apple and OpenAI, accusing the tech giants of an AI monopoly to crush their competition. A lawsuit by the companies filed in a Texas federal court claims the exclusive partnership between Apple and OpenAI to put ChatGPT on the iPhone is a calculated move by &#8220;two monopolists [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/x-and-xai-sue-apple-and-openai-ai-monopoly-claims/\">X and xAI sue Apple and OpenAI over AI monopoly claims</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>",
+      "original_link": "https://www.artificialintelligence-news.com/news/x-and-xai-sue-apple-and-openai-ai-monopoly-claims/",
+      "published_date": "Tue, 26 Aug 2025 12:52:12 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "X and xAI sue Apple and OpenAI over AI monopoly claims",
+      "story_angle": "Direct AI development and its impact on technology",
+      "key_points": [
+        "<p>Elon Musk&#8217;s X and xAI are taking on Apple and OpenAI, accusing the tech giants of an AI monopoly to crush their competition",
+        "A lawsuit by the companies filed in a Texas federal court claims the exclusive partnership between Apple and OpenAI to put ChatGPT on the iPhone is a calculated move by &#8220;two monopolists [&#8230;]</p>\n<p>The post <a href=\"https://www",
+        "artificialintelligence-news"
+      ],
+      "seo_keywords": [
+        "OpenAI",
+        "GPT",
+        "AI",
+        "ChatGPT"
+      ],
+      "target_audience": "Tech enthusiasts and developers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-08-29T11:30:04.434235"
+  },
+  {
+    "story_number": 3,
+    "priority_score": 0.7200000000000001,
+    "ai_relevance_score": 0.8,
+    "source_info": {
+      "name": "mit_tech_review",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "category": "ai_research"
+    },
+    "content": {
+      "title": "Should AI flatter us, fix us, or just inform us?",
+      "summary": "How do you want your AI to treat you?&#160; It’s a serious question, and it’s one that Sam Altman, OpenAI’s CEO, has clearly been chewing on since GPT-5’s bumpy launch at the start of the month.&#160; He faces a trilemma. Should ChatGPT flatter us, at the risk of fueling delusions that can spiral out of&#8230;",
+      "original_link": "https://www.technologyreview.com/2025/08/19/1122021/should-ai-flatter-us-fix-us-or-just-inform-us/",
+      "published_date": "Tue, 19 Aug 2025 09:00:00 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "Should AI flatter us, fix us, or just inform us?",
+      "story_angle": "Research breakthrough with real-world implications",
+      "key_points": [
+        "How do you want your AI to treat you?&#160; It’s a serious question, and it’s one that Sam Altman, OpenAI’s CEO, has clearly been chewing on since GPT-5’s bumpy launch at the start of the month",
+        "&#160; He faces a trilemma",
+        "Should ChatGPT flatter us, at the risk of fueling delusions that can spiral out of&#8230;"
+      ],
+      "seo_keywords": [
+        "OpenAI",
+        "GPT",
+        "AI",
+        "ChatGPT"
+      ],
+      "target_audience": "Tech enthusiasts and developers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-08-29T11:30:04.434341"
+  },
+  {
+    "story_number": 4,
+    "priority_score": 0.48,
+    "ai_relevance_score": 0.6,
+    "source_info": {
+      "name": "venture_beat",
+      "url": "https://venturebeat.com/feed/",
+      "category": "tech_news"
+    },
+    "content": {
+      "title": "In crowded voice AI market, OpenAI bets on instruction-following and expressive speech to win enterprise adoption",
+      "summary": "OpenAI's new speech model, gpt-realtime, hopes that its more naturalistic voices would make enterprises use more AI generated voices in applications.",
+      "original_link": "https://venturebeat.com/ai/in-crowded-voice-ai-market-openai-bets-on-instruction-following-and-expressive-speech-to-win-enterprise-adoption/",
+      "published_date": "Thu, 28 Aug 2025 23:26:47 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "In crowded voice AI market, OpenAI bets on instruction-following and expressive speech to win enterprise adoption",
+      "story_angle": "AI technology making waves in the industry",
+      "key_points": [
+        "OpenAI's new speech model, gpt-realtime, hopes that its more naturalistic voices would make enterprises use more AI generated voices in applications"
+      ],
+      "seo_keywords": [
+        "OpenAI",
+        "GPT",
+        "AI"
+      ],
+      "target_audience": "Curious readers interested in technology"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-08-29T11:30:04.434433"
+  },
+  {
+    "story_number": 5,
+    "priority_score": 0.48,
+    "ai_relevance_score": 0.6,
+    "source_info": {
+      "name": "venture_beat",
+      "url": "https://venturebeat.com/feed/",
+      "category": "tech_news"
+    },
+    "content": {
+      "title": "Nous Research drops Hermes 4 AI models that outperform ChatGPT without content restrictions",
+      "summary": "Nous Research launches Hermes 4 open-source AI models that outperform ChatGPT on math benchmarks with uncensored responses and hybrid reasoning capabilities.",
+      "original_link": "https://venturebeat.com/ai/nous-research-drops-hermes-4-ai-models-that-outperform-chatgpt-without-content-restrictions/",
+      "published_date": "Thu, 28 Aug 2025 21:46:07 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "Nous Research drops Hermes 4 AI models that outperform ChatGPT without content restrictions",
+      "story_angle": "AI technology making waves in the industry",
+      "key_points": [
+        "Nous Research launches Hermes 4 open-source AI models that outperform ChatGPT on math benchmarks with uncensored responses and hybrid reasoning capabilities"
+      ],
+      "seo_keywords": [
+        "GPT",
+        "AI",
+        "ChatGPT"
+      ],
+      "target_audience": "Curious readers interested in technology"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-08-29T11:30:04.434521"
+  }
+]

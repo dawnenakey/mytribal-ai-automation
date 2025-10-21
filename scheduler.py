@@ -29,10 +29,10 @@ def run_automation():
         
         # Get the directory where this script is located
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        main_script = os.path.join(script_dir, 'main.py')
+        automation_script = os.path.join(script_dir, 'daily_automation.py')
         
-        # Run the main automation script
-        result = subprocess.run([sys.executable, main_script], 
+        # Run the daily automation script
+        result = subprocess.run([sys.executable, automation_script], 
                               capture_output=True, text=True, cwd=script_dir)
         
         if result.returncode == 0:
