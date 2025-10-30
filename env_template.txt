@@ -19,3 +19,5 @@ WP_USERNAME=your_wordpress_username
 # WordPress Application Password (generate from WordPress admin)
 WP_APP_PASSWORD=your_wordpress_app_password
 
+# Booking URL (SimplyBook.me or other booking system)
+BOOKING_URL=https://mytribalai.simplybook.me
