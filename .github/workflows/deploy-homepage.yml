@@ -1,0 +1,21 @@
+name: Deploy Homepage
+on:
+  workflow_dispatch:  # allows manual run in the GitHub app
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Publish homepage to WordPress
+        env:
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+          SET_AS_HOMEPAGE: "true"
+        run: python create_home_page.py
