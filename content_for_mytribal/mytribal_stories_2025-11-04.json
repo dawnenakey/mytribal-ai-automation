@@ -1,0 +1,174 @@
+[
+  {
+    "story_number": 1,
+    "priority_score": 0.9600000000000002,
+    "ai_relevance_score": 0.8,
+    "source_info": {
+      "name": "ars_technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "category": "tech_news"
+    },
+    "content": {
+      "title": "OpenAI signs massive AI compute deal with Amazon",
+      "summary": "Deal will provide access to hundreds of thousands of Nvidia chips that power ChatGPT.",
+      "original_link": "https://arstechnica.com/ai/2025/11/openai-signs-massive-ai-compute-deal-with-amazon/",
+      "published_date": "Mon, 03 Nov 2025 17:23:11 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "OpenAI signs massive AI compute deal with Amazon",
+      "story_angle": "AI technology making waves in the industry",
+      "key_points": [
+        "Deal will provide access to hundreds of thousands of Nvidia chips that power ChatGPT"
+      ],
+      "seo_keywords": [
+        "OpenAI",
+        "GPT",
+        "ChatGPT",
+        "AI"
+      ],
+      "target_audience": "Tech enthusiasts and developers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-11-04T09:13:27.650515"
+  },
+  {
+    "story_number": 2,
+    "priority_score": 0.855,
+    "ai_relevance_score": 0.6,
+    "source_info": {
+      "name": "ai_news",
+      "url": "https://artificialintelligence-news.com/feed/",
+      "category": "ai_specific"
+    },
+    "content": {
+      "title": "DevOps for AI: Continuous deployment pipelines for machine learning systems",
+      "summary": "<p>AI&#8217;s effects on continuous development and deployment pipelines are becoming difficult to ignore. However, decision-makers in software development functions need to consider a broad range of elements when considering the uses of the technology. The challenges of deploying AI at scale Deploying artificial intelligence isn&#8217;t the same as deploying, for example, a web app. Traditional [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/devops-for-ai-continuous-deployment-pipelines-for-machine-learning-systems/\">DevOps for AI: Continuous deployment pipelines for machine learning systems</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>",
+      "original_link": "https://www.artificialintelligence-news.com/news/devops-for-ai-continuous-deployment-pipelines-for-machine-learning-systems/",
+      "published_date": "Mon, 03 Nov 2025 10:31:40 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "DevOps for AI: Continuous deployment pipelines for machine learning systems",
+      "story_angle": "Direct AI development and its impact on technology",
+      "key_points": [
+        "<p>AI&#8217;s effects on continuous development and deployment pipelines are becoming difficult to ignore",
+        "However, decision-makers in software development functions need to consider a broad range of elements when considering the uses of the technology",
+        "The challenges of deploying AI at scale Deploying artificial intelligence isn&#8217;t the same as deploying, for example, a web app"
+      ],
+      "seo_keywords": [
+        "machine learning",
+        "AI",
+        "artificial intelligence"
+      ],
+      "target_audience": "Curious readers interested in technology"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-11-04T09:13:27.650679"
+  },
+  {
+    "story_number": 3,
+    "priority_score": 0.855,
+    "ai_relevance_score": 0.6,
+    "source_info": {
+      "name": "ai_news",
+      "url": "https://artificialintelligence-news.com/feed/",
+      "category": "ai_specific"
+    },
+    "content": {
+      "title": "How Lumana is redefining AI’s role in video surveillance",
+      "summary": "<p>For all the progress in artificial intelligence, most video security systems still fail at recognising context in real-world conditions. The majority of cameras can capture real-time footage, but struggle to interpret it. This is a problem turning into a growing concern for smart city designers, manufacturers and schools, each of which may depend on AI [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/how-lumana-is-redefining-ais-role-in-video-surveillance/\">How Lumana is redefining AI&#8217;s role in video surveillance</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>",
+      "original_link": "https://www.artificialintelligence-news.com/news/how-lumana-is-redefining-ais-role-in-video-surveillance/",
+      "published_date": "Fri, 31 Oct 2025 15:36:18 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "How Lumana is redefining AI’s role in video surveillance",
+      "story_angle": "Direct AI development and its impact on technology",
+      "key_points": [
+        "<p>For all the progress in artificial intelligence, most video security systems still fail at recognising context in real-world conditions",
+        "The majority of cameras can capture real-time footage, but struggle to interpret it",
+        "This is a problem turning into a growing concern for smart city designers, manufacturers and schools, each of which may depend on AI [&#8230;]</p>\n<p>The post <a href=\"https://www"
+      ],
+      "seo_keywords": [
+        "smart",
+        "AI",
+        "artificial intelligence"
+      ],
+      "target_audience": "Curious readers interested in technology"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-11-04T09:13:27.650836"
+  },
+  {
+    "story_number": 4,
+    "priority_score": 0.8,
+    "ai_relevance_score": 1.0,
+    "source_info": {
+      "name": "venture_beat",
+      "url": "https://venturebeat.com/feed/",
+      "category": "tech_news"
+    },
+    "content": {
+      "title": "Forget Fine-Tuning: SAP’s RPT-1 Brings Ready-to-Use AI for Business Tasks",
+      "summary": "<p>SAP aims to displace more general large language models with the release of its own foundational “tabular” model, which the company claims will reduce training requirements for enterprises. </p><p>The model, called SAP RPT-1, is a pre-trained model with business and enterprise knowledge out of the box. SAP calls it a Relational Foundation Model, meaning it can do predictions based on relational databases even without fine-tuning or additional training.</p><p>Walter Sun, SAP&#x27;s global head of AI, told VentureBeat in an interview that the value of the new model lies in its ability to perform various enterprise tasks, such as predictive analytics, out of the box. </p><p>“Everyone knows about language models, and there’s a bunch of good ones that already exist,” Sun said. “But we trained the model on data on business transactions, basically Excel spreadsheets, and so we have a model that can do predictive analytics where the value is that it’s out of the box, meaning you don’t need to have specifics of a company to do tasks analogous to a language model.” </p><p>Sun said that right out of the gate, RPT-1 can essentially build out a business model for enterprises based on its knowledge gained from data from SAP’s decades of information. Organizations can plug the model directly into applications, even without additional fine-tuning.</p><p>RPT-1, SAP’s first large family of AI models, will be generally available in “Q4 of 2025” and be deployed via SAP’s AI Foundation. While RPT-1 is currently available, the company stated that additional models will be made available soon, including an open-source, state-of-the-art model. </p><p>SAP will also release a no-code playground environment to experiment with the model. \n</p><h2>Tabular models vs LLMs\n</h2><p>Tabular or relational AI models learned from spreadsheets, unlike LLMs, which learned from text and code. RPT-1 not only understands numbers and the relationships between different cells, but it’s also able to provide more structured and precise answers. </p><p>When enterprises decide to use RPT-1, they can add more direction to the model through a bit of context engineering, since the model is semantically aware and learns based on how it is being used. </p><p>SAP researchers first proposed the idea that tabular models can both exhibit semantic awareness and learn from content through a paper <a href=\"https://arxiv.org/pdf/2506.10707\"><u>published in June</u></a>. It proposed ConTextTab introduced context-aware pretraining. It utilizes semantic signals, such as table headers or column types, to guide model training, enabling the model to build a relational structure with the data. It’s this architecture that makes the model work best for tasks with precise answers, such as for financial or enterprise use cases.</p><p>The RPT models build on the ConTextTab work that lets it learn structured business data, say from SAP’s knowledge graph, and then be able to add more context through usage. </p><p>SAP researchers did test ConTextTab against benchmarks, saying it “is competitive” against similar models like TabPFN and TabIFL. </p><h2>Industry-specific models continue to grow</h2><p>\nMany enterprises prefer to fine-tune general LLMs like GPT-5 or Claude, to basically retrain the model to answer only questions relevant to their business. However, a shift towards <a href=\"https://venturebeat.com/ai/microsoft-brings-ai-to-the-farm-and-factory-floor-partnering-with-industry-giants\"><u>industry-specific models has begun to take root</u></a>. </p><p>Sun said that his experience at a previous company, building a very narrow, highly customized AI model for sentiment analysis, influenced a lot of what makes RPT-1 different. </p><p>“It was a very customized model, a narrow model that takes specific feedback for specific products but it wasn’t scalable,” Sun said. “When LLMs came about, that one model measures sentiment. But there are use cases that we can do that LLMs cannot do.”</p><p>He said these use cases include predictions, such as determining when a shopper will return to a grocery store, which may involve numerical analysis along with an understanding of the shopper’s buying habits. However, some LLMs have begun integrating into spreadsheets, and AI model providers encourage users to upload similar data to teach them context. <a href=\"https://www.microsoft.com/\"><u>Microsoft</u></a> added new <a href=\"https://venturebeat.com/ai/microsofts-copilot-can-now-build-apps-and-automate-your-job-heres-how-it\"><u>capabilities to Copilot</u></a>, including the ability to work in Excel. <a href=\"https://www.anthropic.com/\"><u>Anthropic</u></a> <a href=\"https://venturebeat.com/ai/anthropic-rolls-out-claude-ai-for-finance-integrates-with-excel-to-rival\"><u>integrated its Claude</u></a> model with Excel, complementing its <a href=\"https://venturebeat.com/ai/financial-firms-get-a-purpose-built-claude-as-anthropic-bets-on-vertical-ai-platforms\"><u>Claude for Finance service</u></a>. Chinese startup <a href=\"https://manus.im/\"><u>Manus</u></a> also offers a <a href=\"https://venturebeat.com/data-infrastructure/chinese-startup-manus-challenges-chatgpt-in-data-visualization-which-should-enterprises-use\"><u>data visualization tool</u></a> that understands spreadsheets, and ChatGPT can create charts from uploaded spreadsheets and other data sources. </p><p>However, SAP noted that it is more than just reading a spreadsheet; RPT-1 should stand out amongst its competitors because it requires fewer additional pieces of information about a business to provide its responses. </p><p>\n</p>",
+      "original_link": "https://venturebeat.com/ai/forget-fine-tuning-saps-rpt-1-brings-ready-to-use-ai-for-business-tasks",
+      "published_date": "Tue, 04 Nov 2025 05:00:00 GMT"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "Forget Fine-Tuning: SAP’s RPT-1 Brings Ready-to-Use AI for Business Tasks",
+      "story_angle": "AI technology making waves in the industry",
+      "key_points": [
+        "<p>SAP aims to displace more general large language models with the release of its own foundational “tabular” model, which the company claims will reduce training requirements for enterprises",
+        "</p><p>The model, called SAP RPT-1, is a pre-trained model with business and enterprise knowledge out of the box",
+        "SAP calls it a Relational Foundation Model, meaning it can do predictions based on relational databases even without fine-tuning or additional training"
+      ],
+      "seo_keywords": [
+        "predictive",
+        "GPT",
+        "AI",
+        "analytics",
+        "ChatGPT",
+        "2025"
+      ],
+      "target_audience": "AI professionals and researchers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-11-04T09:13:27.651455"
+  },
+  {
+    "story_number": 5,
+    "priority_score": 0.8,
+    "ai_relevance_score": 1.0,
+    "source_info": {
+      "name": "venture_beat",
+      "url": "https://venturebeat.com/feed/",
+      "category": "tech_news"
+    },
+    "content": {
+      "title": "Inside Zendesk’s dual AI leap: From reliable agents to real-time intelligence with GPT-5 and HyperArc",
+      "summary": "<p><i>Presented by Zendesk</i></p><hr /><p>Agentic AI is currently transforming three key areas of work — creative, coding, and support — says Shashi Upadhyay, president of engineering, AI, and product at Zendesk. But he notes that support presents a distinct challenge. </p><p>&quot;Support is special because you’re putting an autonomous AI agent right in front of your customer,&quot; Upadhyay says. &quot;You have to be confident that it’s going to do the right thing for the customer and by the customer. Every step forward in AI should make service more dependable for both customers and human agents.&quot; </p><p>Zendesk, recently named a Leader in the <a href=\"https://www.zendesk.com/blog/zip1-gartner-mq-crm-2025/\">2025 Gartner Magic Quadrant</a> for the CRM Customer Engagement Center, started implementing AI agents about a year and a half ago. Since then, they&#x27;ve seen that AI agents can solve almost 80% of all incoming customer requests on their own. For the remaining 20%, the AI agent can hand it over to a human to help solve the more complex problems. </p><p>&quot;Autonomous AI agents work 24/7, with no wait or queue time. You have a problem; they provide an answer right away. All of that adds up,&quot; he says. &quot;Not only do you get higher resolutions, higher automation, but you can also improve the CSAT at the same time. Because 80% is such a promising number, and the results are so solid, we believe it’s only a matter of time before everyone adopts this technology. We already see that across the board.&quot;</p><p>The company&#x27;s efforts to advance its standard of usability, depth of insight, and time to value for organizations of all sizes require continuous testing, integration of advanced models like ChatGPT-5, and a major upgrade of its analytics capabilities and real-time, gen AI–powered insights with the acquisition of HyperArc, an AI-native analytics platform.</p><h3><b>Designing, testing, and deploying a better agent</b></h3><p>&quot;In a support context especially, it’s important AI agents behave consistently with the brand of the company, policies, and regulatory requirements you may have,&quot; Upadhyay says. &quot;We test every agent, every model continuously across all our customers. We do it before we release it and we do it after we release it, across five categories.&quot; </p><p>Those categories — automation rate, execution, precision, latency, and safety — form the foundation of Zendesk’s ongoing benchmarking program. Each model is scored on how accurately it resolves issues, how well it follows instructions, how fast it responds, and whether it stays within clearly defined guardrails. The goal isn’t just to make AI faster — it’s to make it dependable, accountable, and aligned with the standards that define great customer service.</p><p>That testing is reinforced by Zendesk’s QA agent — an automated monitor that keeps a constant eye on every conversation. If an exchange starts to drift off course, whether in tone or accuracy, the system immediately flags it and alerts a human agent to step in. It’s an added layer of assurance that keeps the customer experience on track, even when AI is running the first line of support.</p><h3><b>GPT-5 for next-level agents</b></h3><p>In the world of support and service, the move from simple chatbots that answer basic queries or solve uncomplicated problems, to agents that actually take action, is groundbreaking. An agent that can understand that a customer wants to return an item, confirm whether it&#x27;s eligible for a return, process the return, and issue a refund, is a powerful upgrade. With the introduction of ChatGPT-5, Zendesk recognized an opportunity to integrate that ability into its Resolution Platform.</p><p>&quot;We worked <a href=\"https://www.zendesk.com/blog/zip2-zendesk-ai-gpt-5/\">very closely with OpenAI</a> because GPT-5 was a pretty big improvement in model capabilities, going from being able to answer questions, to being able to reason and take action,&quot; Upadhyay says. &quot;First, it does a much better job at solving problems autonomously. Secondly, it&#x27;s much better at understanding your intent, which improves the customer experience because you feel understood. Last but not least, it has 95%-plus reliability on executing correctly.&quot;</p><p>Those gains ripple across Zendesk’s AI agents, Copilot, and App Builder. GPT-5 cuts workflow failures by 30%, thanks to its ability to adapt to unexpected complexity without losing context, and reduces fallback escalations by more than 20%, with more complete and accurate responses. The result: faster resolutions, fewer hand-offs, and AI that behaves more like a seasoned support professional than a scripted assistant.</p><p>Plus, GPT-5 is better at handling ambiguity, and able to clarify vague customer input, which improves routing and increases automated workflows in over 65% of conversations. It has greater accuracy across five languages, and makes agents more productive with more concise, contextually relevant answers that align with tone guidelines.</p><p>And in App Builder, GPT-5 delivered 25% to 30% faster overall performance, with more prompt iterations per minute, speeding app builder development workflows.</p><h3><b>Filling in the analytics gap</b></h3><p>Traditionally, support analytics has focused on structured data — the kind that fits neatly into a table: when a ticket was opened, who handled it, how long it took to resolve, and when it was closed. But the most valuable insights often live in unstructured data — the conversations themselves, spread across email, chat, voice, and messaging apps like WhatsApp.</p><p>&quot;Customers often don’t realize how much intelligence sits in their support interactions,&quot; Upadhyay says. &quot;What we’re pushing for with analytics is ways in which we can improve the entire company with the insights that are sitting in support data.&quot;</p><p>To surface those deeper insights, Zendesk turned to HyperArc, an AI-native analytics company known for its proprietary HyperGraph engine and generative-AI-powered insights. The acquisition gave new life to Explore, Zendesk’s analytics platform, transforming it into a modern solution capable of merging structured and unstructured data, supporting conversational interfaces, and drawing on persistent memory to use past interactions as context for new queries.</p><p>&quot;Your support interactions are telling you everything that’s not working in your business today, all that information is sitting in these millions of tickets that you’ve collected over time,&quot; Upadhyay says. &quot;We wanted to make that completely visible. Now we have this genius AI agent that can analyze it all and come back with explicit recommendations. That doesn’t just improve support. It improves the entire company.&quot;</p><p>That visibility now translates into actionable intelligence. The system can pinpoint where issues are most persistent, identify the patterns behind them, and suggest ways to resolve them. It can even anticipate problems before they happen. During high-pressure events like Black Friday, for example, it can analyze historical data to flag recurring issues, predict where new bottlenecks might appear, and recommend preventive measures — turning reactive support into proactive strategy.</p><p>&quot;That’s where HyperArc shines,&quot; Upadhyay says. It doesn’t just help you understand the past — it helps you plan better for the future.&quot;</p><p>By integrating HyperArc’s AI-native intelligence, Zendesk is moving customer service toward continuous learning — where every interaction builds trust and sharpens performance, setting the stage for AI that can see what’s coming next.</p><hr /><p><i>Sponsored articles are content produced by a company that is either paying for the post or has a business relationship with VentureBeat, and they’re always clearly marked. For more information, contact </i><a href=\"mailto:sales@venturebeat.com\"><i><u>sales@venturebeat.com</u></i></a><i>.</i></p>",
+      "original_link": "https://venturebeat.com/ai/inside-zendesks-dual-ai-leap-from-reliable-agents-to-real-time-intelligence",
+      "published_date": "Tue, 04 Nov 2025 04:00:00 GMT"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "Inside Zendesk’s dual AI leap: From reliable agents to real-time intelligence with GPT-5 and HyperArc",
+      "story_angle": "AI technology making waves in the industry",
+      "key_points": [
+        "<p><i>Presented by Zendesk</i></p><hr /><p>Agentic AI is currently transforming three key areas of work — creative, coding, and support — says Shashi Upadhyay, president of engineering, AI, and product at Zendesk",
+        "But he notes that support presents a distinct challenge",
+        "</p><p>&quot;Support is special because you’re putting an autonomous AI agent right in front of your customer,&quot; Upadhyay says"
+      ],
+      "seo_keywords": [
+        "automation",
+        "autonomous",
+        "GPT",
+        "AI",
+        "OpenAI",
+        "analytics",
+        "ChatGPT",
+        "2025"
+      ],
+      "target_audience": "AI professionals and researchers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-11-04T09:13:27.651853"
+  }
+]

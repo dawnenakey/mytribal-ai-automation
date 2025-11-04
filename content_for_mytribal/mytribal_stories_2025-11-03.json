@@ -1,0 +1,174 @@
+[
+  {
+    "story_number": 1,
+    "priority_score": 1.35,
+    "ai_relevance_score": 1.0,
+    "source_info": {
+      "name": "tech_crunch",
+      "url": "https://techcrunch.com/feed/",
+      "category": "tech_news"
+    },
+    "content": {
+      "title": "OpenAI and Amazon ink $38B cloud computing deal",
+      "summary": "OpenAI isn't done securing the AI infrastructure it needs to rapidly scale agentic workloads. The ChatGPT-maker on Monday said it has reached a deal with Amazon to buy $38 billion in cloud computing services over the next seven years.",
+      "original_link": "https://techcrunch.com/2025/11/03/openai-and-amazon-ink-38b-cloud-computing-deal/",
+      "published_date": "Mon, 03 Nov 2025 15:21:51 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "OpenAI and Amazon ink $38B cloud computing deal",
+      "story_angle": "AI technology making waves in the industry",
+      "key_points": [
+        "OpenAI isn't done securing the AI infrastructure it needs to rapidly scale agentic workloads",
+        "The ChatGPT-maker on Monday said it has reached a deal with Amazon to buy $38 billion in cloud computing services over the next seven years"
+      ],
+      "seo_keywords": [
+        "GPT",
+        "OpenAI",
+        "ChatGPT",
+        "AI",
+        "cloud computing"
+      ],
+      "target_audience": "AI professionals and researchers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-11-03T09:00:15.794165"
+  },
+  {
+    "story_number": 2,
+    "priority_score": 0.855,
+    "ai_relevance_score": 0.6,
+    "source_info": {
+      "name": "ai_news",
+      "url": "https://artificialintelligence-news.com/feed/",
+      "category": "ai_specific"
+    },
+    "content": {
+      "title": "DevOps for AI: Continuous deployment pipelines for machine learning systems",
+      "summary": "<p>AI&#8217;s effects on continuous development and deployment pipelines are becoming difficult to ignore. However, decision-makers in software development functions need to consider a broad range of elements when considering the uses of the technology. The challenges of deploying AI at scale Deploying artificial intelligence isn&#8217;t the same as deploying, for example, a web app. Traditional [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/devops-for-ai-continuous-deployment-pipelines-for-machine-learning-systems/\">DevOps for AI: Continuous deployment pipelines for machine learning systems</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>",
+      "original_link": "https://www.artificialintelligence-news.com/news/devops-for-ai-continuous-deployment-pipelines-for-machine-learning-systems/",
+      "published_date": "Mon, 03 Nov 2025 10:31:40 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "DevOps for AI: Continuous deployment pipelines for machine learning systems",
+      "story_angle": "Direct AI development and its impact on technology",
+      "key_points": [
+        "<p>AI&#8217;s effects on continuous development and deployment pipelines are becoming difficult to ignore",
+        "However, decision-makers in software development functions need to consider a broad range of elements when considering the uses of the technology",
+        "The challenges of deploying AI at scale Deploying artificial intelligence isn&#8217;t the same as deploying, for example, a web app"
+      ],
+      "seo_keywords": [
+        "artificial intelligence",
+        "AI",
+        "machine learning"
+      ],
+      "target_audience": "Curious readers interested in technology"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-11-03T09:00:15.794248"
+  },
+  {
+    "story_number": 3,
+    "priority_score": 0.855,
+    "ai_relevance_score": 0.6,
+    "source_info": {
+      "name": "ai_news",
+      "url": "https://artificialintelligence-news.com/feed/",
+      "category": "ai_specific"
+    },
+    "content": {
+      "title": "How Lumana is redefining AI’s role in video surveillance",
+      "summary": "<p>For all the progress in artificial intelligence, most video security systems still fail at recognising context in real-world conditions. The majority of cameras can capture real-time footage, but struggle to interpret it. This is a problem turning into a growing concern for smart city designers, manufacturers and schools, each of which may depend on AI [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/how-lumana-is-redefining-ais-role-in-video-surveillance/\">How Lumana is redefining AI&#8217;s role in video surveillance</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>",
+      "original_link": "https://www.artificialintelligence-news.com/news/how-lumana-is-redefining-ais-role-in-video-surveillance/",
+      "published_date": "Fri, 31 Oct 2025 15:36:18 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "How Lumana is redefining AI’s role in video surveillance",
+      "story_angle": "Direct AI development and its impact on technology",
+      "key_points": [
+        "<p>For all the progress in artificial intelligence, most video security systems still fail at recognising context in real-world conditions",
+        "The majority of cameras can capture real-time footage, but struggle to interpret it",
+        "This is a problem turning into a growing concern for smart city designers, manufacturers and schools, each of which may depend on AI [&#8230;]</p>\n<p>The post <a href=\"https://www"
+      ],
+      "seo_keywords": [
+        "artificial intelligence",
+        "smart",
+        "AI"
+      ],
+      "target_audience": "Curious readers interested in technology"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-11-03T09:00:15.794329"
+  },
+  {
+    "story_number": 4,
+    "priority_score": 0.8,
+    "ai_relevance_score": 1.0,
+    "source_info": {
+      "name": "venture_beat",
+      "url": "https://venturebeat.com/feed/",
+      "category": "tech_news"
+    },
+    "content": {
+      "title": "CrowdStrike & NVIDIA’s open source AI gives enterprises the edge against machine-speed attacks",
+      "summary": "<p>Every SOC leader knows the feeling: drowning in alerts, blind to the real threat, stuck playing defense in a war waged at the speed of AI. </p><p>Now <a href=\"https://www.crowdstrike.com/en-us/platform/charlotte-ai/\">CrowdStrike</a> and <a href=\"https://www.nvidia.com/en-us/\">NVIDIA</a> are flipping the script. Armed with autonomous agents powered by Charlotte AI and NVIDIA Nemotron models, security teams aren&#x27;t just reacting; they&#x27;re striking back at attackers before their next move. Welcome to cybersecurity&#x27;s new arms race. Combining open source&#x27;s many strengths with agentic AI will shift the balance of power against adversarial AI. </p><p>CrowdStrike and NVIDIA&#x27;s agentic ecosystem combines <a href=\"https://www.crowdstrike.com/en-us/platform/charlotte-ai/\">Charlotte AI AgentWorks,</a> <a href=\"https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/\">NVIDIA Nemotron</a> open models, <a href=\"https://docs.nvidia.com/nemo/microservices/latest/design-synthetic-data-from-scratch-or-seeds/index.html\">NVIDIA NeMo Data Designer</a> synthetic data, <a href=\"https://developer.nvidia.com/nemo-agent-toolkit\">NVIDIA Nemo Agent Toolkit</a>, and <a href=\"https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/\">NVIDIA NIM microservices</a>. </p><p>&quot;This collaboration redefines security operations by enabling analysts to build and deploy specialized <a href=\"https://www.nvidia.com/en-us/glossary/ai-agents/\">AI agents</a> at scale, leveraging trusted, enterprise-grade security with Nemotron models,&quot; <a href=\"https://blogs.nvidia.com/blog/nemotron-open-source-ai/\">writes </a>Bryan Catanzaro, vice president, Applied Deep Learning Research at NVIDIA. </p><p>The partnership is designed to enable autonomous agents to learn quickly, reducing risks, threats, and false positives. Achieving that takes a heavy load off SOC leaders and their teams, who fight data fatigue nearly every day due to inaccurate data.</p><p>The announcement at GTC Washington, D.C., signals the arrival of machine-speed defense that can finally match machine-speed attacks. </p><h2><b>Transforming elite analyst expertise into datasets at machine scale</b></h2><p>The partnership is differentiated by how the AI agents are designed to continually aggregate telemetry data, including insights from <a href=\"https://www.crowdstrike.com/en-us/services/falcon-complete-next-gen-mdr/\">CrowdStrike Falcon Complete Managed Detection and Response</a> analysts. </p><p>&quot;What we&#x27;re able to do is take the intelligence, take the data, take the experience of our Falcon Complete analysts, and turn these experts into datasets. Turn the datasets into AI models, and then be able to create agents based on, really, the whole composition and experience that we&#x27;ve built up within the company so that our customers can benefit at scale from these agents always,&quot; said Daniel Bernard, CrowdStrike&#x27;s Chief Business Officer, during a recent briefing. </p><p>Capitalizing on the strengths of the NVIDIA Nemotron open models, organizations will be able to have their autonomous agents continually learn by training on the datasets from Falcon Complete, the world&#x27;s largest MDR service handling millions of triage decisions monthly. </p><p>CrowdStrike has previous experience in AI detection triage to the point of launching a service that scales this capability across its customer base. <a href=\"https://www.crowdstrike.com/en-us/platform/charlotte-ai/\">Charlotte AI Detection Triage,</a> designed to integrate into existing <a href=\"https://venturebeat.com/security/the-ai-paradox-how-tomorrows-cutting-edge-tools-can-become-dangerous-cyber-threats-and-how-to-prepare/\">security workflows</a> and continuously adapt to evolving threats, automates alert assessment with over 98% accuracy and cuts manual triage by more than 40 hours per week.</p><p>Elia Zaitsev, CrowdStrike&#x27;s chief technology officer, in explaining how Charlotte AI Detection Triage is able to deliver that level of performance, <a href=\"https://venturebeat.com/security/crowdstrikes-ai-slashes-soc-workloads-over-40-hours-a-week\"><b>told VentureBeat</b></a>: &quot;We wouldn&#x27;t have achieved this without the support of our Falcon Complete team. They perform triage within their workflow, manually addressing millions of detections. The high-quality, human-annotated dataset they provide is what enabled us to reach an accuracy of over 98%.&quot;</p><p>Lessons learned with Charlotte AI Detection Triage directly apply to the NVIDIA partnership, further increasing the value it has the potential to deliver to SOCs who need help dealing with the deluge of alerts. </p><h2><b>Open source is table stakes for this partnership to work </b></h2><p>NVIDIA&#x27;s Nemotron open models address what many security leaders identify as the most critical barrier to AI adoption in regulated environments, which is the lack of clarity regarding how the model works, what its weights are, and how secure it is. </p><p>Justin Boitano, Vice President, Enterprise and Edge Computing at NVIDIA, speaking for NVIDIA during a recent press briefing, explained: &quot;Open models are where people start in trying to build their own specialized domain knowledge. You want to own the IP ultimately. Not everybody wants to export their data, and then sort of import or pay for the intelligence that they consume. A lot of sovereign countries, many enterprises in regulated industries want to maintain all that data privacy and security.&quot; </p><p>John Morello, CTO and co-founder of Gutsy (now <a href=\"https://www.minimus.io/\">Minimus</a>), <a href=\"https://venturebeat.com/security/how-open-source-llms-enable-security-teams-to-stay-ahead-of-evolving-threats\"><b>told VentureBeat</b></a> that &quot;the open-source nature of <a href=\"https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/\">Google&#x27;s BERT</a> open-source language model allows Gutsy to customize and train their model for specific security use cases while maintaining privacy and efficiency.&quot; Morello emphasized that practitioners cite &quot;more transparency and better assurances of data privacy, along with great availability of expertise and more integration options across their architectures, as key reasons for going with open source.&quot;</p><h2><b>Keeping adversarial AI&#x27;s balance of power in check </b></h2><p>Cisco&#x27;s DJ Sampath, senior vice president of Cisco&#x27;s AI software and platform group, articulated the industry-wide imperative for open-source security models <a href=\"https://venturebeat.com/security/cisco-warns-enterprises-without-tapping-machine-data-your-ai-strategy-is\"><b>during a recent interview with VentureBeat</b></a>: &quot;The reality is that attackers have access to open-source models too. The goal is to empower as many defenders as possible with robust models to strengthen security.&quot; </p><p>Sampath explained that when Cisco released Foundation-Sec-8B, their open-source security model, at RSAC 2025, it was driven by a sense of responsibility: &quot;Funding for open-source projects has stalled, and there is a growing need for sustainable funding sources within the community. It is a corporate responsibility to provide these models while enabling communities to engage with AI from a defensive standpoint.&quot;</p><p>The commitment to transparency extends to the most sensitive aspects of AI development. When concerns emerged about DeepSeek R1&#x27;s training data and potential compromise, NVIDIA responded decisively. </p><p>As Boitano explained to VentureBeat, &quot;Government agencies were super concerned. They wanted the reasoning capabilities of DeepSeek, but they were a little concerned with, obviously, what might be trained into the DeepSeek model, which is what actually inspired us to completely open source everything in Nemotron models, including reasoning datasets.&quot;</p><p>For practitioners managing open-source security at scale, this transparency is core to their companies. Itamar Sher, CEO of <a href=\"https://www.seal.security/\">Seal Security</a>, emphasized <a href=\"https://venturebeat.com/security/how-open-source-llms-enable-security-teams-to-stay-ahead-of-evolving-threats\"><b>to VentureBeat</b></a> that &quot;open-source models offer transparency,&quot; though he noted that &quot;managing their cycles and compliance remains a significant concern.&quot; Sher&#x27;s company uses generative AI to automate vulnerability remediation in open-source software, and as a recognized CVE Naming Authority (CNA), Seal can identify, document, and assign vulnerabilities, enhancing security across the ecosystem.</p><h2><b>A key partnership goal: bringing intelligence to the Edge</b></h2><p>&quot;Bringing the intelligence closer to where data is and decisions are made is just going to be a big advancement for security operations teams around the industry,&quot; Boitano emphasized. This edge deployment capability is especially critical for government agencies with fragmented and often legacy IT environments. </p><p>VentureBeat asked Boitano how the initial discussions went with government agencies briefed on the partnership and its design goals before work began. &quot;The feeling across agencies that we&#x27;ve talked to is they always feel like, unfortunately, they&#x27;re behind the curve on these technology adoption,&quot; Boitano explained. &quot;The response was, anything you guys can do to help us secure the endpoints. It was a tedious and long process to get open models onto these, you know, higher side networks.&quot;</p><p>NVIDIA and CrowdStrike have done the foundational work, including STIG hardening, FIPS encryption, air-gap compatibility, and removing the barriers that delayed open-model adoption on higher-side networks. The <a href=\"https://blogs.nvidia.com/blog/us-technology-leaders-ai-factory-design-government/\">NVIDIA AI Factory for Government reference design</a> provides comprehensive guidance for deploying AI agents in federal and high-assurance organizations while meeting the strictest security requirements.</p><p>As Boitano explained, the urgency is existential: &quot;Having AI defense that&#x27;s running in your estate that can search for and detect these anomalies, and then alert and respond much faster, is just the natural consequence. It&#x27;s the only way to protect against the speed of AI at this point.&quot;</p>",
+      "original_link": "https://venturebeat.com/security/crowdstrike-nvidia-open-source-ai-soc-machine-speed-attacks",
+      "published_date": "Sat, 01 Nov 2025 01:10:00 GMT"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "CrowdStrike & NVIDIA’s open source AI gives enterprises the edge against machine-speed attacks",
+      "story_angle": "AI technology making waves in the industry",
+      "key_points": [
+        "<p>Every SOC leader knows the feeling: drowning in alerts, blind to the real threat, stuck playing defense in a war waged at the speed of AI",
+        "</p><p>Now <a href=\"https://www"
+      ],
+      "seo_keywords": [
+        "deep learning",
+        "2025",
+        "edge computing",
+        "autonomous",
+        "latest",
+        "AI",
+        "ML"
+      ],
+      "target_audience": "AI professionals and researchers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-11-03T09:00:15.794592"
+  },
+  {
+    "story_number": 5,
+    "priority_score": 0.8,
+    "ai_relevance_score": 1.0,
+    "source_info": {
+      "name": "venture_beat",
+      "url": "https://venturebeat.com/feed/",
+      "category": "tech_news"
+    },
+    "content": {
+      "title": "Inside Celosphere 2025: Why there’s no ‘enterprise AI’ without process intelligence",
+      "summary": "<p><i>Presented by Celonis</i></p><hr /><p>AI adoption is accelerating, but results often lag expectations. And enterprise leaders are under pressure to prove measurable ROI from the AI solutions — especially as the use of autonomous agents rises and global tariffs disrupt supply chains.</p><p>The issue isn’t the AI itself, says Alex Rinke, co-founder and co-CEO of Celonis, a global leader in process intelligence. “To succeed, enterprise AI needs to understand the context of a business’s processes — and how to improve them,” he explains. Without this business context, AI risks becoming, as Rinke puts it, “just an internal social experiment.”</p><p>Next week’s <a href=\"https://www.celonis.com/celosphere?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=celosphere_2025&amp;utm_term=celosphere%202025&amp;utm_content=22651914883_en_land_701S700000OKTCyIAP_779234345923&amp;_bt=779234345923&amp;_bk=celosphere%202025&amp;_bm=e&amp;_bn=g&amp;_bg=179381830486&amp;gad_source=1&amp;gad_campaignid=22651914883&amp;gbraid=0AAAAADLGpd3h9NEhPsTPCZIIT2iqAbOhc&amp;gclid=Cj0KCQjwsPzHBhDCARIsALlWNG1CtEEAOM16cYwmh8udXlnIWgyjZLc0KRW61p2uY5hRFI8RWg14DpAaAo35EALw_wcB\">Celosphere 2025</a> will tackle the AI ROI challenge head-on. The three-day event brings together customer strategies, hands-on workshops, and live demonstrations, highlighting enhancements to the Celonis Process Intelligence (PI) Platform that help enterprises harness ‘enterprise AI,’ powered by PI, to continuously improve operations, creating measurable business value at scale.</p><h4><b>Focus on measurable ROI</b></h4><p>The event’s focus on achieving AI ROI reflects three challenges facing technology and business leaders moving from pilot to production: obsolete systems, break-neck industry change, and agentic AI. <a href=\"https://www.gartner.com/en/newsroom/press-releases/2024-10-22-gartner-survey-finds-ai-investments-lack-measurable-business-value\">According to Gartner</a>, 64% of board members now view AI as a top-three priority — yet only 10% of organizations report meaningful financial returns.</p><p>Celonis customers are bucking that trend. A <a href=\"https://www.celonis.com/resources/total-economic-impact-celonis\">Forrester Total Economic Impact study</a> found organizations using its platform achieved 383% ROI over three years, with payback in just six months. One company improved sales order automation from 33% to 86%, saving $24.5 million. The study estimated $44.1 million in total benefits over three years, driven by faster automation, reduced inefficiencies, and higher process visibility. These numbers underscore a broader pattern — companies that modernize outdated systems and align AI with process optimization see faster payback and sustained gains.</p><h4><b>Real companies, real results</b></h4><p>Celosphere will spotlight how global enterprises are building “future-fit” operations. Mercedes-Benz Group AG and Vinmar Group will showcase AI-driven, composable solutions, powered by PI, and attendees will see demonstrations of PI enabling agents in live production environments.</p><p><b>Among the notable success stories: </b></p><p><a href=\"https://www.celonis.com/solutions/stories/astrazeneca-inventory-management\">AstraZeneca</a>, the pharmaceutical company, reduced excess inventory while keeping critical medicines flowing by using Celonis as a foundation for its OpenAI partnership.</p><p><a href=\"https://www.celonis.com/solutions/stories/oklahoma-state-procurement\">The State of Oklahoma</a> can answer procurement status questions at scale, unlocking over $10 million in value. </p><p><a href=\"https://www.celonis.com/news/press/cosentino-drives-business-transformation-with-ai-powered-by-celonis-process-intelligence\">Cosentino</a> clears blocked sales orders up to 5x faster using an AI-powered credit management assistant. </p><h4><b>Raising the stakes for agentic AI</b></h4><p>Numerous sessions will focus on orchestrating AI agents. The shift from AI-as-advisor to AI-as-actor, changes everything, says Rinke. </p><p>“The agent needs to understand not just what to do, but how your specific business actually works,” he explains. “Process intelligence provides those rails.&quot; </p><p>This leap from recommendation to autonomous action raises the stakes exponentially. When agents can independently trigger purchase orders, reroute shipments, or approve exceptions, bad context can mean catastrophically bad outcomes at scale.</p><p>Celosphere attendees will get to see first-hand how companies are using the Celonis Orchestration Engine to coordinate AI agents alongside people and systems. Effective orchestration is a crucial protection against the chaos of agents working at cross-purposes, duplicating actions, or letting crucial steps fall through the cracks. </p><h4><b>Navigating tariffs and supply chain shocks</b></h4><p>Global trade volatility isn&#x27;t just a headline — it&#x27;s an operational nightmare reshaping how companies deploy AI, Rinke says. </p><p>New tariffs trigger cascading effects across procurement, logistics, and compliance. Each policy shift can cascade across thousands of SKUs — forcing new supplier contracts, rerouted shipments, and rebalanced inventories. For AI systems trained on static conditions, that volatility is almost impossible to predict. Traditional AI systems struggle with such variability — but process intelligence gives organizations real-time visibility into how changes ripple through operations.</p><p>Celosphere case studies will show how companies turn disruption into advantage. Smurfit Westrock uses PI to optimize inventory and reduce costs amid tariff uncertainty, while ASOS leverages PI to optimize its supply chain operations, enhancing efficiency, reducing costs, and continuing to deliver an outstanding customer experience.</p><h4><b>Platform over point solutions</b></h4><p>Rinke argues that Celonis’ edge lies in treating process intelligence not as an add-on, but as the foundation of the enterprise stack. Unlike bolt-on optimization tools, the Celonis platform creates a living digital twin of business operations — a continuously updated model enriched by context that lets AI operate effectively from analysis to execution.</p><p>“What sets Celonis apart is visibility across systems and offline tasks, which is critical for true intelligent automation,” Rinke says. “The platform offers comprehensive capabilities spanning process analysis, design, and orchestration rather than a point solution.”</p><h4><b>“Free the Process” and the future of AI</b></h4><p>Celonis continues to champion openness through its “Free the Process” movement, promoting fair competition and freeing enterprises from legacy lock-in. By giving organizations full access to their own process data, open APIs, and a growing partner network that includes The Hackett Group, ClearOps, and Lobster, Celonis is building the connective tissue for a new era of interoperable automation.</p><p>For Rinke, this open foundation is what turns AI from a set of experiments into an enterprise engine. “Process intelligence creates a flywheel,” he says. “Better understanding leads to better optimization, which enables better AI — and that, in turn, drives even greater understanding. There is no AI without PI.&quot;</p><hr /><p><i>Sponsored articles are content produced by a company that is either paying for the post or has a business relationship with VentureBeat, and they’re always clearly marked. For more information, contact </i><a href=\"mailto:sales@venturebeat.com\"><i><u>sales@venturebeat.com</u></i></a><i>.</i></p>",
+      "original_link": "https://venturebeat.com/ai/inside-celosphere-2025-why-theres-no-enterprise-ai-without-process",
+      "published_date": "Fri, 31 Oct 2025 04:00:00 GMT"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "Inside Celosphere 2025: Why there’s no ‘enterprise AI’ without process intelligence",
+      "story_angle": "AI technology making waves in the industry",
+      "key_points": [
+        "<p><i>Presented by Celonis</i></p><hr /><p>AI adoption is accelerating, but results often lag expectations",
+        "And enterprise leaders are under pressure to prove measurable ROI from the AI solutions — especially as the use of autonomous agents rises and global tariffs disrupt supply chains",
+        "</p><p>The issue isn’t the AI itself, says Alex Rinke, co-founder and co-CEO of Celonis, a global leader in process intelligence"
+      ],
+      "seo_keywords": [
+        "OpenAI",
+        "intelligent",
+        "2025",
+        "autonomous",
+        "AI",
+        "automation"
+      ],
+      "target_audience": "AI professionals and researchers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-11-03T09:00:15.794826"
+  }
+]

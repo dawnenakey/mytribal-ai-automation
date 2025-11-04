@@ -1,833 +1,132 @@
-2025-08-19 08:15:18,763 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-08-19 08:15:18,763 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-08-19 08:15:18,763 - INFO - 📡 Fetching FROM: tech_crunch
-2025-08-19 08:15:19,675 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-08-19 08:15:19,676 - WARNING - Could not parse date for entry: OpenAI launches a sub-$5 ChatGPT plan in India... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 03:57:15 +0000'
-2025-08-19 08:15:19,676 - INFO -    📝 AI Content: OpenAI launches a sub-$5 ChatGPT plan in India... (Score: 0.80)
-2025-08-19 08:15:20,676 - INFO - 📡 Fetching FROM: venture_beat
-2025-08-19 08:15:21,701 - INFO - ✅ Found 22 entries FROM venture_beat
-2025-08-19 08:15:21,704 - INFO -    📝 AI Content: This researcher turned OpenAI’s open weights model gpt-oss-2... (Score: 0.60)
-2025-08-19 08:15:21,704 - WARNING - Could not parse date for entry: Gartner: GPT-5 is here, but the infrastructure to ... Error: Invalid isoformat string: 'Thu, 14 Aug 2025 21:35:28 +0000'
-2025-08-19 08:15:21,704 - INFO -    📝 AI Content: Gartner: GPT-5 is here, but the infrastructure to support tr... (Score: 0.60)
-2025-08-19 08:15:22,707 - INFO - 📡 Fetching FROM: ai_news
-2025-08-19 08:15:24,575 - INFO - ✅ Found 12 entries FROM ai_news
-2025-08-19 08:15:24,575 - WARNING - Could not parse date for entry: Hidden costs of AI implementation every CEO should... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 10:32:15 +0000'
-2025-08-19 08:15:24,575 - INFO -    📝 AI Content: Hidden costs of AI implementation every CEO should know... (Score: 0.60)
-2025-08-19 08:15:24,576 - INFO -    📝 AI Content: Human-in-the-loop work drives AI powering Alibaba’s smart gl... (Score: 0.60)
-2025-08-19 08:15:25,576 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-08-19 08:15:25,763 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-08-19 08:15:25,763 - WARNING - Could not parse date for entry: Should AI flatter us, fix us, or just inform us?... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 09:00:00 +0000'
-2025-08-19 08:15:25,763 - INFO -    📝 AI Content: Should AI flatter us, fix us, or just inform us?... (Score: 0.80)
-2025-08-19 08:15:25,764 - WARNING - Could not parse date for entry: What you may have missed about GPT-5... Error: Invalid isoformat string: 'Tue, 12 Aug 2025 07:52:23 +0000'
-2025-08-19 08:15:25,764 - INFO -    📝 AI Content: What you may have missed about GPT-5... (Score: 0.60)
-2025-08-19 08:15:25,764 - INFO -    📝 AI Content: Sam Altman and the whale... (Score: 0.60)
-2025-08-19 08:15:25,764 - WARNING - Could not parse date for entry: GPT-5 is here. Now what?... Error: Invalid isoformat string: 'Thu, 07 Aug 2025 17:00:00 +0000'
-2025-08-19 08:15:25,764 - INFO -    📝 AI Content: GPT-5 is here. Now what?... (Score: 0.80)
-2025-08-19 08:15:25,764 - WARNING - Could not parse date for entry: OpenAI has finally released open-weight language m... Error: Invalid isoformat string: 'Tue, 05 Aug 2025 17:00:00 +0000'
-2025-08-19 08:15:25,764 - INFO -    📝 AI Content: OpenAI has finally released open-weight language models... (Score: 0.60)
-2025-08-19 08:15:26,766 - INFO - 📡 Fetching FROM: reddit_ai
-2025-08-19 08:15:27,056 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-08-19 08:15:27,056 - INFO -    📝 AI Content: Kevin Roose says an OpenAI researcher got many DMs from peop... (Score: 0.80)
-2025-08-19 08:15:27,056 - INFO -    📝 AI Content: One-Minute Daily AI News 8/18/2025... (Score: 0.80)
-2025-08-19 08:15:27,056 - INFO -    📝 AI Content: Analyzed 10,000+ Reddit discussions about GPT-5's launch wee... (Score: 1.00)
-2025-08-19 08:15:28,059 - INFO - 📡 Fetching FROM: hacker_news
-2025-08-19 08:15:28,294 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-08-19 08:15:29,298 - INFO - 📡 Fetching FROM: wired_ai
-2025-08-19 08:15:29,398 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-08-19 08:15:30,400 - INFO - 📡 Fetching FROM: ars_technica
-2025-08-19 08:15:30,544 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-08-19 08:15:31,546 - INFO - 📥 Total AI-relevant content fetched: 13
-2025-08-19 08:15:31,548 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-08-19 08:15:31,548 - ERROR - ❌ Fatal error in content generation: '<=' not supported between instances of 'NoneType' and 'int'
-2025-08-19 08:15:31,548 - INFO - ⏰ Total runtime: 0:00:12.784556
-2025-08-19 08:16:59,031 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-08-19 08:16:59,032 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-08-19 08:16:59,032 - INFO - 📡 Fetching FROM: tech_crunch
-2025-08-19 08:16:59,130 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-08-19 08:16:59,131 - WARNING - Could not parse date for entry: OpenAI launches a sub-$5 ChatGPT plan in India... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 03:57:15 +0000'
-2025-08-19 08:16:59,131 - INFO -    📝 AI Content: OpenAI launches a sub-$5 ChatGPT plan in India... (Score: 0.80)
-2025-08-19 08:17:00,131 - INFO - 📡 Fetching FROM: venture_beat
-2025-08-19 08:17:01,068 - INFO - ✅ Found 22 entries FROM venture_beat
-2025-08-19 08:17:01,070 - INFO -    📝 AI Content: This researcher turned OpenAI’s open weights model gpt-oss-2... (Score: 0.60)
-2025-08-19 08:17:01,070 - WARNING - Could not parse date for entry: Gartner: GPT-5 is here, but the infrastructure to ... Error: Invalid isoformat string: 'Thu, 14 Aug 2025 21:35:28 +0000'
-2025-08-19 08:17:01,070 - INFO -    📝 AI Content: Gartner: GPT-5 is here, but the infrastructure to support tr... (Score: 0.60)
-2025-08-19 08:17:02,072 - INFO - 📡 Fetching FROM: ai_news
-2025-08-19 08:17:03,447 - INFO - ✅ Found 12 entries FROM ai_news
-2025-08-19 08:17:03,447 - WARNING - Could not parse date for entry: Hidden costs of AI implementation every CEO should... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 10:32:15 +0000'
-2025-08-19 08:17:03,447 - INFO -    📝 AI Content: Hidden costs of AI implementation every CEO should know... (Score: 0.60)
-2025-08-19 08:17:03,447 - INFO -    📝 AI Content: Human-in-the-loop work drives AI powering Alibaba’s smart gl... (Score: 0.60)
-2025-08-19 08:17:04,448 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-08-19 08:17:04,546 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-08-19 08:17:04,546 - WARNING - Could not parse date for entry: Should AI flatter us, fix us, or just inform us?... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 09:00:00 +0000'
-2025-08-19 08:17:04,546 - INFO -    📝 AI Content: Should AI flatter us, fix us, or just inform us?... (Score: 0.80)
-2025-08-19 08:17:04,546 - WARNING - Could not parse date for entry: What you may have missed about GPT-5... Error: Invalid isoformat string: 'Tue, 12 Aug 2025 07:52:23 +0000'
-2025-08-19 08:17:04,546 - INFO -    📝 AI Content: What you may have missed about GPT-5... (Score: 0.60)
-2025-08-19 08:17:04,546 - INFO -    📝 AI Content: Sam Altman and the whale... (Score: 0.60)
-2025-08-19 08:17:04,547 - WARNING - Could not parse date for entry: GPT-5 is here. Now what?... Error: Invalid isoformat string: 'Thu, 07 Aug 2025 17:00:00 +0000'
-2025-08-19 08:17:04,547 - INFO -    📝 AI Content: GPT-5 is here. Now what?... (Score: 0.80)
-2025-08-19 08:17:04,547 - WARNING - Could not parse date for entry: OpenAI has finally released open-weight language m... Error: Invalid isoformat string: 'Tue, 05 Aug 2025 17:00:00 +0000'
-2025-08-19 08:17:04,547 - INFO -    📝 AI Content: OpenAI has finally released open-weight language models... (Score: 0.60)
-2025-08-19 08:17:05,548 - INFO - 📡 Fetching FROM: reddit_ai
-2025-08-19 08:17:05,832 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-08-19 08:17:05,833 - INFO -    📝 AI Content: Kevin Roose says an OpenAI researcher got many DMs from peop... (Score: 0.80)
-2025-08-19 08:17:05,833 - INFO -    📝 AI Content: One-Minute Daily AI News 8/18/2025... (Score: 0.80)
-2025-08-19 08:17:05,833 - INFO -    📝 AI Content: Analyzed 10,000+ Reddit discussions about GPT-5's launch wee... (Score: 1.00)
-2025-08-19 08:17:06,836 - INFO - 📡 Fetching FROM: hacker_news
-2025-08-19 08:17:07,114 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-08-19 08:17:08,116 - INFO - 📡 Fetching FROM: wired_ai
-2025-08-19 08:17:08,251 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-08-19 08:17:09,251 - INFO - 📡 Fetching FROM: ars_technica
-2025-08-19 08:17:09,571 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-08-19 08:17:10,574 - INFO - 📥 Total AI-relevant content fetched: 13
-2025-08-19 08:17:10,576 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-08-19 08:17:10,576 - INFO - ✅ Selected 5 top stories for mytribal.ai
-2025-08-19 08:17:10,576 - INFO - 📝 Creating story outlines for mytribal.ai...
-2025-08-19 08:17:10,576 - INFO -    📚 Story 1: AI Update: Analyzed 10,000+ Reddit discussions about GPT-5's...
-2025-08-19 08:17:10,576 - INFO -    📚 Story 2: Human-in-the-loop work drives AI powering Alibaba’s smart gl...
-2025-08-19 08:17:10,576 - INFO -    📚 Story 3: Kevin Roose says an OpenAI researcher got many DMs from peop...
-2025-08-19 08:17:10,577 - INFO -    📚 Story 4: One-Minute Daily AI News 8/18/2025...
-2025-08-19 08:17:10,577 - INFO -    📚 Story 5: AI Update: Sam Altman and the whale...
-2025-08-19 08:17:10,578 - INFO - 💾 Content saved for mytribal.ai publishing:
-2025-08-19 08:17:10,578 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-08-19.json
-2025-08-19 08:17:10,578 - INFO -    Raw content: content_for_mytribal/raw_content_2025-08-19.json
-2025-08-19 08:17:10,578 - INFO - 
+2025-11-03 09:00:02,489 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
+2025-11-03 09:00:02,489 - INFO - 🔍 Fetching content FROM external RSS feeds...
+2025-11-03 09:00:02,489 - INFO - 📡 Fetching FROM: tech_crunch
+2025-11-03 09:00:03,463 - INFO - ✅ Found 20 entries FROM tech_crunch
+2025-11-03 09:00:03,467 - INFO -    📝 AI Content: OpenAI and Amazon ink $38B cloud computing deal... (Score: 1.00)
+2025-11-03 09:00:04,468 - INFO - 📡 Fetching FROM: venture_beat
+2025-11-03 09:00:04,915 - INFO - ✅ Found 50 entries FROM venture_beat
+2025-11-03 09:00:04,916 - WARNING - Could not parse date for entry: The beginning of the end of the transformer era? N... Error: Invalid isoformat string: 'Mon, 03 Nov 2025 14:00:00 GMT'
+2025-11-03 09:00:04,916 - INFO -    📝 AI Content: The beginning of the end of the transformer era? Neuro-symbo... (Score: 0.80)
+2025-11-03 09:00:04,916 - WARNING - Could not parse date for entry: Moving past speculation: How deterministic CPUs de... Error: Invalid isoformat string: 'Sun, 02 Nov 2025 05:00:00 GMT'
+2025-11-03 09:00:04,916 - INFO -    📝 AI Content: Moving past speculation: How deterministic CPUs deliver pred... (Score: 0.60)
+2025-11-03 09:00:04,917 - WARNING - Could not parse date for entry: Large reasoning models almost certainly can think... Error: Invalid isoformat string: 'Sat, 01 Nov 2025 05:00:00 GMT'
+2025-11-03 09:00:04,917 - INFO -    📝 AI Content: Large reasoning models almost certainly can think... (Score: 0.60)
+2025-11-03 09:00:04,917 - WARNING - Could not parse date for entry: CrowdStrike & NVIDIA’s open source AI gives enterp... Error: Invalid isoformat string: 'Sat, 01 Nov 2025 01:10:00 GMT'
+2025-11-03 09:00:04,917 - INFO -    📝 AI Content: CrowdStrike & NVIDIA’s open source AI gives enterprises the ... (Score: 1.00)
+2025-11-03 09:00:04,917 - WARNING - Could not parse date for entry: Inside Celosphere 2025: Why there’s no ‘enterprise... Error: Invalid isoformat string: 'Fri, 31 Oct 2025 04:00:00 GMT'
+2025-11-03 09:00:04,917 - INFO -    📝 AI Content: Inside Celosphere 2025: Why there’s no ‘enterprise AI’ witho... (Score: 1.00)
+2025-11-03 09:00:04,918 - WARNING - Could not parse date for entry: Meet Aardvark, OpenAI’s security agent for code an... Error: Invalid isoformat string: 'Thu, 30 Oct 2025 21:07:00 GMT'
+2025-11-03 09:00:04,918 - INFO -    📝 AI Content: Meet Aardvark, OpenAI’s security agent for code analysis and... (Score: 1.00)
+2025-11-03 09:00:04,918 - WARNING - Could not parse date for entry: Why IT leaders should pay attention to Canva’s ‘im... Error: Invalid isoformat string: 'Thu, 30 Oct 2025 03:00:00 GMT'
+2025-11-03 09:00:04,918 - INFO -    📝 AI Content: Why IT leaders should pay attention to Canva’s ‘imagination ... (Score: 0.80)
+2025-11-03 09:00:04,918 - WARNING - Could not parse date for entry: Meta researchers open the LLM black box to repair ... Error: Invalid isoformat string: 'Thu, 30 Oct 2025 00:00:00 GMT'
+2025-11-03 09:00:04,918 - INFO -    📝 AI Content: Meta researchers open the LLM black box to repair flawed AI ... (Score: 1.00)
+2025-11-03 09:00:04,919 - WARNING - Could not parse date for entry: Vibe coding platform Cursor releases first in-hous... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 19:28:00 GMT'
+2025-11-03 09:00:04,919 - INFO -    📝 AI Content: Vibe coding platform Cursor releases first in-house LLM, Com... (Score: 1.00)
+2025-11-03 09:00:05,920 - INFO - 📡 Fetching FROM: ai_news
+2025-11-03 09:00:08,317 - INFO - ✅ Found 12 entries FROM ai_news
+2025-11-03 09:00:08,317 - INFO -    📝 AI Content: DevOps for AI: Continuous deployment pipelines for machine l... (Score: 0.60)
+2025-11-03 09:00:08,317 - INFO -    📝 AI Content: How Lumana is redefining AI’s role in video surveillance... (Score: 0.60)
+2025-11-03 09:00:09,317 - INFO - 📡 Fetching FROM: mit_tech_review
+2025-11-03 09:00:09,720 - INFO - ✅ Found 10 entries FROM mit_tech_review
+2025-11-03 09:00:09,721 - WARNING - Could not parse date for entry: Finding return on AI investments across industries... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 15:00:33 +0000'
+2025-11-03 09:00:09,721 - INFO -    📝 AI Content: Finding return on AI investments across industries... (Score: 0.60)
+2025-11-03 09:00:10,721 - INFO - 📡 Fetching FROM: reddit_ai
+2025-11-03 09:00:10,994 - INFO - ✅ Found 10 entries FROM reddit_ai
+2025-11-03 09:00:10,995 - INFO -    📝 AI Content: Audrey Tang, hacker and Taiwanese digital minister: ‘AI is a... (Score: 0.60)
+2025-11-03 09:00:10,995 - INFO -    📝 AI Content: Utah and California are starting to require businesses to te... (Score: 0.60)
+2025-11-03 09:00:11,995 - INFO - 📡 Fetching FROM: hacker_news
+2025-11-03 09:00:12,418 - INFO - ✅ Found 30 entries FROM hacker_news
+2025-11-03 09:00:13,418 - INFO - 📡 Fetching FROM: wired_ai
+2025-11-03 09:00:13,647 - INFO - ✅ Found 50 entries FROM wired_ai
+2025-11-03 09:00:14,647 - INFO - 📡 Fetching FROM: ars_technica
+2025-11-03 09:00:14,784 - INFO - ✅ Found 20 entries FROM ars_technica
+2025-11-03 09:00:15,792 - INFO - 📥 Total AI-relevant content fetched: 15
+2025-11-03 09:00:15,793 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
+2025-11-03 09:00:15,794 - INFO - ✅ Selected 5 top stories for mytribal.ai
+2025-11-03 09:00:15,794 - INFO - 📝 Creating story outlines for mytribal.ai...
+2025-11-03 09:00:15,794 - INFO -    📚 Story 1: OpenAI and Amazon ink $38B cloud computing deal...
+2025-11-03 09:00:15,794 - INFO -    📚 Story 2: DevOps for AI: Continuous deployment pipelines for machine l...
+2025-11-03 09:00:15,794 - INFO -    📚 Story 3: How Lumana is redefining AI’s role in video surveillance...
+2025-11-03 09:00:15,794 - INFO -    📚 Story 4: CrowdStrike & NVIDIA’s open source AI gives enterprises the ...
+2025-11-03 09:00:15,794 - INFO -    📚 Story 5: Inside Celosphere 2025: Why there’s no ‘enterprise AI’ witho...
+2025-11-03 09:00:15,796 - INFO - 💾 Content saved for mytribal.ai publishing:
+2025-11-03 09:00:15,796 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-11-03.json
+2025-11-03 09:00:15,796 - INFO -    Raw content: content_for_mytribal/raw_content_2025-11-03.json
+2025-11-03 09:00:15,796 - INFO - 
 📊 Content Generation Summary:
-2025-08-19 08:17:10,579 - INFO -    Date: 2025-08-19
-2025-08-19 08:17:10,579 - INFO -    External sources checked: 8
-2025-08-19 08:17:10,579 - INFO -    Total content fetched: 13
-2025-08-19 08:17:10,579 - INFO -    Content selected for mytribal.ai: 5
-2025-08-19 08:17:10,579 - INFO -    Story outlines created: 5
-2025-08-19 08:17:10,579 - INFO - 
+2025-11-03 09:00:15,797 - INFO -    Date: 2025-11-03
+2025-11-03 09:00:15,797 - INFO -    External sources checked: 8
+2025-11-03 09:00:15,797 - INFO -    Total content fetched: 15
+2025-11-03 09:00:15,797 - INFO -    Content selected for mytribal.ai: 5
+2025-11-03 09:00:15,797 - INFO -    Story outlines created: 5
+2025-11-03 09:00:15,797 - INFO - 
 🎯 Content ready for mytribal.ai publishing!
-2025-08-19 08:17:10,579 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-08-19.json
-2025-08-19 08:17:10,579 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
-2025-08-19 08:17:10,579 - INFO - ⏰ Total runtime: 0:00:11.547052
-2025-08-29 11:29:53,129 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-08-29 11:29:53,130 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-08-29 11:29:53,130 - INFO - 📡 Fetching FROM: tech_crunch
-2025-08-29 11:29:53,278 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-08-29 11:29:53,281 - INFO -    📝 AI Content: ChatGPT: Everything you need to know about the AI-powered ch... (Score: 0.60)
-2025-08-29 11:29:54,282 - INFO - 📡 Fetching FROM: venture_beat
-2025-08-29 11:29:54,494 - INFO - ✅ Found 18 entries FROM venture_beat
-2025-08-29 11:29:54,494 - WARNING - Could not parse date for entry: In crowded voice AI market, OpenAI bets on instruc... Error: Invalid isoformat string: 'Thu, 28 Aug 2025 23:26:47 +0000'
-2025-08-29 11:29:54,494 - INFO -    📝 AI Content: In crowded voice AI market, OpenAI bets on instruction-follo... (Score: 0.60)
-2025-08-29 11:29:54,494 - WARNING - Could not parse date for entry: Nous Research drops Hermes 4 AI models that outper... Error: Invalid isoformat string: 'Thu, 28 Aug 2025 21:46:07 +0000'
-2025-08-29 11:29:54,494 - INFO -    📝 AI Content: Nous Research drops Hermes 4 AI models that outperform ChatG... (Score: 0.60)
-2025-08-29 11:29:54,494 - WARNING - Could not parse date for entry: OpenAI–Anthropic cross-tests expose jailbreak and ... Error: Invalid isoformat string: 'Thu, 28 Aug 2025 15:50:54 +0000'
-2025-08-29 11:29:54,494 - INFO -    📝 AI Content: OpenAI–Anthropic cross-tests expose jailbreak and misuse ris... (Score: 0.60)
-2025-08-29 11:29:55,495 - INFO - 📡 Fetching FROM: ai_news
-2025-08-29 11:29:57,544 - INFO - ✅ Found 12 entries FROM ai_news
-2025-08-29 11:29:57,544 - WARNING - Could not parse date for entry: X and xAI sue Apple and OpenAI over AI monopoly cl... Error: Invalid isoformat string: 'Tue, 26 Aug 2025 12:52:12 +0000'
-2025-08-29 11:29:57,544 - INFO -    📝 AI Content: X and xAI sue Apple and OpenAI over AI monopoly claims... (Score: 0.80)
-2025-08-29 11:29:58,544 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-08-29 11:29:58,660 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-08-29 11:29:58,661 - WARNING - Could not parse date for entry: Should AI flatter us, fix us, or just inform us?... Error: Invalid isoformat string: 'Tue, 19 Aug 2025 09:00:00 +0000'
-2025-08-29 11:29:58,661 - INFO -    📝 AI Content: Should AI flatter us, fix us, or just inform us?... (Score: 0.80)
-2025-08-29 11:29:59,664 - INFO - 📡 Fetching FROM: reddit_ai
-2025-08-29 11:29:59,894 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-08-29 11:30:00,896 - INFO - 📡 Fetching FROM: hacker_news
-2025-08-29 11:30:01,168 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-08-29 11:30:02,171 - INFO - 📡 Fetching FROM: wired_ai
-2025-08-29 11:30:02,314 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-08-29 11:30:03,315 - INFO - 📡 Fetching FROM: ars_technica
-2025-08-29 11:30:03,427 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-08-29 11:30:04,431 - INFO - 📥 Total AI-relevant content fetched: 6
-2025-08-29 11:30:04,433 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-08-29 11:30:04,433 - INFO - ✅ Selected 5 top stories for mytribal.ai
-2025-08-29 11:30:04,433 - INFO - 📝 Creating story outlines for mytribal.ai...
-2025-08-29 11:30:04,434 - INFO -    📚 Story 1: ChatGPT: Everything you need to know about the AI-powered ch...
-2025-08-29 11:30:04,434 - INFO -    📚 Story 2: X and xAI sue Apple and OpenAI over AI monopoly claims...
-2025-08-29 11:30:04,434 - INFO -    📚 Story 3: Should AI flatter us, fix us, or just inform us?...
-2025-08-29 11:30:04,434 - INFO -    📚 Story 4: In crowded voice AI market, OpenAI bets on instruction-follo...
-2025-08-29 11:30:04,434 - INFO -    📚 Story 5: Nous Research drops Hermes 4 AI models that outperform ChatG...
-2025-08-29 11:30:04,435 - INFO - 💾 Content saved for mytribal.ai publishing:
-2025-08-29 11:30:04,435 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-08-29.json
-2025-08-29 11:30:04,435 - INFO -    Raw content: content_for_mytribal/raw_content_2025-08-29.json
-2025-08-29 11:30:04,435 - INFO - 
+2025-11-03 09:00:15,797 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-11-03.json
+2025-11-03 09:00:15,797 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
+2025-11-03 09:00:15,797 - INFO - ⏰ Total runtime: 0:00:13.307878
+2025-11-04 09:13:11,658 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
+2025-11-04 09:13:11,658 - INFO - 🔍 Fetching content FROM external RSS feeds...
+2025-11-04 09:13:11,659 - INFO - 📡 Fetching FROM: tech_crunch
+2025-11-04 09:13:12,258 - INFO - ✅ Found 20 entries FROM tech_crunch
+2025-11-04 09:13:13,265 - INFO - 📡 Fetching FROM: venture_beat
+2025-11-04 09:13:14,257 - INFO - ✅ Found 50 entries FROM venture_beat
+2025-11-04 09:13:14,257 - WARNING - Could not parse date for entry: Forget Fine-Tuning: SAP’s RPT-1 Brings Ready-to-Us... Error: Invalid isoformat string: 'Tue, 04 Nov 2025 05:00:00 GMT'
+2025-11-04 09:13:14,257 - INFO -    📝 AI Content: Forget Fine-Tuning: SAP’s RPT-1 Brings Ready-to-Use AI for B... (Score: 1.00)
+2025-11-04 09:13:14,258 - WARNING - Could not parse date for entry: Inside Zendesk’s dual AI leap: From reliable agent... Error: Invalid isoformat string: 'Tue, 04 Nov 2025 04:00:00 GMT'
+2025-11-04 09:13:14,258 - INFO -    📝 AI Content: Inside Zendesk’s dual AI leap: From reliable agents to real-... (Score: 1.00)
+2025-11-04 09:13:14,259 - WARNING - Could not parse date for entry: The beginning of the end of the transformer era? N... Error: Invalid isoformat string: 'Mon, 03 Nov 2025 14:00:00 GMT'
+2025-11-04 09:13:14,259 - INFO -    📝 AI Content: The beginning of the end of the transformer era? Neuro-symbo... (Score: 0.80)
+2025-11-04 09:13:14,260 - WARNING - Could not parse date for entry: Meet Denario, the AI ‘research assistant’ that is ... Error: Invalid isoformat string: 'Mon, 03 Nov 2025 09:40:00 GMT'
+2025-11-04 09:13:14,260 - INFO -    📝 AI Content: Meet Denario, the AI ‘research assistant’ that is already ge... (Score: 0.80)
+2025-11-04 09:13:14,260 - WARNING - Could not parse date for entry: Developers beware: Google’s Gemma model controvers... Error: Invalid isoformat string: 'Mon, 03 Nov 2025 05:00:00 GMT'
+2025-11-04 09:13:14,260 - INFO -    📝 AI Content: Developers beware: Google’s Gemma model controversy exposes ... (Score: 1.00)
+2025-11-04 09:13:14,261 - WARNING - Could not parse date for entry: Moving past speculation: How deterministic CPUs de... Error: Invalid isoformat string: 'Sun, 02 Nov 2025 05:00:00 GMT'
+2025-11-04 09:13:14,261 - INFO -    📝 AI Content: Moving past speculation: How deterministic CPUs deliver pred... (Score: 0.60)
+2025-11-04 09:13:14,261 - WARNING - Could not parse date for entry: Large reasoning models almost certainly can think... Error: Invalid isoformat string: 'Sat, 01 Nov 2025 05:00:00 GMT'
+2025-11-04 09:13:14,261 - INFO -    📝 AI Content: Large reasoning models almost certainly can think... (Score: 0.60)
+2025-11-04 09:13:14,262 - WARNING - Could not parse date for entry: CrowdStrike & NVIDIA’s open source AI gives enterp... Error: Invalid isoformat string: 'Sat, 01 Nov 2025 01:10:00 GMT'
+2025-11-04 09:13:14,262 - INFO -    📝 AI Content: CrowdStrike & NVIDIA’s open source AI gives enterprises the ... (Score: 1.00)
+2025-11-04 09:13:15,262 - INFO - 📡 Fetching FROM: ai_news
+2025-11-04 09:13:18,450 - INFO - ✅ Found 12 entries FROM ai_news
+2025-11-04 09:13:18,462 - INFO -    📝 AI Content: DevOps for AI: Continuous deployment pipelines for machine l... (Score: 0.60)
+2025-11-04 09:13:18,462 - INFO -    📝 AI Content: How Lumana is redefining AI’s role in video surveillance... (Score: 0.60)
+2025-11-04 09:13:19,470 - INFO - 📡 Fetching FROM: mit_tech_review
+2025-11-04 09:13:19,737 - INFO - ✅ Found 10 entries FROM mit_tech_review
+2025-11-04 09:13:19,739 - WARNING - Could not parse date for entry: Finding return on AI investments across industries... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 15:00:33 +0000'
+2025-11-04 09:13:19,739 - INFO -    📝 AI Content: Finding return on AI investments across industries... (Score: 0.60)
+2025-11-04 09:13:20,740 - INFO - 📡 Fetching FROM: reddit_ai
+2025-11-04 09:13:22,887 - INFO - ✅ Found 10 entries FROM reddit_ai
+2025-11-04 09:13:22,888 - INFO -    📝 AI Content: Fox News Falls for AI-Generated Footage of Poor People Ragin... (Score: 0.60)
+2025-11-04 09:13:22,888 - INFO -    📝 AI Content: Sam Altman sometimes wishes OpenAI were public so haters cou... (Score: 0.60)
+2025-11-04 09:13:23,894 - INFO - 📡 Fetching FROM: hacker_news
+2025-11-04 09:13:24,228 - INFO - ✅ Found 30 entries FROM hacker_news
+2025-11-04 09:13:25,234 - INFO - 📡 Fetching FROM: wired_ai
+2025-11-04 09:13:25,421 - INFO - ✅ Found 50 entries FROM wired_ai
+2025-11-04 09:13:26,422 - INFO - 📡 Fetching FROM: ars_technica
+2025-11-04 09:13:26,625 - INFO - ✅ Found 20 entries FROM ars_technica
+2025-11-04 09:13:26,640 - INFO -    📝 AI Content: OpenAI signs massive AI compute deal with Amazon... (Score: 0.80)
+2025-11-04 09:13:27,645 - INFO - 📥 Total AI-relevant content fetched: 14
+2025-11-04 09:13:27,649 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
+2025-11-04 09:13:27,650 - INFO - ✅ Selected 5 top stories for mytribal.ai
+2025-11-04 09:13:27,650 - INFO - 📝 Creating story outlines for mytribal.ai...
+2025-11-04 09:13:27,650 - INFO -    📚 Story 1: OpenAI signs massive AI compute deal with Amazon...
+2025-11-04 09:13:27,650 - INFO -    📚 Story 2: DevOps for AI: Continuous deployment pipelines for machine l...
+2025-11-04 09:13:27,650 - INFO -    📚 Story 3: How Lumana is redefining AI’s role in video surveillance...
+2025-11-04 09:13:27,651 - INFO -    📚 Story 4: Forget Fine-Tuning: SAP’s RPT-1 Brings Ready-to-Use AI for B...
+2025-11-04 09:13:27,651 - INFO -    📚 Story 5: Inside Zendesk’s dual AI leap: From reliable agents to real-...
+2025-11-04 09:13:27,661 - INFO - 💾 Content saved for mytribal.ai publishing:
+2025-11-04 09:13:27,661 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-11-04.json
+2025-11-04 09:13:27,661 - INFO -    Raw content: content_for_mytribal/raw_content_2025-11-04.json
+2025-11-04 09:13:27,661 - INFO - 
 📊 Content Generation Summary:
-2025-08-29 11:30:04,435 - INFO -    Date: 2025-08-29
-2025-08-29 11:30:04,435 - INFO -    External sources checked: 8
-2025-08-29 11:30:04,436 - INFO -    Total content fetched: 6
-2025-08-29 11:30:04,436 - INFO -    Content selected for mytribal.ai: 5
-2025-08-29 11:30:04,436 - INFO -    Story outlines created: 5
-2025-08-29 11:30:04,436 - INFO - 
+2025-11-04 09:13:27,662 - INFO -    Date: 2025-11-04
+2025-11-04 09:13:27,662 - INFO -    External sources checked: 8
+2025-11-04 09:13:27,662 - INFO -    Total content fetched: 14
+2025-11-04 09:13:27,662 - INFO -    Content selected for mytribal.ai: 5
+2025-11-04 09:13:27,662 - INFO -    Story outlines created: 5
+2025-11-04 09:13:27,662 - INFO - 
 🎯 Content ready for mytribal.ai publishing!
-2025-08-29 11:30:04,436 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-08-29.json
-2025-08-29 11:30:04,436 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
-2025-08-29 11:30:04,436 - INFO - ⏰ Total runtime: 0:00:11.306214
-2025-10-21 16:19:17,994 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-10-21 16:19:17,994 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-10-21 16:19:17,994 - INFO - 📡 Fetching FROM: tech_crunch
-2025-10-21 16:19:18,226 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-10-21 16:19:19,230 - INFO - 📡 Fetching FROM: venture_beat
-2025-10-21 16:19:19,586 - INFO - ✅ Found 20 entries FROM venture_beat
-2025-10-21 16:19:19,586 - WARNING - Could not parse date for entry: Qwen's new Deep Research update lets you turn its ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 18:32:00 GMT'
-2025-10-21 16:19:19,586 - INFO -    📝 AI Content: Qwen's new Deep Research update lets you turn its reports in... (Score: 1.00)
-2025-10-21 16:19:19,586 - WARNING - Could not parse date for entry: DeepSeek drops open-source model that compresses t... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 18:30:00 GMT'
-2025-10-21 16:19:19,586 - INFO -    📝 AI Content: DeepSeek drops open-source model that compresses text 10x th... (Score: 1.00)
-2025-10-21 16:19:19,587 - WARNING - Could not parse date for entry: Google's new vibe coding AI Studio experience lets... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 17:45:00 GMT'
-2025-10-21 16:19:19,587 - INFO -    📝 AI Content: Google's new vibe coding AI Studio experience lets anyone bu... (Score: 0.60)
-2025-10-21 16:19:19,587 - WARNING - Could not parse date for entry: New 'Markovian Thinking' technique unlocks a path ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 05:12:00 GMT'
-2025-10-21 16:19:19,587 - INFO -    📝 AI Content: New 'Markovian Thinking' technique unlocks a path to million... (Score: 0.60)
-2025-10-21 16:19:19,587 - WARNING - Could not parse date for entry: OpenAI announces ChatGPT Atlas, an AI-enabled web ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 04:00:00 GMT'
-2025-10-21 16:19:19,587 - INFO -    📝 AI Content: OpenAI announces ChatGPT Atlas, an AI-enabled web browser to... (Score: 1.00)
-2025-10-21 16:19:19,587 - WARNING - Could not parse date for entry: AI’s financial blind spot: Why long-term success d... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 04:00:00 GMT'
-2025-10-21 16:19:19,587 - INFO -    📝 AI Content: AI’s financial blind spot: Why long-term success depends on ... (Score: 0.80)
-2025-10-21 16:19:19,588 - WARNING - Could not parse date for entry: The unexpected benefits of AI PCs: why creativity ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 04:00:00 GMT'
-2025-10-21 16:19:19,588 - INFO -    📝 AI Content: The unexpected benefits of AI PCs: why creativity could be t... (Score: 0.60)
-2025-10-21 16:19:19,588 - WARNING - Could not parse date for entry: Claude Code comes to web and mobile, letting devs ... Error: Invalid isoformat string: 'Mon, 20 Oct 2025 18:15:00 GMT'
-2025-10-21 16:19:19,588 - INFO -    📝 AI Content: Claude Code comes to web and mobile, letting devs launch par... (Score: 0.60)
-2025-10-21 16:19:19,588 - WARNING - Could not parse date for entry: Adobe Foundry wants to rebuild Firefly for your br... Error: Invalid isoformat string: 'Mon, 20 Oct 2025 13:00:00 GMT'
-2025-10-21 16:19:19,588 - INFO -    📝 AI Content: Adobe Foundry wants to rebuild Firefly for your brand — not ... (Score: 0.60)
-2025-10-21 16:19:19,588 - WARNING - Could not parse date for entry: Agentic AI security breaches are coming: 7 ways to... Error: Invalid isoformat string: 'Mon, 20 Oct 2025 07:00:00 GMT'
-2025-10-21 16:19:19,588 - INFO -    📝 AI Content: Agentic AI security breaches are coming: 7 ways to make sure... (Score: 1.00)
-2025-10-21 16:19:20,592 - INFO - 📡 Fetching FROM: ai_news
-2025-10-21 16:19:22,622 - INFO - ✅ Found 12 entries FROM ai_news
-2025-10-21 16:19:22,623 - WARNING - Could not parse date for entry: How accounting firms are using AI agents to reclai... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 11:41:15 +0000'
-2025-10-21 16:19:22,623 - INFO -    📝 AI Content: How accounting firms are using AI agents to reclaim time and... (Score: 1.00)
-2025-10-21 16:19:23,627 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-10-21 16:19:23,776 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-10-21 16:19:24,803 - INFO - 📡 Fetching FROM: reddit_ai
-2025-10-21 16:19:25,066 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-10-21 16:19:25,066 - INFO -    📝 AI Content: The war between bosses and employees over AI is getting ugly... (Score: 0.60)
-2025-10-21 16:19:25,066 - INFO -    📝 AI Content: Boris Johnson admits writing books using ChatGPT. Former pri... (Score: 0.80)
-2025-10-21 16:19:25,066 - INFO -    📝 AI Content: Major AI updates in the last 24h... (Score: 0.80)
-2025-10-21 16:19:25,067 - INFO -    📝 AI Content: Claude enters life sciences... (Score: 0.60)
-2025-10-21 16:19:26,067 - INFO - 📡 Fetching FROM: hacker_news
-2025-10-21 16:19:26,294 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-10-21 16:19:27,297 - INFO - 📡 Fetching FROM: wired_ai
-2025-10-21 16:19:27,384 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-10-21 16:19:27,384 - WARNING - Could not parse date for entry: OpenAI’s Atlas Browser Takes Direct Aim at Google ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 19:06:41 +0000'
-2025-10-21 16:19:27,384 - INFO -    📝 AI Content: OpenAI’s Atlas Browser Takes Direct Aim at Google Chrome... (Score: 0.80)
-2025-10-21 16:19:28,386 - INFO - 📡 Fetching FROM: ars_technica
-2025-10-21 16:19:28,553 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-10-21 16:19:29,559 - INFO - 📥 Total AI-relevant content fetched: 16
-2025-10-21 16:19:29,561 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-10-21 16:19:29,561 - INFO - ✅ Selected 5 top stories for mytribal.ai
-2025-10-21 16:19:29,561 - INFO - 📝 Creating story outlines for mytribal.ai...
-2025-10-21 16:19:29,561 - INFO -    📚 Story 1: How accounting firms are using AI agents to reclaim time and...
-2025-10-21 16:19:29,561 - INFO -    📚 Story 2: Boris Johnson admits writing books using ChatGPT. Former pri...
-2025-10-21 16:19:29,562 - INFO -    📚 Story 3: Major AI updates in the last 24h...
-2025-10-21 16:19:29,562 - INFO -    📚 Story 4: AI Update: Qwen's new Deep Research update lets you turn its...
-2025-10-21 16:19:29,562 - INFO -    📚 Story 5: AI Update: DeepSeek drops open-source model that compresses ...
-2025-10-21 16:19:29,565 - INFO - 💾 Content saved for mytribal.ai publishing:
-2025-10-21 16:19:29,565 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-10-21.json
-2025-10-21 16:19:29,565 - INFO -    Raw content: content_for_mytribal/raw_content_2025-10-21.json
-2025-10-21 16:19:29,565 - INFO - 
-📊 Content Generation Summary:
-2025-10-21 16:19:29,565 - INFO -    Date: 2025-10-21
-2025-10-21 16:19:29,565 - INFO -    External sources checked: 8
-2025-10-21 16:19:29,565 - INFO -    Total content fetched: 16
-2025-10-21 16:19:29,565 - INFO -    Content selected for mytribal.ai: 5
-2025-10-21 16:19:29,565 - INFO -    Story outlines created: 5
-2025-10-21 16:19:29,565 - INFO - 
-🎯 Content ready for mytribal.ai publishing!
-2025-10-21 16:19:29,565 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-10-21.json
-2025-10-21 16:19:29,566 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
-2025-10-21 16:19:29,566 - INFO - ⏰ Total runtime: 0:00:11.571262
-2025-10-21 16:28:08,537 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-10-21 16:28:08,537 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-10-21 16:28:08,537 - INFO - 📡 Fetching FROM: tech_crunch
-2025-10-21 16:28:08,653 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-10-21 16:28:09,654 - INFO - 📡 Fetching FROM: venture_beat
-2025-10-21 16:28:09,997 - INFO - ✅ Found 20 entries FROM venture_beat
-2025-10-21 16:28:09,997 - WARNING - Could not parse date for entry: Qwen's new Deep Research update lets you turn its ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 18:32:00 GMT'
-2025-10-21 16:28:09,997 - INFO -    📝 AI Content: Qwen's new Deep Research update lets you turn its reports in... (Score: 1.00)
-2025-10-21 16:28:09,998 - WARNING - Could not parse date for entry: DeepSeek drops open-source model that compresses t... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 18:30:00 GMT'
-2025-10-21 16:28:09,998 - INFO -    📝 AI Content: DeepSeek drops open-source model that compresses text 10x th... (Score: 1.00)
-2025-10-21 16:28:09,998 - WARNING - Could not parse date for entry: Google's new vibe coding AI Studio experience lets... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 17:45:00 GMT'
-2025-10-21 16:28:09,998 - INFO -    📝 AI Content: Google's new vibe coding AI Studio experience lets anyone bu... (Score: 0.60)
-2025-10-21 16:28:09,998 - WARNING - Could not parse date for entry: New 'Markovian Thinking' technique unlocks a path ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 05:12:00 GMT'
-2025-10-21 16:28:09,998 - INFO -    📝 AI Content: New 'Markovian Thinking' technique unlocks a path to million... (Score: 0.60)
-2025-10-21 16:28:09,999 - WARNING - Could not parse date for entry: OpenAI announces ChatGPT Atlas, an AI-enabled web ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 04:00:00 GMT'
-2025-10-21 16:28:09,999 - INFO -    📝 AI Content: OpenAI announces ChatGPT Atlas, an AI-enabled web browser to... (Score: 1.00)
-2025-10-21 16:28:09,999 - WARNING - Could not parse date for entry: AI’s financial blind spot: Why long-term success d... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 04:00:00 GMT'
-2025-10-21 16:28:09,999 - INFO -    📝 AI Content: AI’s financial blind spot: Why long-term success depends on ... (Score: 0.80)
-2025-10-21 16:28:09,999 - WARNING - Could not parse date for entry: The unexpected benefits of AI PCs: why creativity ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 04:00:00 GMT'
-2025-10-21 16:28:09,999 - INFO -    📝 AI Content: The unexpected benefits of AI PCs: why creativity could be t... (Score: 0.60)
-2025-10-21 16:28:09,999 - WARNING - Could not parse date for entry: Claude Code comes to web and mobile, letting devs ... Error: Invalid isoformat string: 'Mon, 20 Oct 2025 18:15:00 GMT'
-2025-10-21 16:28:09,999 - INFO -    📝 AI Content: Claude Code comes to web and mobile, letting devs launch par... (Score: 0.60)
-2025-10-21 16:28:09,999 - WARNING - Could not parse date for entry: Adobe Foundry wants to rebuild Firefly for your br... Error: Invalid isoformat string: 'Mon, 20 Oct 2025 13:00:00 GMT'
-2025-10-21 16:28:10,000 - INFO -    📝 AI Content: Adobe Foundry wants to rebuild Firefly for your brand — not ... (Score: 0.60)
-2025-10-21 16:28:10,000 - WARNING - Could not parse date for entry: Agentic AI security breaches are coming: 7 ways to... Error: Invalid isoformat string: 'Mon, 20 Oct 2025 07:00:00 GMT'
-2025-10-21 16:28:10,000 - INFO -    📝 AI Content: Agentic AI security breaches are coming: 7 ways to make sure... (Score: 1.00)
-2025-10-21 16:28:11,004 - INFO - 📡 Fetching FROM: ai_news
-2025-10-21 16:28:12,507 - INFO - ✅ Found 12 entries FROM ai_news
-2025-10-21 16:28:12,507 - WARNING - Could not parse date for entry: How accounting firms are using AI agents to reclai... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 11:41:15 +0000'
-2025-10-21 16:28:12,507 - INFO -    📝 AI Content: How accounting firms are using AI agents to reclaim time and... (Score: 1.00)
-2025-10-21 16:28:13,512 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-10-21 16:28:13,594 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-10-21 16:28:14,595 - INFO - 📡 Fetching FROM: reddit_ai
-2025-10-21 16:28:15,877 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-10-21 16:28:15,877 - INFO -    📝 AI Content: The war between bosses and employees over AI is getting ugly... (Score: 0.60)
-2025-10-21 16:28:15,877 - INFO -    📝 AI Content: Boris Johnson admits writing books using ChatGPT. Former pri... (Score: 0.80)
-2025-10-21 16:28:15,877 - INFO -    📝 AI Content: Major AI updates in the last 24h... (Score: 0.80)
-2025-10-21 16:28:15,877 - INFO -    📝 AI Content: Claude enters life sciences... (Score: 0.60)
-2025-10-21 16:28:16,877 - INFO - 📡 Fetching FROM: hacker_news
-2025-10-21 16:28:17,165 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-10-21 16:28:18,170 - INFO - 📡 Fetching FROM: wired_ai
-2025-10-21 16:28:18,323 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-10-21 16:28:18,323 - WARNING - Could not parse date for entry: OpenAI’s Atlas Browser Takes Direct Aim at Google ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 19:06:41 +0000'
-2025-10-21 16:28:18,323 - INFO -    📝 AI Content: OpenAI’s Atlas Browser Takes Direct Aim at Google Chrome... (Score: 0.80)
-2025-10-21 16:28:19,324 - INFO - 📡 Fetching FROM: ars_technica
-2025-10-21 16:28:19,439 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-10-21 16:28:20,440 - INFO - 📥 Total AI-relevant content fetched: 16
-2025-10-21 16:28:20,442 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-10-21 16:28:20,442 - INFO - ✅ Selected 5 top stories for mytribal.ai
-2025-10-21 16:28:20,442 - INFO - 📝 Creating story outlines for mytribal.ai...
-2025-10-21 16:28:20,442 - INFO -    📚 Story 1: How accounting firms are using AI agents to reclaim time and...
-2025-10-21 16:28:20,442 - INFO -    📚 Story 2: Boris Johnson admits writing books using ChatGPT. Former pri...
-2025-10-21 16:28:20,442 - INFO -    📚 Story 3: Major AI updates in the last 24h...
-2025-10-21 16:28:20,443 - INFO -    📚 Story 4: AI Update: Qwen's new Deep Research update lets you turn its...
-2025-10-21 16:28:20,443 - INFO -    📚 Story 5: AI Update: DeepSeek drops open-source model that compresses ...
-2025-10-21 16:28:20,447 - INFO - 💾 Content saved for mytribal.ai publishing:
-2025-10-21 16:28:20,447 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-10-21.json
-2025-10-21 16:28:20,447 - INFO -    Raw content: content_for_mytribal/raw_content_2025-10-21.json
-2025-10-21 16:28:20,447 - INFO - 
-📊 Content Generation Summary:
-2025-10-21 16:28:20,447 - INFO -    Date: 2025-10-21
-2025-10-21 16:28:20,447 - INFO -    External sources checked: 8
-2025-10-21 16:28:20,447 - INFO -    Total content fetched: 16
-2025-10-21 16:28:20,447 - INFO -    Content selected for mytribal.ai: 5
-2025-10-21 16:28:20,447 - INFO -    Story outlines created: 5
-2025-10-21 16:28:20,447 - INFO - 
-🎯 Content ready for mytribal.ai publishing!
-2025-10-21 16:28:20,448 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-10-21.json
-2025-10-21 16:28:20,448 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
-2025-10-21 16:28:20,448 - INFO - ⏰ Total runtime: 0:00:11.910210
-2025-10-22 08:47:39,690 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-10-22 08:47:39,691 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-10-22 08:47:39,691 - INFO - 📡 Fetching FROM: tech_crunch
-2025-10-22 08:47:40,554 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-10-22 08:47:40,556 - INFO -    📝 AI Content: Several users reportedly complain to FTC that ChatGPT is cau... (Score: 0.60)
-2025-10-22 08:47:41,558 - INFO - 📡 Fetching FROM: venture_beat
-2025-10-22 08:47:41,874 - INFO - ✅ Found 20 entries FROM venture_beat
-2025-10-22 08:47:41,875 - WARNING - Could not parse date for entry: Simplifying the AI stack: The key to scalable, por... Error: Invalid isoformat string: 'Wed, 22 Oct 2025 04:00:00 GMT'
-2025-10-22 08:47:41,875 - INFO -    📝 AI Content: Simplifying the AI stack: The key to scalable, portable inte... (Score: 0.60)
-2025-10-22 08:47:41,875 - WARNING - Could not parse date for entry: Qwen's new Deep Research update lets you turn its ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 18:32:00 GMT'
-2025-10-22 08:47:41,875 - INFO -    📝 AI Content: Qwen's new Deep Research update lets you turn its reports in... (Score: 1.00)
-2025-10-22 08:47:41,875 - WARNING - Could not parse date for entry: DeepSeek drops open-source model that compresses t... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 18:30:00 GMT'
-2025-10-22 08:47:41,875 - INFO -    📝 AI Content: DeepSeek drops open-source model that compresses text 10x th... (Score: 1.00)
-2025-10-22 08:47:41,876 - WARNING - Could not parse date for entry: Google's new vibe coding AI Studio experience lets... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 17:45:00 GMT'
-2025-10-22 08:47:41,876 - INFO -    📝 AI Content: Google's new vibe coding AI Studio experience lets anyone bu... (Score: 0.60)
-2025-10-22 08:47:41,876 - WARNING - Could not parse date for entry: New 'Markovian Thinking' technique unlocks a path ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 05:12:00 GMT'
-2025-10-22 08:47:41,876 - INFO -    📝 AI Content: New 'Markovian Thinking' technique unlocks a path to million... (Score: 0.60)
-2025-10-22 08:47:41,876 - WARNING - Could not parse date for entry: The unexpected benefits of AI PCs: why creativity ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 04:00:00 GMT'
-2025-10-22 08:47:41,876 - INFO -    📝 AI Content: The unexpected benefits of AI PCs: why creativity could be t... (Score: 0.60)
-2025-10-22 08:47:41,876 - WARNING - Could not parse date for entry: OpenAI announces ChatGPT Atlas, an AI-enabled web ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 04:00:00 GMT'
-2025-10-22 08:47:41,877 - INFO -    📝 AI Content: OpenAI announces ChatGPT Atlas, an AI-enabled web browser to... (Score: 1.00)
-2025-10-22 08:47:41,877 - WARNING - Could not parse date for entry: AI’s financial blind spot: Why long-term success d... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 04:00:00 GMT'
-2025-10-22 08:47:41,877 - INFO -    📝 AI Content: AI’s financial blind spot: Why long-term success depends on ... (Score: 0.80)
-2025-10-22 08:47:41,877 - WARNING - Could not parse date for entry: Claude Code comes to web and mobile, letting devs ... Error: Invalid isoformat string: 'Mon, 20 Oct 2025 18:15:00 GMT'
-2025-10-22 08:47:41,877 - INFO -    📝 AI Content: Claude Code comes to web and mobile, letting devs launch par... (Score: 0.60)
-2025-10-22 08:47:41,877 - WARNING - Could not parse date for entry: Adobe Foundry wants to rebuild Firefly for your br... Error: Invalid isoformat string: 'Mon, 20 Oct 2025 13:00:00 GMT'
-2025-10-22 08:47:41,877 - INFO -    📝 AI Content: Adobe Foundry wants to rebuild Firefly for your brand — not ... (Score: 0.60)
-2025-10-22 08:47:42,884 - INFO - 📡 Fetching FROM: ai_news
-2025-10-22 08:47:45,150 - INFO - ✅ Found 12 entries FROM ai_news
-2025-10-22 08:47:45,150 - WARNING - Could not parse date for entry: How accounting firms are using AI agents to reclai... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 11:41:15 +0000'
-2025-10-22 08:47:45,150 - INFO -    📝 AI Content: How accounting firms are using AI agents to reclaim time and... (Score: 1.00)
-2025-10-22 08:47:46,160 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-10-22 08:47:46,801 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-10-22 08:47:47,802 - INFO - 📡 Fetching FROM: reddit_ai
-2025-10-22 08:47:48,128 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-10-22 08:47:48,128 - INFO -    📝 AI Content: Over 800 public figures, including "AI godfathers" and Steve... (Score: 0.80)
-2025-10-22 08:47:48,128 - INFO -    📝 AI Content: The war between bosses and employees over AI is getting ugly... (Score: 0.60)
-2025-10-22 08:47:48,128 - INFO -    📝 AI Content: AI photo “enhancement” — or how to turn a selfie into a Pixa... (Score: 0.60)
-2025-10-22 08:47:48,128 - INFO -    📝 AI Content: Boris Johnson admits writing books using ChatGPT. Former pri... (Score: 0.80)
-2025-10-22 08:47:49,138 - INFO - 📡 Fetching FROM: hacker_news
-2025-10-22 08:47:49,420 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-10-22 08:47:50,427 - INFO - 📡 Fetching FROM: wired_ai
-2025-10-22 08:47:50,525 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-10-22 08:47:50,526 - INFO -    📝 AI Content: People Who Say They’re Experiencing AI Psychosis Beg the FTC... (Score: 0.60)
-2025-10-22 08:47:51,535 - INFO - 📡 Fetching FROM: ars_technica
-2025-10-22 08:47:51,680 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-10-22 08:47:52,705 - INFO - 📥 Total AI-relevant content fetched: 17
-2025-10-22 08:47:52,707 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-10-22 08:47:52,707 - INFO - ✅ Selected 5 top stories for mytribal.ai
-2025-10-22 08:47:52,707 - INFO - 📝 Creating story outlines for mytribal.ai...
-2025-10-22 08:47:52,707 - INFO -    📚 Story 1: How accounting firms are using AI agents to reclaim time and...
-2025-10-22 08:47:52,707 - INFO -    📚 Story 2: Over 800 public figures, including "AI godfathers" and Steve...
-2025-10-22 08:47:52,708 - INFO -    📚 Story 3: Boris Johnson admits writing books using ChatGPT. Former pri...
-2025-10-22 08:47:52,708 - INFO -    📚 Story 4: Several users reportedly complain to FTC that ChatGPT is cau...
-2025-10-22 08:47:52,708 - INFO -    📚 Story 5: AI Update: Qwen's new Deep Research update lets you turn its...
-2025-10-22 08:47:52,710 - INFO - 💾 Content saved for mytribal.ai publishing:
-2025-10-22 08:47:52,711 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-10-22.json
-2025-10-22 08:47:52,711 - INFO -    Raw content: content_for_mytribal/raw_content_2025-10-22.json
-2025-10-22 08:47:52,711 - INFO - 
-📊 Content Generation Summary:
-2025-10-22 08:47:52,711 - INFO -    Date: 2025-10-22
-2025-10-22 08:47:52,711 - INFO -    External sources checked: 8
-2025-10-22 08:47:52,711 - INFO -    Total content fetched: 17
-2025-10-22 08:47:52,711 - INFO -    Content selected for mytribal.ai: 5
-2025-10-22 08:47:52,711 - INFO -    Story outlines created: 5
-2025-10-22 08:47:52,711 - INFO - 
-🎯 Content ready for mytribal.ai publishing!
-2025-10-22 08:47:52,711 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-10-22.json
-2025-10-22 08:47:52,711 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
-2025-10-22 08:47:52,711 - INFO - ⏰ Total runtime: 0:00:13.020575
-2025-10-22 09:02:01,228 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-10-22 09:02:01,228 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-10-22 09:02:01,228 - INFO - 📡 Fetching FROM: tech_crunch
-2025-10-22 09:02:02,240 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-10-22 09:02:02,242 - INFO -    📝 AI Content: GM is bringing Google Gemini-powered AI assistant to cars in... (Score: 0.60)
-2025-10-22 09:02:02,242 - INFO -    📝 AI Content: Several users reportedly complain to FTC that ChatGPT is cau... (Score: 0.60)
-2025-10-22 09:02:03,242 - INFO - 📡 Fetching FROM: venture_beat
-2025-10-22 09:02:03,536 - INFO - ✅ Found 20 entries FROM venture_beat
-2025-10-22 09:02:03,537 - WARNING - Could not parse date for entry: Simplifying the AI stack: The key to scalable, por... Error: Invalid isoformat string: 'Wed, 22 Oct 2025 04:00:00 GMT'
-2025-10-22 09:02:03,537 - INFO -    📝 AI Content: Simplifying the AI stack: The key to scalable, portable inte... (Score: 0.60)
-2025-10-22 09:02:03,537 - WARNING - Could not parse date for entry: Qwen's new Deep Research update lets you turn its ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 18:32:00 GMT'
-2025-10-22 09:02:03,537 - INFO -    📝 AI Content: Qwen's new Deep Research update lets you turn its reports in... (Score: 1.00)
-2025-10-22 09:02:03,538 - WARNING - Could not parse date for entry: DeepSeek drops open-source model that compresses t... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 18:30:00 GMT'
-2025-10-22 09:02:03,538 - INFO -    📝 AI Content: DeepSeek drops open-source model that compresses text 10x th... (Score: 1.00)
-2025-10-22 09:02:03,538 - WARNING - Could not parse date for entry: Google's new vibe coding AI Studio experience lets... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 17:45:00 GMT'
-2025-10-22 09:02:03,538 - INFO -    📝 AI Content: Google's new vibe coding AI Studio experience lets anyone bu... (Score: 0.60)
-2025-10-22 09:02:03,538 - WARNING - Could not parse date for entry: New 'Markovian Thinking' technique unlocks a path ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 05:12:00 GMT'
-2025-10-22 09:02:03,538 - INFO -    📝 AI Content: New 'Markovian Thinking' technique unlocks a path to million... (Score: 0.60)
-2025-10-22 09:02:03,538 - WARNING - Could not parse date for entry: The unexpected benefits of AI PCs: why creativity ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 04:00:00 GMT'
-2025-10-22 09:02:03,538 - INFO -    📝 AI Content: The unexpected benefits of AI PCs: why creativity could be t... (Score: 0.60)
-2025-10-22 09:02:03,539 - WARNING - Could not parse date for entry: OpenAI announces ChatGPT Atlas, an AI-enabled web ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 04:00:00 GMT'
-2025-10-22 09:02:03,539 - INFO -    📝 AI Content: OpenAI announces ChatGPT Atlas, an AI-enabled web browser to... (Score: 1.00)
-2025-10-22 09:02:03,539 - WARNING - Could not parse date for entry: AI’s financial blind spot: Why long-term success d... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 04:00:00 GMT'
-2025-10-22 09:02:03,539 - INFO -    📝 AI Content: AI’s financial blind spot: Why long-term success depends on ... (Score: 0.80)
-2025-10-22 09:02:03,539 - WARNING - Could not parse date for entry: Claude Code comes to web and mobile, letting devs ... Error: Invalid isoformat string: 'Mon, 20 Oct 2025 18:15:00 GMT'
-2025-10-22 09:02:03,539 - INFO -    📝 AI Content: Claude Code comes to web and mobile, letting devs launch par... (Score: 0.60)
-2025-10-22 09:02:03,539 - WARNING - Could not parse date for entry: Adobe Foundry wants to rebuild Firefly for your br... Error: Invalid isoformat string: 'Mon, 20 Oct 2025 13:00:00 GMT'
-2025-10-22 09:02:03,539 - INFO -    📝 AI Content: Adobe Foundry wants to rebuild Firefly for your brand — not ... (Score: 0.60)
-2025-10-22 09:02:04,685 - INFO - 📡 Fetching FROM: ai_news
-2025-10-22 09:02:06,200 - INFO - ✅ Found 12 entries FROM ai_news
-2025-10-22 09:02:06,200 - WARNING - Could not parse date for entry: How accounting firms are using AI agents to reclai... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 11:41:15 +0000'
-2025-10-22 09:02:06,200 - INFO -    📝 AI Content: How accounting firms are using AI agents to reclaim time and... (Score: 1.00)
-2025-10-22 09:02:07,349 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-10-22 09:02:07,449 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-10-22 09:02:08,583 - INFO - 📡 Fetching FROM: reddit_ai
-2025-10-22 09:02:08,873 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-10-22 09:02:08,873 - INFO -    📝 AI Content: Over 800 public figures, including "AI godfathers" and Steve... (Score: 0.80)
-2025-10-22 09:02:08,873 - INFO -    📝 AI Content: The war between bosses and employees over AI is getting ugly... (Score: 0.60)
-2025-10-22 09:02:08,873 - INFO -    📝 AI Content: AI photo “enhancement” — or how to turn a selfie into a Pixa... (Score: 0.60)
-2025-10-22 09:02:08,873 - INFO -    📝 AI Content: Boris Johnson admits writing books using ChatGPT. Former pri... (Score: 0.80)
-2025-10-22 09:02:10,017 - INFO - 📡 Fetching FROM: hacker_news
-2025-10-22 09:02:10,363 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-10-22 09:02:11,501 - INFO - 📡 Fetching FROM: wired_ai
-2025-10-22 09:02:11,631 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-10-22 09:02:11,632 - INFO -    📝 AI Content: People Who Say They’re Experiencing AI Psychosis Beg the FTC... (Score: 0.60)
-2025-10-22 09:02:12,779 - INFO - 📡 Fetching FROM: ars_technica
-2025-10-22 09:02:12,932 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-10-22 09:02:14,048 - INFO - 📥 Total AI-relevant content fetched: 18
-2025-10-22 09:02:14,050 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-10-22 09:02:14,050 - INFO - ✅ Selected 5 top stories for mytribal.ai
-2025-10-22 09:02:14,050 - INFO - 📝 Creating story outlines for mytribal.ai...
-2025-10-22 09:02:14,051 - INFO -    📚 Story 1: How accounting firms are using AI agents to reclaim time and...
-2025-10-22 09:02:14,051 - INFO -    📚 Story 2: Over 800 public figures, including "AI godfathers" and Steve...
-2025-10-22 09:02:14,052 - INFO -    📚 Story 3: Boris Johnson admits writing books using ChatGPT. Former pri...
-2025-10-22 09:02:14,052 - INFO -    📚 Story 4: GM is bringing Google Gemini-powered AI assistant to cars in...
-2025-10-22 09:02:14,052 - INFO -    📚 Story 5: Several users reportedly complain to FTC that ChatGPT is cau...
-2025-10-22 09:02:14,055 - INFO - 💾 Content saved for mytribal.ai publishing:
-2025-10-22 09:02:14,055 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-10-22.json
-2025-10-22 09:02:14,055 - INFO -    Raw content: content_for_mytribal/raw_content_2025-10-22.json
-2025-10-22 09:02:14,055 - INFO - 
-📊 Content Generation Summary:
-2025-10-22 09:02:14,055 - INFO -    Date: 2025-10-22
-2025-10-22 09:02:14,055 - INFO -    External sources checked: 8
-2025-10-22 09:02:14,055 - INFO -    Total content fetched: 18
-2025-10-22 09:02:14,055 - INFO -    Content selected for mytribal.ai: 5
-2025-10-22 09:02:14,055 - INFO -    Story outlines created: 5
-2025-10-22 09:02:14,055 - INFO - 
-🎯 Content ready for mytribal.ai publishing!
-2025-10-22 09:02:14,055 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-10-22.json
-2025-10-22 09:02:14,055 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
-2025-10-22 09:02:14,055 - INFO - ⏰ Total runtime: 0:00:12.827633
-2025-10-23 09:39:52,170 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-10-23 09:39:52,170 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-10-23 09:39:52,170 - INFO - 📡 Fetching FROM: tech_crunch
-2025-10-23 09:39:53,100 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-10-23 09:39:54,108 - INFO - 📡 Fetching FROM: venture_beat
-2025-10-23 09:39:54,396 - INFO - ✅ Found 20 entries FROM venture_beat
-2025-10-23 09:39:54,396 - WARNING - Could not parse date for entry: ‘AI is tearing companies apart’: Writer AI CEO sla... Error: Invalid isoformat string: 'Thu, 23 Oct 2025 13:02:00 GMT'
-2025-10-23 09:39:54,396 - INFO -    📝 AI Content: ‘AI is tearing companies apart’: Writer AI CEO slams Fortune... (Score: 0.80)
-2025-10-23 09:39:54,397 - WARNING - Could not parse date for entry: Sakana AI's CTO says he's 'absolutely sick' of tra... Error: Invalid isoformat string: 'Thu, 23 Oct 2025 13:00:00 GMT'
-2025-10-23 09:39:54,397 - INFO -    📝 AI Content: Sakana AI's CTO says he's 'absolutely sick' of transformers,... (Score: 1.00)
-2025-10-23 09:39:54,397 - WARNING - Could not parse date for entry: Research finds that 77% of data engineers have hea... Error: Invalid isoformat string: 'Thu, 23 Oct 2025 13:00:00 GMT'
-2025-10-23 09:39:54,397 - INFO -    📝 AI Content: Research finds that 77% of data engineers have heavier workl... (Score: 0.80)
-2025-10-23 09:39:54,397 - WARNING - Could not parse date for entry: What enterprises can take away from Microsoft CEO ... Error: Invalid isoformat string: 'Thu, 23 Oct 2025 01:34:00 GMT'
-2025-10-23 09:39:54,397 - INFO -    📝 AI Content: What enterprises can take away from Microsoft CEO Satya Nade... (Score: 0.80)
-2025-10-23 09:39:54,398 - WARNING - Could not parse date for entry: Kai-Fu Lee's brutal assessment: America is already... Error: Invalid isoformat string: 'Wed, 22 Oct 2025 12:30:00 GMT'
-2025-10-23 09:39:54,398 - INFO -    📝 AI Content: Kai-Fu Lee's brutal assessment: America is already losing th... (Score: 1.00)
-2025-10-23 09:39:54,398 - WARNING - Could not parse date for entry: Simplifying the AI stack: The key to scalable, por... Error: Invalid isoformat string: 'Wed, 22 Oct 2025 04:00:00 GMT'
-2025-10-23 09:39:54,398 - INFO -    📝 AI Content: Simplifying the AI stack: The key to scalable, portable inte... (Score: 0.60)
-2025-10-23 09:39:54,398 - WARNING - Could not parse date for entry: Qwen's new Deep Research update lets you turn its ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 18:32:00 GMT'
-2025-10-23 09:39:54,398 - INFO -    📝 AI Content: Qwen's new Deep Research update lets you turn its reports in... (Score: 1.00)
-2025-10-23 09:39:54,399 - WARNING - Could not parse date for entry: DeepSeek drops open-source model that compresses t... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 18:30:00 GMT'
-2025-10-23 09:39:54,399 - INFO -    📝 AI Content: DeepSeek drops open-source model that compresses text 10x th... (Score: 1.00)
-2025-10-23 09:39:54,399 - WARNING - Could not parse date for entry: Google's new vibe coding AI Studio experience lets... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 17:45:00 GMT'
-2025-10-23 09:39:54,399 - INFO -    📝 AI Content: Google's new vibe coding AI Studio experience lets anyone bu... (Score: 0.60)
-2025-10-23 09:39:54,399 - WARNING - Could not parse date for entry: New 'Markovian Thinking' technique unlocks a path ... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 05:12:00 GMT'
-2025-10-23 09:39:54,399 - INFO -    📝 AI Content: New 'Markovian Thinking' technique unlocks a path to million... (Score: 0.60)
-2025-10-23 09:39:55,409 - INFO - 📡 Fetching FROM: ai_news
-2025-10-23 09:39:57,576 - INFO - ✅ Found 12 entries FROM ai_news
-2025-10-23 09:39:57,576 - WARNING - Could not parse date for entry: How accounting firms are using AI agents to reclai... Error: Invalid isoformat string: 'Tue, 21 Oct 2025 11:41:15 +0000'
-2025-10-23 09:39:57,576 - INFO -    📝 AI Content: How accounting firms are using AI agents to reclaim time and... (Score: 1.00)
-2025-10-23 09:39:58,585 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-10-23 09:39:58,769 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-10-23 09:39:59,773 - INFO - 📡 Fetching FROM: reddit_ai
-2025-10-23 09:40:00,049 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-10-23 09:40:00,049 - INFO -    📝 AI Content: 'AI' data centers are so power-hungry, they're now using old... (Score: 0.60)
-2025-10-23 09:40:00,049 - INFO -    📝 AI Content: Microsoft Edge begs you to use Copilot AI instead of ChatGPT... (Score: 1.00)
-2025-10-23 09:40:00,049 - INFO -    📝 AI Content: Australian-made LLM beats OpenAI and Google at legal retriev... (Score: 0.80)
-2025-10-23 09:40:01,056 - INFO - 📡 Fetching FROM: hacker_news
-2025-10-23 09:40:01,339 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-10-23 09:40:02,342 - INFO - 📡 Fetching FROM: wired_ai
-2025-10-23 09:40:02,489 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-10-23 09:40:03,499 - INFO - 📡 Fetching FROM: ars_technica
-2025-10-23 09:40:03,782 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-10-23 09:40:04,783 - INFO - 📥 Total AI-relevant content fetched: 14
-2025-10-23 09:40:04,785 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-10-23 09:40:04,785 - INFO - ✅ Selected 5 top stories for mytribal.ai
-2025-10-23 09:40:04,786 - INFO - 📝 Creating story outlines for mytribal.ai...
-2025-10-23 09:40:04,786 - INFO -    📚 Story 1: Microsoft Edge begs you to use Copilot AI instead of ChatGPT...
-2025-10-23 09:40:04,786 - INFO -    📚 Story 2: How accounting firms are using AI agents to reclaim time and...
-2025-10-23 09:40:04,786 - INFO -    📚 Story 3: Australian-made LLM beats OpenAI and Google at legal retriev...
-2025-10-23 09:40:04,786 - INFO -    📚 Story 4: Sakana AI's CTO says he's 'absolutely sick' of transformers,...
-2025-10-23 09:40:04,787 - INFO -    📚 Story 5: Kai-Fu Lee's brutal assessment: America is already losing th...
-2025-10-23 09:40:04,789 - INFO - 💾 Content saved for mytribal.ai publishing:
-2025-10-23 09:40:04,789 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-10-23.json
-2025-10-23 09:40:04,789 - INFO -    Raw content: content_for_mytribal/raw_content_2025-10-23.json
-2025-10-23 09:40:04,789 - INFO - 
-📊 Content Generation Summary:
-2025-10-23 09:40:04,789 - INFO -    Date: 2025-10-23
-2025-10-23 09:40:04,789 - INFO -    External sources checked: 8
-2025-10-23 09:40:04,789 - INFO -    Total content fetched: 14
-2025-10-23 09:40:04,789 - INFO -    Content selected for mytribal.ai: 5
-2025-10-23 09:40:04,789 - INFO -    Story outlines created: 5
-2025-10-23 09:40:04,789 - INFO - 
-🎯 Content ready for mytribal.ai publishing!
-2025-10-23 09:40:04,789 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-10-23.json
-2025-10-23 09:40:04,789 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
-2025-10-23 09:40:04,789 - INFO - ⏰ Total runtime: 0:00:12.619092
-2025-10-27 13:20:47,384 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-10-27 13:20:47,385 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-10-27 13:20:47,385 - INFO - 📡 Fetching FROM: tech_crunch
-2025-10-27 13:20:47,532 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-10-27 13:20:47,534 - INFO -    📝 AI Content: OpenAI says over a million people talk to ChatGPT about suic... (Score: 0.80)
-2025-10-27 13:20:48,543 - INFO - 📡 Fetching FROM: venture_beat
-2025-10-27 13:20:48,997 - INFO - ✅ Found 50 entries FROM venture_beat
-2025-10-27 13:20:48,997 - WARNING - Could not parse date for entry: MiniMax-M2 is the new king of open source LLMs (es... Error: Invalid isoformat string: 'Mon, 27 Oct 2025 19:01:00 GMT'
-2025-10-27 13:20:48,997 - INFO -    📝 AI Content: MiniMax-M2 is the new king of open source LLMs (especially f... (Score: 1.00)
-2025-10-27 13:20:48,998 - WARNING - Could not parse date for entry: Anthropic rolls out Claude AI for finance, integra... Error: Invalid isoformat string: 'Mon, 27 Oct 2025 16:00:00 GMT'
-2025-10-27 13:20:48,998 - INFO -    📝 AI Content: Anthropic rolls out Claude AI for finance, integrates with E... (Score: 1.00)
-2025-10-27 13:20:48,998 - WARNING - Could not parse date for entry: How AI-powered cameras are redefining business int... Error: Invalid isoformat string: 'Mon, 27 Oct 2025 04:00:00 GMT'
-2025-10-27 13:20:48,998 - INFO -    📝 AI Content: How AI-powered cameras are redefining business intelligence... (Score: 1.00)
-2025-10-27 13:20:48,999 - WARNING - Could not parse date for entry: Thinking Machines challenges OpenAI's AI scaling s... Error: Invalid isoformat string: 'Fri, 24 Oct 2025 09:30:00 GMT'
-2025-10-27 13:20:48,999 - INFO -    📝 AI Content: Thinking Machines challenges OpenAI's AI scaling strategy: '... (Score: 1.00)
-2025-10-27 13:20:48,999 - WARNING - Could not parse date for entry: Inside Ring-1T: Ant engineers solve reinforcement ... Error: Invalid isoformat string: 'Fri, 24 Oct 2025 04:00:00 GMT'
-2025-10-27 13:20:48,999 - INFO -    📝 AI Content: Inside Ring-1T: Ant engineers solve reinforcement learning b... (Score: 0.60)
-2025-10-27 13:20:49,000 - WARNING - Could not parse date for entry: Google's 'Watch & Learn' framework cracks the data... Error: Invalid isoformat string: 'Thu, 23 Oct 2025 23:00:00 GMT'
-2025-10-27 13:20:49,000 - INFO -    📝 AI Content: Google's 'Watch & Learn' framework cracks the data bottlenec... (Score: 0.60)
-2025-10-27 13:20:50,008 - INFO - 📡 Fetching FROM: ai_news
-2025-10-27 13:20:50,757 - WARNING - ❌ No entries found FROM ai_news
-2025-10-27 13:20:51,760 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-10-27 13:20:51,931 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-10-27 13:20:52,931 - INFO - 📡 Fetching FROM: reddit_ai
-2025-10-27 13:20:53,217 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-10-27 13:20:53,217 - INFO -    📝 AI Content: Bernie says OpenAI should be broken up: "AI like a meteor co... (Score: 0.80)
-2025-10-27 13:20:53,218 - INFO -    📝 AI Content: AI just hosted the Human vs Animal Olympics… and humans didn... (Score: 0.60)
-2025-10-27 13:20:53,218 - INFO -    📝 AI Content: Emergent Co-Regulation: A Naturalistic Experiment in Human–A... (Score: 1.00)
-2025-10-27 13:20:53,218 - INFO -    📝 AI Content: US robotics firm unveils driverless vehicles with vision-bas... (Score: 0.80)
-2025-10-27 13:20:54,218 - INFO - 📡 Fetching FROM: hacker_news
-2025-10-27 13:20:54,499 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-10-27 13:20:55,506 - INFO - 📡 Fetching FROM: wired_ai
-2025-10-27 13:20:55,643 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-10-27 13:20:55,643 - INFO -    📝 AI Content: OpenAI Says Hundreds of Thousands of ChatGPT Users May Show ... (Score: 0.80)
-2025-10-27 13:20:56,644 - INFO - 📡 Fetching FROM: ars_technica
-2025-10-27 13:20:56,756 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-10-27 13:20:57,763 - INFO - 📥 Total AI-relevant content fetched: 12
-2025-10-27 13:20:57,765 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-10-27 13:20:57,765 - INFO - ✅ Selected 5 top stories for mytribal.ai
-2025-10-27 13:20:57,765 - INFO - 📝 Creating story outlines for mytribal.ai...
-2025-10-27 13:20:57,765 - INFO -    📚 Story 1: OpenAI says over a million people talk to ChatGPT about suic...
-2025-10-27 13:20:57,765 - INFO -    📚 Story 2: Emergent Co-Regulation: A Naturalistic Experiment in Human–A...
-2025-10-27 13:20:57,766 - INFO -    📚 Story 3: OpenAI Says Hundreds of Thousands of ChatGPT Users May Show ...
-2025-10-27 13:20:57,766 - INFO -    📚 Story 4: Bernie says OpenAI should be broken up: "AI like a meteor co...
-2025-10-27 13:20:57,766 - INFO -    📚 Story 5: US robotics firm unveils driverless vehicles with vision-bas...
-2025-10-27 13:20:57,767 - INFO - 💾 Content saved for mytribal.ai publishing:
-2025-10-27 13:20:57,767 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-10-27.json
-2025-10-27 13:20:57,767 - INFO -    Raw content: content_for_mytribal/raw_content_2025-10-27.json
-2025-10-27 13:20:57,767 - INFO - 
-📊 Content Generation Summary:
-2025-10-27 13:20:57,767 - INFO -    Date: 2025-10-27
-2025-10-27 13:20:57,768 - INFO -    External sources checked: 8
-2025-10-27 13:20:57,768 - INFO -    Total content fetched: 12
-2025-10-27 13:20:57,768 - INFO -    Content selected for mytribal.ai: 5
-2025-10-27 13:20:57,768 - INFO -    Story outlines created: 5
-2025-10-27 13:20:57,768 - INFO - 
-🎯 Content ready for mytribal.ai publishing!
-2025-10-27 13:20:57,768 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-10-27.json
-2025-10-27 13:20:57,768 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
-2025-10-27 13:20:57,768 - INFO - ⏰ Total runtime: 0:00:10.383044
-2025-10-28 08:20:37,509 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-10-28 08:20:37,509 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-10-28 08:20:37,509 - INFO - 📡 Fetching FROM: tech_crunch
-2025-10-28 08:20:37,753 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-10-28 08:20:37,753 - WARNING - Could not parse date for entry: PayPal partners with OpenAI to let users pay for t... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 10:47:43 +0000'
-2025-10-28 08:20:37,754 - INFO -    📝 AI Content: PayPal partners with OpenAI to let users pay for their shopp... (Score: 0.80)
-2025-10-28 08:20:37,754 - WARNING - Could not parse date for entry: OpenAI offers free ChatGPT Go for one year to all ... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 06:17:09 +0000'
-2025-10-28 08:20:37,754 - INFO -    📝 AI Content: OpenAI offers free ChatGPT Go for one year to all users in I... (Score: 0.80)
-2025-10-28 08:20:38,756 - INFO - 📡 Fetching FROM: venture_beat
-2025-10-28 08:20:39,372 - INFO - ✅ Found 50 entries FROM venture_beat
-2025-10-28 08:20:39,372 - WARNING - Could not parse date for entry: Intuit learned to build AI agents for finance the ... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 12:30:00 GMT'
-2025-10-28 08:20:39,372 - INFO -    📝 AI Content: Intuit learned to build AI agents for finance the hard way: ... (Score: 1.00)
-2025-10-28 08:20:39,372 - WARNING - Could not parse date for entry: PayPal’s Agentic Commerce Play Shows Why Flexibili... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 04:00:00 GMT'
-2025-10-28 08:20:39,372 - INFO -    📝 AI Content: PayPal’s Agentic Commerce Play Shows Why Flexibility, Not St... (Score: 0.80)
-2025-10-28 08:20:39,373 - WARNING - Could not parse date for entry: MiniMax-M2 is the new king of open source LLMs (es... Error: Invalid isoformat string: 'Mon, 27 Oct 2025 19:01:00 GMT'
-2025-10-28 08:20:39,373 - INFO -    📝 AI Content: MiniMax-M2 is the new king of open source LLMs (especially f... (Score: 1.00)
-2025-10-28 08:20:39,373 - WARNING - Could not parse date for entry: Anthropic rolls out Claude AI for finance, integra... Error: Invalid isoformat string: 'Mon, 27 Oct 2025 16:00:00 GMT'
-2025-10-28 08:20:39,373 - INFO -    📝 AI Content: Anthropic rolls out Claude AI for finance, integrates with E... (Score: 1.00)
-2025-10-28 08:20:39,374 - WARNING - Could not parse date for entry: How AI-powered cameras are redefining business int... Error: Invalid isoformat string: 'Mon, 27 Oct 2025 04:00:00 GMT'
-2025-10-28 08:20:39,374 - INFO -    📝 AI Content: How AI-powered cameras are redefining business intelligence... (Score: 1.00)
-2025-10-28 08:20:39,374 - WARNING - Could not parse date for entry: Thinking Machines challenges OpenAI's AI scaling s... Error: Invalid isoformat string: 'Fri, 24 Oct 2025 09:30:00 GMT'
-2025-10-28 08:20:39,374 - INFO -    📝 AI Content: Thinking Machines challenges OpenAI's AI scaling strategy: '... (Score: 1.00)
-2025-10-28 08:20:40,377 - INFO - 📡 Fetching FROM: ai_news
-2025-10-28 08:20:41,152 - WARNING - ❌ No entries found FROM ai_news
-2025-10-28 08:20:42,156 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-10-28 08:20:42,380 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-10-28 08:20:43,385 - INFO - 📡 Fetching FROM: reddit_ai
-2025-10-28 08:20:43,644 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-10-28 08:20:43,644 - INFO -    📝 AI Content: OpenAI says over a million people talk to ChatGPT about suic... (Score: 1.00)
-2025-10-28 08:20:43,644 - INFO -    📝 AI Content: Amazon to cut 30,000 jobs worldwide as workers to be replace... (Score: 0.60)
-2025-10-28 08:20:43,644 - INFO -    📝 AI Content: Anthropic has launched financial services.... (Score: 0.60)
-2025-10-28 08:20:43,645 - INFO -    📝 AI Content: Bernie says OpenAI should be broken up: "AI like a meteor co... (Score: 0.80)
-2025-10-28 08:20:43,645 - INFO -    📝 AI Content: OpenAI completed its for-profit restructuring — and struck a... (Score: 0.60)
-2025-10-28 08:20:44,648 - INFO - 📡 Fetching FROM: hacker_news
-2025-10-28 08:20:44,937 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-10-28 08:20:45,939 - INFO - 📡 Fetching FROM: wired_ai
-2025-10-28 08:20:46,173 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-10-28 08:20:46,173 - WARNING - Could not parse date for entry: Adobe MAX 2025: All the Top Announcements for Adob... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 12:00:00 +0000'
-2025-10-28 08:20:46,173 - INFO -    📝 AI Content: Adobe MAX 2025: All the Top Announcements for Adobe’s Creati... (Score: 0.60)
-2025-10-28 08:20:47,174 - INFO - 📡 Fetching FROM: ars_technica
-2025-10-28 08:20:47,400 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-10-28 08:20:48,400 - INFO - 📥 Total AI-relevant content fetched: 14
-2025-10-28 08:20:48,403 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-10-28 08:20:48,403 - INFO - ✅ Selected 5 top stories for mytribal.ai
-2025-10-28 08:20:48,403 - INFO - 📝 Creating story outlines for mytribal.ai...
-2025-10-28 08:20:48,404 - INFO -    📚 Story 1: OpenAI says over a million people talk to ChatGPT about suic...
-2025-10-28 08:20:48,404 - INFO -    📚 Story 2: Bernie says OpenAI should be broken up: "AI like a meteor co...
-2025-10-28 08:20:48,405 - INFO -    📚 Story 3: Intuit learned to build AI agents for finance the hard way: ...
-2025-10-28 08:20:48,406 - INFO -    📚 Story 4: AI Update: MiniMax-M2 is the new king of open source LLMs (e...
-2025-10-28 08:20:48,408 - INFO -    📚 Story 5: Anthropic rolls out Claude AI for finance, integrates with E...
-2025-10-28 08:20:48,420 - INFO - 💾 Content saved for mytribal.ai publishing:
-2025-10-28 08:20:48,420 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-10-28.json
-2025-10-28 08:20:48,420 - INFO -    Raw content: content_for_mytribal/raw_content_2025-10-28.json
-2025-10-28 08:20:48,420 - INFO - 
-📊 Content Generation Summary:
-2025-10-28 08:20:48,420 - INFO -    Date: 2025-10-28
-2025-10-28 08:20:48,420 - INFO -    External sources checked: 8
-2025-10-28 08:20:48,420 - INFO -    Total content fetched: 14
-2025-10-28 08:20:48,421 - INFO -    Content selected for mytribal.ai: 5
-2025-10-28 08:20:48,421 - INFO -    Story outlines created: 5
-2025-10-28 08:20:48,421 - INFO - 
-🎯 Content ready for mytribal.ai publishing!
-2025-10-28 08:20:48,421 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-10-28.json
-2025-10-28 08:20:48,421 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
-2025-10-28 08:20:48,421 - INFO - ⏰ Total runtime: 0:00:10.911670
-2025-10-28 09:00:01,556 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-10-28 09:00:01,557 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-10-28 09:00:01,557 - INFO - 📡 Fetching FROM: tech_crunch
-2025-10-28 09:00:02,284 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-10-28 09:00:02,285 - WARNING - Could not parse date for entry: PayPal partners with OpenAI to let users pay for t... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 10:47:43 +0000'
-2025-10-28 09:00:02,285 - INFO -    📝 AI Content: PayPal partners with OpenAI to let users pay for their shopp... (Score: 0.80)
-2025-10-28 09:00:02,285 - WARNING - Could not parse date for entry: OpenAI offers free ChatGPT Go for one year to all ... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 06:17:09 +0000'
-2025-10-28 09:00:02,285 - INFO -    📝 AI Content: OpenAI offers free ChatGPT Go for one year to all users in I... (Score: 0.80)
-2025-10-28 09:00:03,433 - INFO - 📡 Fetching FROM: venture_beat
-2025-10-28 09:00:03,901 - INFO - ✅ Found 50 entries FROM venture_beat
-2025-10-28 09:00:03,901 - WARNING - Could not parse date for entry: Intuit learned to build AI agents for finance the ... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 12:30:00 GMT'
-2025-10-28 09:00:03,901 - INFO -    📝 AI Content: Intuit learned to build AI agents for finance the hard way: ... (Score: 1.00)
-2025-10-28 09:00:03,901 - WARNING - Could not parse date for entry: PayPal’s Agentic Commerce Play Shows Why Flexibili... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 04:00:00 GMT'
-2025-10-28 09:00:03,901 - INFO -    📝 AI Content: PayPal’s Agentic Commerce Play Shows Why Flexibility, Not St... (Score: 0.80)
-2025-10-28 09:00:03,902 - WARNING - Could not parse date for entry: MiniMax-M2 is the new king of open source LLMs (es... Error: Invalid isoformat string: 'Mon, 27 Oct 2025 19:01:00 GMT'
-2025-10-28 09:00:03,902 - INFO -    📝 AI Content: MiniMax-M2 is the new king of open source LLMs (especially f... (Score: 1.00)
-2025-10-28 09:00:03,902 - WARNING - Could not parse date for entry: Anthropic rolls out Claude AI for finance, integra... Error: Invalid isoformat string: 'Mon, 27 Oct 2025 16:00:00 GMT'
-2025-10-28 09:00:03,902 - INFO -    📝 AI Content: Anthropic rolls out Claude AI for finance, integrates with E... (Score: 1.00)
-2025-10-28 09:00:03,902 - WARNING - Could not parse date for entry: How AI-powered cameras are redefining business int... Error: Invalid isoformat string: 'Mon, 27 Oct 2025 04:00:00 GMT'
-2025-10-28 09:00:03,902 - INFO -    📝 AI Content: How AI-powered cameras are redefining business intelligence... (Score: 1.00)
-2025-10-28 09:00:03,903 - WARNING - Could not parse date for entry: Thinking Machines challenges OpenAI's AI scaling s... Error: Invalid isoformat string: 'Fri, 24 Oct 2025 09:30:00 GMT'
-2025-10-28 09:00:03,903 - INFO -    📝 AI Content: Thinking Machines challenges OpenAI's AI scaling strategy: '... (Score: 1.00)
-2025-10-28 09:00:04,904 - INFO - 📡 Fetching FROM: ai_news
-2025-10-28 09:00:05,433 - WARNING - ❌ No entries found FROM ai_news
-2025-10-28 09:00:06,433 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-10-28 09:00:06,598 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-10-28 09:00:07,614 - INFO - 📡 Fetching FROM: reddit_ai
-2025-10-28 09:00:07,889 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-10-28 09:00:07,889 - INFO -    📝 AI Content: OpenAI says over a million people talk to ChatGPT about suic... (Score: 1.00)
-2025-10-28 09:00:07,889 - INFO -    📝 AI Content: Amazon to cut 30,000 jobs worldwide as workers to be replace... (Score: 0.60)
-2025-10-28 09:00:07,889 - INFO -    📝 AI Content: Anthropic has launched financial services.... (Score: 0.60)
-2025-10-28 09:00:07,889 - INFO -    📝 AI Content: PayPal strikes deal to enable payments in ChatGPT and create... (Score: 0.80)
-2025-10-28 09:00:07,889 - INFO -    📝 AI Content: Bernie says OpenAI should be broken up: "AI like a meteor co... (Score: 0.80)
-2025-10-28 09:00:08,890 - INFO - 📡 Fetching FROM: hacker_news
-2025-10-28 09:00:09,149 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-10-28 09:00:10,149 - INFO - 📡 Fetching FROM: wired_ai
-2025-10-28 09:00:10,282 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-10-28 09:00:10,282 - WARNING - Could not parse date for entry: Adobe MAX 2025: All the Top Announcements for Adob... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 12:00:00 +0000'
-2025-10-28 09:00:10,282 - INFO -    📝 AI Content: Adobe MAX 2025: All the Top Announcements for Adobe’s Creati... (Score: 0.60)
-2025-10-28 09:00:11,282 - INFO - 📡 Fetching FROM: ars_technica
-2025-10-28 09:00:11,426 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-10-28 09:00:12,426 - INFO - 📥 Total AI-relevant content fetched: 14
-2025-10-28 09:00:12,428 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-10-28 09:00:12,428 - INFO - ✅ Selected 5 top stories for mytribal.ai
-2025-10-28 09:00:12,428 - INFO - 📝 Creating story outlines for mytribal.ai...
-2025-10-28 09:00:12,429 - INFO -    📚 Story 1: OpenAI says over a million people talk to ChatGPT about suic...
-2025-10-28 09:00:12,429 - INFO -    📚 Story 2: PayPal strikes deal to enable payments in ChatGPT and create...
-2025-10-28 09:00:12,429 - INFO -    📚 Story 3: Bernie says OpenAI should be broken up: "AI like a meteor co...
-2025-10-28 09:00:12,429 - INFO -    📚 Story 4: Intuit learned to build AI agents for finance the hard way: ...
-2025-10-28 09:00:12,430 - INFO -    📚 Story 5: AI Update: MiniMax-M2 is the new king of open source LLMs (e...
-2025-10-28 09:00:12,438 - INFO - 💾 Content saved for mytribal.ai publishing:
-2025-10-28 09:00:12,438 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-10-28.json
-2025-10-28 09:00:12,438 - INFO -    Raw content: content_for_mytribal/raw_content_2025-10-28.json
-2025-10-28 09:00:12,438 - INFO - 
-📊 Content Generation Summary:
-2025-10-28 09:00:12,438 - INFO -    Date: 2025-10-28
-2025-10-28 09:00:12,438 - INFO -    External sources checked: 8
-2025-10-28 09:00:12,438 - INFO -    Total content fetched: 14
-2025-10-28 09:00:12,438 - INFO -    Content selected for mytribal.ai: 5
-2025-10-28 09:00:12,438 - INFO -    Story outlines created: 5
-2025-10-28 09:00:12,439 - INFO - 
-🎯 Content ready for mytribal.ai publishing!
-2025-10-28 09:00:12,439 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-10-28.json
-2025-10-28 09:00:12,439 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
-2025-10-28 09:00:12,439 - INFO - ⏰ Total runtime: 0:00:10.882086
-2025-10-30 07:51:11,066 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-10-30 07:51:11,067 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-10-30 07:51:11,067 - INFO - 📡 Fetching FROM: tech_crunch
-2025-10-30 07:51:12,245 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-10-30 07:51:12,245 - WARNING - Could not parse date for entry: The Prompting Company snags $6.5M to help products... Error: Invalid isoformat string: 'Thu, 30 Oct 2025 13:10:00 +0000'
-2025-10-30 07:51:12,245 - INFO -    📝 AI Content: The Prompting Company snags $6.5M to help products get menti... (Score: 0.60)
-2025-10-30 07:51:13,245 - INFO - 📡 Fetching FROM: venture_beat
-2025-10-30 07:51:24,207 - INFO - ✅ Found 50 entries FROM venture_beat
-2025-10-30 07:51:24,207 - WARNING - Could not parse date for entry: Vibe coding platform Cursor releases first in-hous... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 19:28:00 GMT'
-2025-10-30 07:51:24,207 - INFO -    📝 AI Content: Vibe coding platform Cursor releases first in-house LLM, Com... (Score: 1.00)
-2025-10-30 07:51:24,207 - WARNING - Could not parse date for entry: Anthropic scientists hacked Claude’s brain — and i... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 17:00:00 GMT'
-2025-10-30 07:51:24,207 - INFO -    📝 AI Content: Anthropic scientists hacked Claude’s brain — and it noticed.... (Score: 1.00)
-2025-10-30 07:51:24,208 - WARNING - Could not parse date for entry: Geostar pioneers GEO as traditional SEO faces 25% ... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 07:00:00 GMT'
-2025-10-30 07:51:24,208 - INFO -    📝 AI Content: Geostar pioneers GEO as traditional SEO faces 25% decline fr... (Score: 1.00)
-2025-10-30 07:51:24,208 - WARNING - Could not parse date for entry: From static classifiers to reasoning engines: Open... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 04:00:00 GMT'
-2025-10-30 07:51:24,208 - INFO -    📝 AI Content: From static classifiers to reasoning engines: OpenAI’s new m... (Score: 1.00)
-2025-10-30 07:51:24,208 - WARNING - Could not parse date for entry: Security's AI dilemma: Moving faster while risking... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 04:00:00 GMT'
-2025-10-30 07:51:24,209 - INFO -    📝 AI Content: Security's AI dilemma: Moving faster while risking more... (Score: 0.80)
-2025-10-30 07:51:24,209 - WARNING - Could not parse date for entry: Agentic AI is all about the context — engineering,... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 04:00:00 GMT'
-2025-10-30 07:51:24,209 - INFO -    📝 AI Content: Agentic AI is all about the context — engineering, that is... (Score: 0.80)
-2025-10-30 07:51:24,209 - WARNING - Could not parse date for entry: Nvidia researchers unlock 4-bit LLM training that ... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 00:00:00 GMT'
-2025-10-30 07:51:24,209 - INFO -    📝 AI Content: Nvidia researchers unlock 4-bit LLM training that matches 8-... (Score: 0.60)
-2025-10-30 07:51:24,209 - WARNING - Could not parse date for entry: IBM's open source Granite 4.0 Nano AI models are s... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 23:23:00 GMT'
-2025-10-30 07:51:24,209 - INFO -    📝 AI Content: IBM's open source Granite 4.0 Nano AI models are small enoug... (Score: 1.00)
-2025-10-30 07:51:24,210 - WARNING - Could not parse date for entry: Microsoft’s Copilot can now build apps and automat... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 20:30:00 GMT'
-2025-10-30 07:51:24,210 - INFO -    📝 AI Content: Microsoft’s Copilot can now build apps and automate your job... (Score: 1.00)
-2025-10-30 07:51:25,213 - INFO - 📡 Fetching FROM: ai_news
-2025-10-30 07:51:43,585 - INFO - ✅ Found 12 entries FROM ai_news
-2025-10-30 07:51:43,588 - INFO -    📝 AI Content: OpenAI unveils open-weight AI safety models for developers... (Score: 0.60)
-2025-10-30 07:51:43,589 - WARNING - Could not parse date for entry: OpenAI’s bold India play: Free ChatGPT Go access... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 12:01:27 +0000'
-2025-10-30 07:51:43,589 - INFO -    📝 AI Content: OpenAI’s bold India play: Free ChatGPT Go access... (Score: 0.80)
-2025-10-30 07:51:44,590 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-10-30 07:51:46,451 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-10-30 07:51:46,451 - WARNING - Could not parse date for entry: Finding return on AI investments across industries... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 15:00:33 +0000'
-2025-10-30 07:51:46,451 - INFO -    📝 AI Content: Finding return on AI investments across industries... (Score: 0.60)
-2025-10-30 07:51:47,455 - INFO - 📡 Fetching FROM: reddit_ai
-2025-10-30 07:51:49,855 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-10-30 07:51:49,856 - INFO -    📝 AI Content: Exclusive: OpenAI lays groundwork for juggernaut IPO at up t... (Score: 0.60)
-2025-10-30 07:51:49,856 - INFO -    📝 AI Content: OpenAI loses bid to dismiss part of US authors' copyright la... (Score: 0.60)
-2025-10-30 07:51:50,859 - INFO - 📡 Fetching FROM: hacker_news
-2025-10-30 07:51:53,391 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-10-30 07:51:54,394 - INFO - 📡 Fetching FROM: wired_ai
-2025-10-30 07:51:56,020 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-10-30 07:51:57,022 - INFO - 📡 Fetching FROM: ars_technica
-2025-10-30 07:51:59,666 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-10-30 07:52:00,671 - INFO - 📥 Total AI-relevant content fetched: 15
-2025-10-30 07:52:00,674 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-10-30 07:52:00,674 - INFO - ✅ Selected 5 top stories for mytribal.ai
-2025-10-30 07:52:00,674 - INFO - 📝 Creating story outlines for mytribal.ai...
-2025-10-30 07:52:00,675 - INFO -    📚 Story 1: OpenAI unveils open-weight AI safety models for developers...
-2025-10-30 07:52:00,675 - INFO -    📚 Story 2: AI Update: Vibe coding platform Cursor releases first in-hou...
-2025-10-30 07:52:00,676 - INFO -    📚 Story 3: Anthropic scientists hacked Claude’s brain — and it noticed....
-2025-10-30 07:52:00,676 - INFO -    📚 Story 4: Geostar pioneers GEO as traditional SEO faces 25% decline fr...
-2025-10-30 07:52:00,676 - INFO -    📚 Story 5: From static classifiers to reasoning engines: OpenAI’s new m...
-2025-10-30 07:52:00,679 - INFO - 💾 Content saved for mytribal.ai publishing:
-2025-10-30 07:52:00,679 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-10-30.json
-2025-10-30 07:52:00,679 - INFO -    Raw content: content_for_mytribal/raw_content_2025-10-30.json
-2025-10-30 07:52:00,679 - INFO - 
-📊 Content Generation Summary:
-2025-10-30 07:52:00,679 - INFO -    Date: 2025-10-30
-2025-10-30 07:52:00,679 - INFO -    External sources checked: 8
-2025-10-30 07:52:00,679 - INFO -    Total content fetched: 15
-2025-10-30 07:52:00,680 - INFO -    Content selected for mytribal.ai: 5
-2025-10-30 07:52:00,680 - INFO -    Story outlines created: 5
-2025-10-30 07:52:00,680 - INFO - 
-🎯 Content ready for mytribal.ai publishing!
-2025-10-30 07:52:00,680 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-10-30.json
-2025-10-30 07:52:00,680 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
-2025-10-30 07:52:00,680 - INFO - ⏰ Total runtime: 0:00:49.612997
-2025-10-30 09:00:01,670 - INFO - 🚀 Starting Daily AI Content Generator for mytribal.ai...
-2025-10-30 09:00:01,670 - INFO - 🔍 Fetching content FROM external RSS feeds...
-2025-10-30 09:00:01,671 - INFO - 📡 Fetching FROM: tech_crunch
-2025-10-30 09:00:01,958 - INFO - ✅ Found 20 entries FROM tech_crunch
-2025-10-30 09:00:01,958 - WARNING - Could not parse date for entry: The Prompting Company snags $6.5M to help products... Error: Invalid isoformat string: 'Thu, 30 Oct 2025 13:10:00 +0000'
-2025-10-30 09:00:01,958 - INFO -    📝 AI Content: The Prompting Company snags $6.5M to help products get menti... (Score: 0.60)
-2025-10-30 09:00:03,025 - INFO - 📡 Fetching FROM: venture_beat
-2025-10-30 09:00:03,689 - INFO - ✅ Found 50 entries FROM venture_beat
-2025-10-30 09:00:03,689 - WARNING - Could not parse date for entry: Vibe coding platform Cursor releases first in-hous... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 19:28:00 GMT'
-2025-10-30 09:00:03,689 - INFO -    📝 AI Content: Vibe coding platform Cursor releases first in-house LLM, Com... (Score: 1.00)
-2025-10-30 09:00:03,690 - WARNING - Could not parse date for entry: Anthropic scientists hacked Claude’s brain — and i... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 17:00:00 GMT'
-2025-10-30 09:00:03,690 - INFO -    📝 AI Content: Anthropic scientists hacked Claude’s brain — and it noticed.... (Score: 1.00)
-2025-10-30 09:00:03,690 - WARNING - Could not parse date for entry: Geostar pioneers GEO as traditional SEO faces 25% ... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 07:00:00 GMT'
-2025-10-30 09:00:03,690 - INFO -    📝 AI Content: Geostar pioneers GEO as traditional SEO faces 25% decline fr... (Score: 1.00)
-2025-10-30 09:00:03,691 - WARNING - Could not parse date for entry: From static classifiers to reasoning engines: Open... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 04:00:00 GMT'
-2025-10-30 09:00:03,691 - INFO -    📝 AI Content: From static classifiers to reasoning engines: OpenAI’s new m... (Score: 1.00)
-2025-10-30 09:00:03,691 - WARNING - Could not parse date for entry: Security's AI dilemma: Moving faster while risking... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 04:00:00 GMT'
-2025-10-30 09:00:03,691 - INFO -    📝 AI Content: Security's AI dilemma: Moving faster while risking more... (Score: 0.80)
-2025-10-30 09:00:03,691 - WARNING - Could not parse date for entry: Agentic AI is all about the context — engineering,... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 04:00:00 GMT'
-2025-10-30 09:00:03,691 - INFO -    📝 AI Content: Agentic AI is all about the context — engineering, that is... (Score: 0.80)
-2025-10-30 09:00:03,691 - WARNING - Could not parse date for entry: Nvidia researchers unlock 4-bit LLM training that ... Error: Invalid isoformat string: 'Wed, 29 Oct 2025 00:00:00 GMT'
-2025-10-30 09:00:03,691 - INFO -    📝 AI Content: Nvidia researchers unlock 4-bit LLM training that matches 8-... (Score: 0.60)
-2025-10-30 09:00:03,692 - WARNING - Could not parse date for entry: IBM's open source Granite 4.0 Nano AI models are s... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 23:23:00 GMT'
-2025-10-30 09:00:03,692 - INFO -    📝 AI Content: IBM's open source Granite 4.0 Nano AI models are small enoug... (Score: 1.00)
-2025-10-30 09:00:03,692 - WARNING - Could not parse date for entry: Microsoft’s Copilot can now build apps and automat... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 20:30:00 GMT'
-2025-10-30 09:00:03,692 - INFO -    📝 AI Content: Microsoft’s Copilot can now build apps and automate your job... (Score: 1.00)
-2025-10-30 09:00:04,692 - INFO - 📡 Fetching FROM: ai_news
-2025-10-30 09:00:06,435 - INFO - ✅ Found 12 entries FROM ai_news
-2025-10-30 09:00:06,437 - INFO -    📝 AI Content: OpenAI unveils open-weight AI safety models for developers... (Score: 0.60)
-2025-10-30 09:00:06,437 - WARNING - Could not parse date for entry: OpenAI’s bold India play: Free ChatGPT Go access... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 12:01:27 +0000'
-2025-10-30 09:00:06,437 - INFO -    📝 AI Content: OpenAI’s bold India play: Free ChatGPT Go access... (Score: 0.80)
-2025-10-30 09:00:07,437 - INFO - 📡 Fetching FROM: mit_tech_review
-2025-10-30 09:00:07,721 - INFO - ✅ Found 10 entries FROM mit_tech_review
-2025-10-30 09:00:07,722 - WARNING - Could not parse date for entry: Finding return on AI investments across industries... Error: Invalid isoformat string: 'Tue, 28 Oct 2025 15:00:33 +0000'
-2025-10-30 09:00:07,722 - INFO -    📝 AI Content: Finding return on AI investments across industries... (Score: 0.60)
-2025-10-30 09:00:08,722 - INFO - 📡 Fetching FROM: reddit_ai
-2025-10-30 09:00:09,190 - INFO - ✅ Found 10 entries FROM reddit_ai
-2025-10-30 09:00:09,190 - INFO -    📝 AI Content: Exclusive: OpenAI lays groundwork for juggernaut IPO at up t... (Score: 0.60)
-2025-10-30 09:00:09,191 - INFO -    📝 AI Content: OpenAI loses bid to dismiss part of US authors' copyright la... (Score: 0.60)
-2025-10-30 09:00:10,191 - INFO - 📡 Fetching FROM: hacker_news
-2025-10-30 09:00:10,566 - INFO - ✅ Found 30 entries FROM hacker_news
-2025-10-30 09:00:11,567 - INFO - 📡 Fetching FROM: wired_ai
-2025-10-30 09:00:11,820 - INFO - ✅ Found 50 entries FROM wired_ai
-2025-10-30 09:00:12,908 - INFO - 📡 Fetching FROM: ars_technica
-2025-10-30 09:00:13,215 - INFO - ✅ Found 20 entries FROM ars_technica
-2025-10-30 09:00:14,215 - INFO - 📥 Total AI-relevant content fetched: 15
-2025-10-30 09:00:14,217 - INFO - 🔍 Filtering and ranking content for mytribal.ai...
-2025-10-30 09:00:14,217 - INFO - ✅ Selected 5 top stories for mytribal.ai
-2025-10-30 09:00:14,217 - INFO - 📝 Creating story outlines for mytribal.ai...
-2025-10-30 09:00:14,217 - INFO -    📚 Story 1: OpenAI unveils open-weight AI safety models for developers...
-2025-10-30 09:00:14,218 - INFO -    📚 Story 2: AI Update: Vibe coding platform Cursor releases first in-hou...
-2025-10-30 09:00:14,219 - INFO -    📚 Story 3: Anthropic scientists hacked Claude’s brain — and it noticed....
-2025-10-30 09:00:14,219 - INFO -    📚 Story 4: Geostar pioneers GEO as traditional SEO faces 25% decline fr...
-2025-10-30 09:00:14,219 - INFO -    📚 Story 5: From static classifiers to reasoning engines: OpenAI’s new m...
-2025-10-30 09:00:14,225 - INFO - 💾 Content saved for mytribal.ai publishing:
-2025-10-30 09:00:14,225 - INFO -    Story outlines: content_for_mytribal/mytribal_stories_2025-10-30.json
-2025-10-30 09:00:14,225 - INFO -    Raw content: content_for_mytribal/raw_content_2025-10-30.json
-2025-10-30 09:00:14,225 - INFO - 
-📊 Content Generation Summary:
-2025-10-30 09:00:14,225 - INFO -    Date: 2025-10-30
-2025-10-30 09:00:14,225 - INFO -    External sources checked: 8
-2025-10-30 09:00:14,225 - INFO -    Total content fetched: 15
-2025-10-30 09:00:14,225 - INFO -    Content selected for mytribal.ai: 5
-2025-10-30 09:00:14,225 - INFO -    Story outlines created: 5
-2025-10-30 09:00:14,226 - INFO - 
-🎯 Content ready for mytribal.ai publishing!
-2025-10-30 09:00:14,226 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-10-30.json
-2025-10-30 09:00:14,226 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
-2025-10-30 09:00:14,226 - INFO - ⏰ Total runtime: 0:00:12.555267
+2025-11-04 09:13:27,662 - INFO -    Check: content_for_mytribal/mytribal_stories_2025-11-04.json
+2025-11-04 09:13:27,662 - INFO -    Each story includes: title, summary, key points, SEO keywords, and publishing guidance
+2025-11-04 09:13:27,662 - INFO - ⏰ Total runtime: 0:00:16.003654

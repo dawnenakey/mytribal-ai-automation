@@ -144,50 +144,174 @@ def test_wordpress_connection():
         print(f"❌ Connection error: {e}")
         return False
 
-def generate_article_with_openai(title, description):
-    """Generate article using OpenAI"""
+def generate_article_with_openai(title, description, max_retries=2):
+    """Generate article using OpenAI with retry logic for word count"""
     if not OPENAI_API_KEY:
         print("❌ OpenAI API key not found")
         return None
     
-    try:
-        from openai import OpenAI
-        client = OpenAI(api_key=OPENAI_API_KEY)
-        
-        prompt = f"""
-        Create a compelling blog post about this AI/tech topic:
+    for attempt in range(max_retries + 1):
+        try:
+            from openai import OpenAI
+            client = OpenAI(api_key=OPENAI_API_KEY)
+            
+            if attempt > 0:
+                print(f"   🔄 Retry attempt {attempt}/{max_retries} (previous article was too short)...")
+            
+            prompt = f"""
+        Create a comprehensive, in-depth blog post about this AI/tech topic. THIS ARTICLE MUST BE AT LEAST 1000 WORDS.
         
         Title: {title}
         Description: {description}
         
-        Requirements:
-        - Write in an engaging, informative style
-        - Include 3-4 key points or insights
-        - Add relevant examples or context
-        - Keep it around 400-600 words
-        - Make it suitable for a tech-savvy audience
-        - Include a brief conclusion with a call-to-action
+        CRITICAL REQUIREMENTS FOR ADSENSE QUALITY:
         
-        Format the response as clean HTML with proper <p> tags for paragraphs, <h3> for subheadings if needed.
+        LENGTH & DEPTH (NON-NEGOTIABLE - CRITICAL FOR ADSENSE):
+        - You MUST write AT LEAST 1200-1500 words - this is critical for AdSense approval
+        - Do NOT write less than 1200 words under any circumstances
+        - Count your words as you write and ensure you meet the minimum
+        - Go beyond summaries - provide deep analysis and insights
+        - Include original perspective and expert commentary
+        - Add context, background, and detailed explanations
+        - Expand on every point with substantial detail
+        - Add multiple examples, use cases, and real-world scenarios
+        - Include detailed explanations of technical concepts
+        - Discuss implications, consequences, and future outlook
+        
+        CONTENT QUALITY:
+        - Write from the perspective of a data scientist with expertise in AI/ML
+        - Include your own analysis, not just reporting
+        - Add practical insights, implications, and real-world applications
+        - Discuss the "why" and "how" behind the topic, not just "what"
+        - Include relevant data, statistics, or research when applicable
+        
+        STRUCTURE & FORMATTING (REQUIRED):
+        - Start with an engaging introduction (150-200 words)
+        - Use H2 headings for main sections (at least 4-5 sections)
+        - Use H3 headings for subsections within main sections
+        - Include bullet points or numbered lists where appropriate
+        - Break content into readable paragraphs (3-5 sentences each)
+        - Add a conclusion section with key takeaways
+        
+        WRITING STYLE:
+        - Write in first person or third person - NEVER mention "as an AI" or AI limitations
+        - Sound like a human expert, not a chatbot
+        - Be authoritative but accessible
+        - Use engaging, clear language
+        - Avoid generic phrases - be specific and original
+        
+        UNIQUE VALUE ADDITIONS:
+        - Explain implications for the industry
+        - Discuss potential impact on businesses/developers
+        - Add your professional insights from a data science perspective
+        - Include practical applications or use cases
+        - Connect to broader trends or patterns
+        - Add forward-looking analysis where relevant
+        
+        ENGAGEMENT:
+        - Include a call-to-action at the end
+        - Ask thought-provoking questions
+        - Encourage discussion and further exploration
+        
+        Format the response as clean HTML with ONLY the article content (NO <html>, <head>, <body>, or <!DOCTYPE> tags):
+        - <h2> for main section headings (use at least 4-5)
+        - <h3> for subsection headings
+        - <p> tags for paragraphs
+        - <ul> or <ol> for lists
+        - <strong> for emphasis where appropriate
+        
+        IMPORTANT: Return ONLY the article body content as HTML fragments. Do NOT include full HTML document structure.
+        Start directly with <h2> or <p> tags. End with your conclusion paragraph.
+        
+        Write comprehensively and authoritatively. This must be high-quality, valuable content that provides real insights, not just a summary.
+        
+        CRITICAL: You MUST write 1200-1500 words minimum. This is non-negotiable for AdSense approval.
+        Before finishing, count your words. If under 1200 words, add more content: expand sections, add examples, provide more analysis, or include additional insights.
+        Do NOT submit until you have at least 1200 words.
         """
         
-        response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": "You are a tech writer specializing in AI and technology topics. Write engaging, informative content."},
-                {"role": "user", "content": prompt}
-            ],
-            max_tokens=1000,
-            temperature=0.7
-        )
-        
-        article = response.choices[0].message.content.strip()
-        print("✅ Article generated successfully")
-        return article
-        
-    except Exception as e:
-        print(f"❌ Error generating article: {e}")
-        return None
+            response = client.chat.completions.create(
+                model="gpt-4o",  # Using GPT-4o for high-quality, long-form content
+                messages=[
+                    {"role": "system", "content": "You are an experienced tech writer and data scientist with a Master's degree in Data Science from University of Denver. You write comprehensive, insightful articles about AI and technology that provide real value to readers. You never mention being an AI or AI limitations - you write as a human expert."},
+                    {"role": "user", "content": prompt}
+                ],
+                max_tokens=6000,  # Increased for longer articles
+                temperature=0.8
+            )
+            
+            article = response.choices[0].message.content.strip()
+            
+            # Clean up HTML structure if full document was returned
+            # Remove DOCTYPE, html, head, body tags if present
+            import re
+            
+            # Check if it's a full HTML document
+            if '<!DOCTYPE' in article or '<html' in article or '<head>' in article:
+                # Extract body content - this is what we want
+                body_match = re.search(r'<body[^>]*>(.*?)</body>', article, re.DOTALL | re.IGNORECASE)
+                if body_match:
+                    article = body_match.group(1).strip()
+                else:
+                    # If no body tag found, remove all HTML structure tags
+                    # Remove everything before first <h1> or <h2> or <p>
+                    content_start = re.search(r'(<h[1-6]|<p>|<div)', article, re.IGNORECASE)
+                    if content_start:
+                        article = article[content_start.start():]
+                    
+                    # Remove HTML structure tags
+                    article = re.sub(r'<!DOCTYPE[^>]*>', '', article, flags=re.IGNORECASE)
+                    article = re.sub(r'<html[^>]*>', '', article, flags=re.IGNORECASE)
+                    article = re.sub(r'</html>', '', article, flags=re.IGNORECASE)
+                    article = re.sub(r'<head>.*?</head>', '', article, flags=re.DOTALL | re.IGNORECASE)
+                    article = re.sub(r'<body[^>]*>', '', article, flags=re.IGNORECASE)
+                    article = re.sub(r'</body>', '', article, flags=re.IGNORECASE)
+                
+                # Remove title and meta tags if present
+                article = re.sub(r'<title>.*?</title>', '', article, flags=re.DOTALL | re.IGNORECASE)
+                article = re.sub(r'<meta[^>]*>', '', article, flags=re.IGNORECASE)
+                article = article.strip()
+            
+            # Also remove any markdown code block markers if present
+            article = re.sub(r'^```html\s*', '', article, flags=re.MULTILINE | re.IGNORECASE)
+            article = re.sub(r'^```\s*$', '', article, flags=re.MULTILINE)
+            article = article.strip()
+            
+            # Verify word count
+            word_count = len(article.split())
+            
+            if attempt == 0:
+                print(f"✅ Article generated ({word_count} words)")
+            else:
+                print(f"✅ Article regenerated ({word_count} words)")
+            
+            # Check if word count meets minimum requirement
+            if word_count >= 1000:
+                if word_count >= 1200:
+                    print(f"   ✅ Excellent! Meets AdSense quality target (1200+ words)")
+                else:
+                    print(f"   ✅ Good! Above minimum requirement (1000+ words)")
+                return article
+            elif attempt < max_retries:
+                # Word count too low, retry with more explicit instructions
+                print(f"   ⚠️ Article too short ({word_count} words), regenerating with stricter requirements...")
+                # Continue to retry loop
+            else:
+                # Final attempt failed
+                print(f"   ⚠️ Warning: Article is {word_count} words - below ideal target of 1200+ words")
+                print(f"   ⚠️ However, it's {word_count} words which is better than previous shorter posts")
+                print(f"   ✅ Using this article (will continue to improve with future generations)")
+                return article
+                
+        except Exception as e:
+            if attempt < max_retries:
+                print(f"   ⚠️ Error on attempt {attempt + 1}: {e}, retrying...")
+                continue
+            else:
+                print(f"❌ Error generating article after {max_retries + 1} attempts: {e}")
+                return None
+    
+    return None  # Should not reach here, but safety fallback
 
 def generate_image_with_dalle(title):
     """Generate image using DALL-E"""

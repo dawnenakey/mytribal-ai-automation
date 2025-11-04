@@ -1,0 +1,167 @@
+[
+  {
+    "story_number": 1,
+    "priority_score": 1.08,
+    "ai_relevance_score": 0.8,
+    "source_info": {
+      "name": "tech_crunch",
+      "url": "https://techcrunch.com/feed/",
+      "category": "tech_news"
+    },
+    "content": {
+      "title": "Tim Cook says Apple is open to M&A on the AI front",
+      "summary": "Apple CEO Tim Cook noted in the company's Q4 2025 earnings call that Apple was preparing to announce more AI partnerships like the one it has with OpenAI to integrate ChatGPT into Siri and Apple Intelligence.",
+      "original_link": "https://techcrunch.com/2025/10/31/tim-cook-says-apple-is-open-to-ma-on-the-ai-front/",
+      "published_date": "Fri, 31 Oct 2025 15:17:12 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "Tim Cook says Apple is open to M&A on the AI front",
+      "story_angle": "AI technology making waves in the industry",
+      "key_points": [
+        "Apple CEO Tim Cook noted in the company's Q4 2025 earnings call that Apple was preparing to announce more AI partnerships like the one it has with OpenAI to integrate ChatGPT into Siri and Apple Intelligence"
+      ],
+      "seo_keywords": [
+        "2025",
+        "AI",
+        "GPT",
+        "OpenAI",
+        "ChatGPT"
+      ],
+      "target_audience": "Tech enthusiasts and developers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-10-31T18:23:47.886415"
+  },
+  {
+    "story_number": 2,
+    "priority_score": 0.855,
+    "ai_relevance_score": 0.6,
+    "source_info": {
+      "name": "ai_news",
+      "url": "https://artificialintelligence-news.com/feed/",
+      "category": "ai_specific"
+    },
+    "content": {
+      "title": "How Lumana is redefining AI’s role in video surveillance",
+      "summary": "<p>For all the progress in artificial intelligence, most video security systems still fail at recognising context in real-world conditions. The majority of cameras can capture real-time footage, but struggle to interpret it. This is a problem turning into a growing concern for smart city designers, manufacturers and schools, each of which may depend on AI [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/how-lumana-is-redefining-ais-role-in-video-surveillance/\">How Lumana is redefining AI&#8217;s role in video surveillance</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>",
+      "original_link": "https://www.artificialintelligence-news.com/news/how-lumana-is-redefining-ais-role-in-video-surveillance/",
+      "published_date": "Fri, 31 Oct 2025 15:36:18 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "How Lumana is redefining AI’s role in video surveillance",
+      "story_angle": "Direct AI development and its impact on technology",
+      "key_points": [
+        "<p>For all the progress in artificial intelligence, most video security systems still fail at recognising context in real-world conditions",
+        "The majority of cameras can capture real-time footage, but struggle to interpret it",
+        "This is a problem turning into a growing concern for smart city designers, manufacturers and schools, each of which may depend on AI [&#8230;]</p>\n<p>The post <a href=\"https://www"
+      ],
+      "seo_keywords": [
+        "smart",
+        "AI",
+        "artificial intelligence"
+      ],
+      "target_audience": "Curious readers interested in technology"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-10-31T18:23:47.886535"
+  },
+  {
+    "story_number": 3,
+    "priority_score": 0.855,
+    "ai_relevance_score": 0.6,
+    "source_info": {
+      "name": "ai_news",
+      "url": "https://artificialintelligence-news.com/feed/",
+      "category": "ai_specific"
+    },
+    "content": {
+      "title": "OpenAI unveils open-weight AI safety models for developers",
+      "summary": "<p>OpenAI is putting more safety controls directly into the hands of AI developers with a new research preview of “safeguard” models. The new ‘gpt-oss-safeguard’ family of open-weight models is aimed squarely at customising content classification. The new offering will include two models, gpt-oss-safeguard-120b and a smaller gpt-oss-safeguard-20b. Both are fine-tuned versions of the existing gpt-oss [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/openai-unveils-open-weight-ai-safety-models-for-developers/\">OpenAI unveils open-weight AI safety models for developers</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>",
+      "original_link": "https://www.artificialintelligence-news.com/news/openai-unveils-open-weight-ai-safety-models-for-developers/",
+      "published_date": "Wed, 29 Oct 2025 09:31:52 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "OpenAI unveils open-weight AI safety models for developers",
+      "story_angle": "Direct AI development and its impact on technology",
+      "key_points": [
+        "<p>OpenAI is putting more safety controls directly into the hands of AI developers with a new research preview of “safeguard” models",
+        "The new ‘gpt-oss-safeguard’ family of open-weight models is aimed squarely at customising content classification",
+        "The new offering will include two models, gpt-oss-safeguard-120b and a smaller gpt-oss-safeguard-20b"
+      ],
+      "seo_keywords": [
+        "OpenAI",
+        "GPT",
+        "AI"
+      ],
+      "target_audience": "Curious readers interested in technology"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-10-31T18:23:47.887511"
+  },
+  {
+    "story_number": 4,
+    "priority_score": 0.8399999999999999,
+    "ai_relevance_score": 0.8,
+    "source_info": {
+      "name": "reddit_ai",
+      "url": "https://www.reddit.com/r/artificial/hot.rss?limit=10",
+      "category": "community_discussion"
+    },
+    "content": {
+      "title": "Samsung and Nvidia to build an AI megafactory",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/artificial/comments/1okqlbq/samsung_and_nvidia_to_build_an_ai_megafactory/\"> <img alt=\"Samsung and Nvidia to build an AI megafactory\" src=\"https://external-preview.redd.it/d6wrY-THSLPt05iOzCZ7veY4zopROtERtvWRb1jccNA.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=8e444023fa749e84437ba6e71fb699c5ab0b3a71\" title=\"Samsung and Nvidia to build an AI megafactory\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Samsung will deploy more than 50,000 of Nvidia’s most advanced graphics processing units in the new facility to embed artificial intelligence throughout its entire chip manufacturing flow. It’s also planning to leverage AI to help with chip development and design to facilitate a new generation of semiconductors, mobile devices and robotics with enhanced AI capabilities of their own.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tekz\"> /u/tekz </a> <br /> <span><a href=\"https://siliconangle.com/2025/10/30/samsung-nvidia-build-ai-megafactory-transform-semiconductor-manufacturing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/artificial/comments/1okqlbq/samsung_and_nvidia_to_build_an_ai_megafactory/\">[comments]</a></span> </td></tr></table>",
+      "original_link": "https://www.reddit.com/r/artificial/comments/1okqlbq/samsung_and_nvidia_to_build_an_ai_megafactory/",
+      "published_date": "2025-10-31T10:08:58+00:00"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "Samsung and Nvidia to build an AI megafactory",
+      "story_angle": "Community insights on AI development and trends",
+      "key_points": [
+        "<table> <tr><td> <a href=\"https://www",
+        "com/r/artificial/comments/1okqlbq/samsung_and_nvidia_to_build_an_ai_megafactory/\"> <img alt=\"Samsung and Nvidia to build an AI megafactory\" src=\"https://external-preview"
+      ],
+      "seo_keywords": [
+        "2025",
+        "smart",
+        "robotics",
+        "AI",
+        "artificial intelligence"
+      ],
+      "target_audience": "Tech enthusiasts and developers"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-10-31T18:23:47.887651"
+  },
+  {
+    "story_number": 5,
+    "priority_score": 0.81,
+    "ai_relevance_score": 0.6,
+    "source_info": {
+      "name": "tech_crunch",
+      "url": "https://techcrunch.com/feed/",
+      "category": "tech_news"
+    },
+    "content": {
+      "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+      "summary": "A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year.",
+      "original_link": "https://techcrunch.com/2025/10/31/chatgpt-everything-to-know-about-the-ai-chatbot/",
+      "published_date": "Fri, 31 Oct 2025 17:36:20 +0000"
+    },
+    "mytribal_adaptation": {
+      "suggested_title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+      "story_angle": "AI technology making waves in the industry",
+      "key_points": [
+        "A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year"
+      ],
+      "seo_keywords": [
+        "ChatGPT",
+        "latest",
+        "GPT",
+        "AI"
+      ],
+      "target_audience": "Curious readers interested in technology"
+    },
+    "publishing_ready": true,
+    "timestamp": "2025-10-31T18:23:47.887743"
+  }
+]
